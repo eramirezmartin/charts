@@ -34,24 +34,22 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
-  ],styleResources: {
+    '@nuxtjs/vuetify'
+  ],
+  styleResources: {
     scss: [
       './assets/scss/variables.scss',
       './assets/scss/fluid-fonts.scss',
-      './assets/scss/fluid-spacing.scss',
-    ],
+      './assets/scss/fluid-spacing.scss'
+    ]
   },
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    'nuxt-purgecss',
-    '@nuxtjs/style-resources',],
+  modules: ['nuxt-purgecss', '@nuxtjs/style-resources'],
 
   purgeCSS: {
-    mode: 'postcss',
+    mode: 'postcss'
   },
   /*
    ** Build configuration
@@ -59,12 +57,6 @@ export default {
   build: {
     analyze: false,
     extractCSS: false,
-    extend(config, ctx) {
-    },
-    postcss: {
-      plugins: {
-        tailwindcss: './tailwind.config.js',
-      },
-    }
+    extend(config, ctx) {}
   }
 }

@@ -34,11 +34,12 @@ export default {
   },
   methods: {
     render() {
-      debugger
-      this.renderChart(
-        this.getChartData(this.data),
-        this.getChartOptions(this.data.title)
-      )
+      if (this.data) {
+        this.renderChart(
+          this.getChartData(this.data),
+          this.getChartOptions(this.data.title)
+        )
+      }
     },
     getChartOptions(title) {
       return {
