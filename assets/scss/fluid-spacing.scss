@@ -1,0 +1,526 @@
+@import 'variables';
+
+@mixin fluid-spacing($prop, $direction, $max, $min) {
+  @if $direction== 'y' {
+    #{$prop}-top: #{$min}px;
+    #{$prop}-bottom: #{$min}px;
+  } @else {
+    #{$prop}-#{$direction}: #{$min}px;
+  }
+
+  @media screen and (min-width: $container-mobile) {
+    @if $direction== 'y' {
+      #{$prop}-top: calc(#{$min}px + calc(#{$max} - #{$min}) * #{$breakpoint});
+      #{$prop}-bottom: calc(
+        #{$min}px + calc(#{$max} - #{$min}) * #{$breakpoint}
+      );
+    } @else {
+      #{$prop}-#{$direction}: calc(
+        #{$min}px + calc(#{$max} - #{$min}) * #{$breakpoint}
+      );
+    }
+  }
+
+  @media screen and (min-width: $container-desktop) {
+    @if $direction== 'y' {
+      #{$prop}-top: #{$max}px;
+      #{$prop}-bottom: #{$max}px;
+    } @else {
+      #{$prop}-#{$direction}: #{$max}px;
+    }
+  }
+}
+
+// SPACING - 48
+
+.fluid-mt-48 {
+  @include fluid-spacing('margin', 'top', '192', '116');
+}
+
+.fluid-mb-48 {
+  @include fluid-spacing('margin', 'bottom', '192', '116');
+}
+
+.fluid-my-48 {
+  @include fluid-spacing('margin', 'y', '192', '116');
+}
+
+.fluid-pt-48 {
+  @include fluid-spacing('padding', 'top', '192', '116');
+}
+
+.fluid-pb-48 {
+  @include fluid-spacing('padding', 'bottom', '192', '116');
+}
+
+.fluid-py-48 {
+  @include fluid-spacing('padding', 'y', '192', '116');
+}
+
+// SPACING - 35
+
+.fluid-mt-35 {
+  @include fluid-spacing('margin', 'top', '140', '84');
+}
+
+.fluid-mb-35 {
+  @include fluid-spacing('margin', 'bottom', '140', '84');
+}
+
+.fluid-my-35 {
+  @include fluid-spacing('margin', 'y', '140', '84');
+}
+
+.fluid-pt-35 {
+  @include fluid-spacing('padding', 'top', '140', '84');
+}
+
+.fluid-pb-35 {
+  @include fluid-spacing('padding', 'bottom', '140', '84');
+}
+
+.fluid-py-35 {
+  @include fluid-spacing('padding', 'y', '140', '84');
+}
+
+// SPACING - 32
+
+.fluid-mt-32 {
+  @include fluid-spacing('margin', 'top', '128', '77');
+}
+
+.fluid-mb-32 {
+  @include fluid-spacing('margin', 'bottom', '128', '77');
+}
+
+.fluid-my-32 {
+  @include fluid-spacing('margin', 'y', '128', '77');
+}
+
+.fluid-pt-32 {
+  @include fluid-spacing('padding', 'top', '128', '77');
+}
+
+.fluid-pb-32 {
+  @include fluid-spacing('padding', 'bottom', '128', '77');
+}
+
+.fluid-py-32 {
+  @include fluid-spacing('padding', 'y', '128', '77');
+}
+
+// SPACING - 24
+
+.fluid-mt-24 {
+  @include fluid-spacing('margin', 'top', '96', '58');
+}
+
+.fluid-mb-24 {
+  @include fluid-spacing('margin', 'bottom', '96', '58');
+}
+
+.fluid-my-24 {
+  @include fluid-spacing('margin', 'y', '96', '58');
+}
+
+.fluid-pt-24 {
+  @include fluid-spacing('padding', 'top', '96', '58');
+}
+
+.fluid-pb-24 {
+  @include fluid-spacing('padding', 'bottom', '96', '58');
+}
+
+.fluid-py-24 {
+  @include fluid-spacing('padding', 'y', '96', '58');
+}
+
+// SPACING - 22
+
+.fluid-mt-22 {
+  @include fluid-spacing('margin', 'top', '88', '53');
+}
+
+.fluid-mb-22 {
+  @include fluid-spacing('margin', 'bottom', '88', '53');
+}
+
+.fluid-my-22 {
+  @include fluid-spacing('margin', 'y', '88', '53');
+}
+
+.fluid-pt-22 {
+  @include fluid-spacing('padding', 'top', '88', '53');
+}
+
+.fluid-pb-22 {
+  @include fluid-spacing('padding', 'bottom', '88', '53');
+}
+
+.fluid-py-22 {
+  @include fluid-spacing('padding', 'y', '88', '53');
+}
+
+// SPACING - 20
+
+.fluid-mt-20 {
+  @include fluid-spacing('margin', 'top', '80', '48');
+}
+
+.fluid-mb-20 {
+  @include fluid-spacing('margin', 'bottom', '80', '48');
+}
+
+.fluid-my-20 {
+  @include fluid-spacing('margin', 'y', '80', '48');
+}
+
+.fluid-pt-20 {
+  @include fluid-spacing('padding', 'top', '80', '48');
+}
+
+.fluid-pb-20 {
+  @include fluid-spacing('padding', 'bottom', '80', '48');
+}
+
+.fluid-py-20 {
+  @include fluid-spacing('padding', 'y', '80', '48');
+}
+
+// SPACING - 18
+
+.fluid-mt-18 {
+  @include fluid-spacing('margin', 'top', '72', '43');
+}
+
+.fluid-mb-18 {
+  @include fluid-spacing('margin', 'bottom', '72', '43');
+}
+
+.fluid-my-18 {
+  @include fluid-spacing('margin', 'y', '72', '43');
+}
+
+.fluid-pt-18 {
+  @include fluid-spacing('padding', 'top', '72', '43');
+}
+
+.fluid-pb-18 {
+  @include fluid-spacing('padding', 'bottom', '72', '43');
+}
+
+.fluid-py-18 {
+  @include fluid-spacing('padding', 'y', '72', '43');
+}
+
+// SPACING - 16
+
+.fluid-mt-16 {
+  @include fluid-spacing('margin', 'top', '64', '38');
+}
+
+.fluid-mb-16 {
+  @include fluid-spacing('margin', 'bottom', '64', '38');
+}
+
+.fluid-my-16 {
+  @include fluid-spacing('margin', 'y', '64', '38');
+}
+
+.fluid-pt-16 {
+  @include fluid-spacing('padding', 'top', '64', '38');
+}
+
+.fluid-pb-16 {
+  @include fluid-spacing('padding', 'bottom', '64', '38');
+}
+
+.fluid-py-16 {
+  @include fluid-spacing('padding', 'y', '64', '38');
+}
+
+// SPACING - 14
+
+.fluid-mt-14 {
+  @include fluid-spacing('margin', 'top', '56', '34');
+}
+
+.fluid-mb-14 {
+  @include fluid-spacing('margin', 'bottom', '56', '34');
+}
+
+.fluid-my-14 {
+  @include fluid-spacing('margin', 'y', '56', '34');
+}
+
+.fluid-pt-14 {
+  @include fluid-spacing('padding', 'top', '56', '34');
+}
+
+.fluid-pb-14 {
+  @include fluid-spacing('padding', 'bottom', '56', '34');
+}
+
+.fluid-py-14 {
+  @include fluid-spacing('padding', 'y', '56', '34');
+}
+
+// SPACING - 12
+
+.fluid-mt-12 {
+  @include fluid-spacing('margin', 'top', '48', '30');
+}
+
+.fluid-mb-12 {
+  @include fluid-spacing('margin', 'bottom', '48', '30');
+}
+
+.fluid-my-12 {
+  @include fluid-spacing('margin', 'y', '48', '30');
+}
+
+.fluid-pt-12 {
+  @include fluid-spacing('padding', 'top', '48', '30');
+}
+
+.fluid-pb-12 {
+  @include fluid-spacing('padding', 'bottom', '48', '30');
+}
+
+.fluid-py-12 {
+  @include fluid-spacing('padding', 'y', '48', '30');
+}
+
+// SPACING - 10
+
+.fluid-mt-10 {
+  @include fluid-spacing('margin', 'top', '40', '28');
+}
+
+.fluid-mb-10 {
+  @include fluid-spacing('margin', 'bottom', '40', '28');
+}
+
+.fluid-my-10 {
+  @include fluid-spacing('margin', 'y', '40', '28');
+}
+
+.fluid-pt-10 {
+  @include fluid-spacing('padding', 'top', '40', '28');
+}
+
+.fluid-pb-10 {
+  @include fluid-spacing('padding', 'bottom', '40', '28');
+}
+
+.fluid-py-10 {
+  @include fluid-spacing('padding', 'y', '40', '28');
+}
+
+// SPACING - 9
+
+.fluid-mt-9 {
+  @include fluid-spacing('margin', 'top', '36', '26');
+}
+
+.fluid-mb-9 {
+  @include fluid-spacing('margin', 'bottom', '36', '26');
+}
+
+.fluid-my-9 {
+  @include fluid-spacing('margin', 'y', '36', '26');
+}
+
+.fluid-pt-9 {
+  @include fluid-spacing('padding', 'top', '36', '26');
+}
+
+.fluid-pb-9 {
+  @include fluid-spacing('padding', 'bottom', '36', '26');
+}
+
+.fluid-py-9 {
+  @include fluid-spacing('padding', 'y', '36', '26');
+}
+
+// SPACING - 8
+
+.fluid-mt-8 {
+  @include fluid-spacing('margin', 'top', '32', '24');
+}
+
+.fluid-mb-8 {
+  @include fluid-spacing('margin', 'bottom', '32', '24');
+}
+
+.fluid-my-8 {
+  @include fluid-spacing('margin', 'y', '32', '24');
+}
+
+.fluid-pt-8 {
+  @include fluid-spacing('padding', 'top', '32', '24');
+}
+
+.fluid-pb-8 {
+  @include fluid-spacing('padding', 'bottom', '32', '24');
+}
+
+.fluid-py-8 {
+  @include fluid-spacing('padding', 'y', '32', '24');
+}
+
+// SPACING - 7
+
+.fluid-mt-7 {
+  @include fluid-spacing('margin', 'top', '28', '22');
+}
+
+.fluid-mb-7 {
+  @include fluid-spacing('margin', 'bottom', '28', '22');
+}
+
+.fluid-my-7 {
+  @include fluid-spacing('margin', 'y', '28', '22');
+}
+
+.fluid-pt-7 {
+  @include fluid-spacing('padding', 'top', '28', '22');
+}
+
+.fluid-pb-7 {
+  @include fluid-spacing('padding', 'bottom', '28', '22');
+}
+
+.fluid-py-7 {
+  @include fluid-spacing('padding', 'y', '28', '22');
+}
+
+// SPACING - 6
+
+.fluid-mt-6 {
+  @include fluid-spacing('margin', 'top', '24', '20');
+}
+
+.fluid-mb-6 {
+  @include fluid-spacing('margin', 'bottom', '24', '20');
+}
+
+.fluid-my-6 {
+  @include fluid-spacing('margin', 'y', '24', '20');
+}
+
+.fluid-pt-6 {
+  @include fluid-spacing('padding', 'top', '24', '20');
+}
+
+.fluid-pb-6 {
+  @include fluid-spacing('padding', 'bottom', '24', '20');
+}
+
+.fluid-py-6 {
+  @include fluid-spacing('padding', 'y', '24', '20');
+}
+
+// SPACING - 5
+
+.fluid-mt-5 {
+  @include fluid-spacing('margin', 'top', '20', '18');
+}
+
+.fluid-mb-5 {
+  @include fluid-spacing('margin', 'bottom', '20', '18');
+}
+
+.fluid-my-5 {
+  @include fluid-spacing('margin', 'y', '20', '18');
+}
+
+.fluid-pt-5 {
+  @include fluid-spacing('padding', 'top', '20', '18');
+}
+
+.fluid-pb-5 {
+  @include fluid-spacing('padding', 'bottom', '20', '18');
+}
+
+.fluid-py-5 {
+  @include fluid-spacing('padding', 'y', '20', '18');
+}
+
+// SPACING - 4
+
+.fluid-mt-4 {
+  @include fluid-spacing('margin', 'top', '16', '16');
+}
+
+.fluid-mb-4 {
+  @include fluid-spacing('margin', 'bottom', '16', '16');
+}
+
+.fluid-my-4 {
+  @include fluid-spacing('margin', 'y', '16', '16');
+}
+
+.fluid-pt-4 {
+  @include fluid-spacing('padding', 'top', '16', '16');
+}
+
+.fluid-pb-4 {
+  @include fluid-spacing('padding', 'bottom', '16', '16');
+}
+
+.fluid-py-4 {
+  @include fluid-spacing('padding', 'y', '16', '16');
+}
+
+// SPACING - 3
+
+.fluid-mt-3 {
+  @include fluid-spacing('margin', 'top', '12', '12');
+}
+
+.fluid-mb-3 {
+  @include fluid-spacing('margin', 'bottom', '12', '12');
+}
+
+.fluid-my-3 {
+  @include fluid-spacing('margin', 'y', '12', '12');
+}
+
+.fluid-pt-3 {
+  @include fluid-spacing('padding', 'top', '12', '12');
+}
+
+.fluid-pb-3 {
+  @include fluid-spacing('padding', 'bottom', '12', '12');
+}
+
+.fluid-py-3 {
+  @include fluid-spacing('padding', 'y', '12', '12');
+}
+
+// SPACING - 2
+
+.fluid-mt-2 {
+  @include fluid-spacing('margin', 'top', '8', '8');
+}
+
+.fluid-mb-2 {
+  @include fluid-spacing('margin', 'bottom', '8', '8');
+}
+
+.fluid-my-2 {
+  @include fluid-spacing('margin', 'y', '8', '8');
+}
+
+.fluid-pt-2 {
+  @include fluid-spacing('padding', 'top', '8', '8');
+}
+
+.fluid-pb-2 {
+  @include fluid-spacing('padding', 'bottom', '8', '8');
+}
+
+.fluid-py-2 {
+  @include fluid-spacing('padding', 'y', '8', '8');
+}
