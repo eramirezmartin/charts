@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Tabs :data="data" :mr="mr" />
+    <v-app>
+      <Tabs :data="data" :mr="mr" />
+    </v-app>
   </div>
 </template>
 <script>

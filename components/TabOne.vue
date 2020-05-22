@@ -1,17 +1,25 @@
 <template>
   <section>
-    <Selector :items="selectorItems" />
-    <Chart :data="priorityData" :height="200" />
-    <Chart :data="typeData" :height="200" />
+    <Selector :items="selectorItems" @change="updateChartData" />
+    <Statistics v-if="current" :data="current" />
+    <div class="d-flex">
+      <v-flex class="pr-5">
+        <Chart v-if="priorityData" :data="priorityData" :height="200" />
+      </v-flex>
+      <v-flex class="pl-5">
+        <Chart v-if="typeData" :data="typeData" :height="200" />
+      </v-flex>
+    </div>
   </section>
 </template>
 
 <script>
 import Chart from '~/components/Chart.vue'
 import Selector from '~/components/Selector.vue'
+import Statistics from '~/components/Statistics.vue'
 
 export default {
-  components: { Selector, Chart },
+  components: { Selector, Statistics, Chart },
   props: {
     analysis: {
       type: Array,
@@ -28,8 +36,6 @@ export default {
   },
   created() {
     if (this.analysis && this.analysis.length) {
-      this.current = this.analysis[this.analysis.length - 1]
-      this.updateChartData()
       this.formatSelectorData()
     }
   },
@@ -40,7 +46,12 @@ export default {
         value: item.milestone
       }))
     },
-    updateChartData() {
+    updateChartData(selectedItem) {
+      if (selectedItem) {
+        this.current = this.analysis.find(
+          (item) => item.milestone === selectedItem
+        )
+      }
       this.priorityData = this.getPriorityData()
       this.typeData = this.getTypeData()
     },

@@ -6,12 +6,12 @@
       </v-tab>
     </v-tabs>
 
-    <v-tabs-items v-model="tab">
+    <v-tabs-items v-model="tab" class="pt-10 pb-10 pl-10 pr-10">
       <v-tab-item value="tab-0">
         <TabOne :analysis="data" />
       </v-tab-item>
       <v-tab-item value="tab-1">
-        <TabTwo :mr_analysis="mr" />
+        <TabTwo :analysis="mr" />
       </v-tab-item>
       <v-tab-item value="tab-2">
         <TabThree />

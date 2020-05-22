@@ -1,12 +1,10 @@
 <template>
-  <v-app>
-    <v-select
-      v-model="selected"
-      :items="items"
-      label="Select"
-      data-app
-    ></v-select>
-  </v-app>
+  <v-select
+    v-model="selected"
+    :items="items"
+    label="Select"
+    @change="onChange"
+  ></v-select>
 </template>
 <script>
 export default {
@@ -17,11 +15,15 @@ export default {
     }
   },
   data: () => ({
-    selected: {}
+    selected: null
   }),
+  created() {
+    this.selected = this.items[this.items.length - 1].value
+    this.onChange()
+  },
   methods: {
     onChange() {
-      this.$emit('onChange', this.selected)
+      this.$emit('change', this.selected)
     }
   }
 }

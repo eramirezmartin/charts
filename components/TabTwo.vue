@@ -11,7 +11,7 @@
         hide-details
       ></v-text-field>
     </v-card-title>
-    <v-data-table :headers="headers" :items="data" :search="search">
+    <v-data-table :headers="headers" :items="analysis" :search="search">
       <template v-slot:item.mr_up_votes="{ item }">
         <v-chip :color="getColor(item.mr_up_votes)" dark>{{
           item.mr_up_votes
@@ -23,7 +23,7 @@
 <script>
 export default {
   props: {
-    mr_analysis: {
+    analysis: {
       type: Array,
       required: true
     }
@@ -38,8 +38,7 @@ export default {
         { text: 'Down Votes', value: 'mr_down_votes' },
         { text: 'Pending Discussion', value: 'mr_pending_discussion' },
         { text: 'Last Update', value: 'mr_updated' }
-      ],
-      data: this.mr_analysis
+      ]
     }
   },
   methods: {

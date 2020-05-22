@@ -19,11 +19,6 @@ export default {
       required: true
     }
   },
-  computed: {
-    chartData() {
-      return this.data
-    }
-  },
   watch: {
     data() {
       this.render()
@@ -85,3 +80,8 @@ export default {
   }
 }
 </script>
+<style>
+canvas {
+  height: 300px !important;
+}
+</style>
