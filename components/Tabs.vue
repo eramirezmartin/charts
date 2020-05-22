@@ -14,7 +14,7 @@
         <TabTwo :analysis="mr" />
       </v-tab-item>
       <v-tab-item value="tab-2">
-        <TabThree />
+        <TabThree :analysis="issues" />
       </v-tab-item>
     </v-tabs-items>
   </v-card>
@@ -32,6 +32,10 @@ export default {
       required: true
     },
     mr: {
+      type: Array,
+      required: true
+    },
+    issues: {
       type: Array,
       required: true
     }

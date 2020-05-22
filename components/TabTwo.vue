@@ -11,7 +11,13 @@
         hide-details
       ></v-text-field>
     </v-card-title>
-    <v-data-table :headers="headers" :items="analysis" :search="search">
+    <v-data-table
+      :headers="headers"
+      :items="analysis"
+      :search="search"
+      :disable-pagination="true"
+      :hide-default-footer="true"
+    >
       <template v-slot:item.mr_up_votes="{ item }">
         <v-chip
           :color="
@@ -23,8 +29,13 @@
           "
           dark
           >{{ item.mr_up_votes }}
-        </v-chip> </template
-      >,
+        </v-chip>
+      </template>
+      <template v-slot:item.mr_title="{ item }"
+        ><a :href="item.mr_link" target="_blank">
+          {{ item.mr_title }}</a
+        ></template
+      >
       <template v-slot:item.mr_pending_discussion="{ item }">
         <v-chip :color="getColor2(item.mr_pending_discussion)">{{
           item.mr_pending_discussion
