@@ -43,9 +43,9 @@ export default {
       typeData: null,
       tab: null,
       items: [
-        { tab: 'One', content: 'Tab 1 Content' },
-        { tab: 'Two', content: 'Tab 2 Content' },
-        { tab: 'Three', content: 'Tab 3 Content' }
+        { tab: 'Milestone Report', content: 'Tab 1 Content' },
+        { tab: 'Devel MR', content: 'Tab 2 Content' },
+        { tab: 'Devel Issues', content: 'Tab 3 Content' }
       ]
     }
   }

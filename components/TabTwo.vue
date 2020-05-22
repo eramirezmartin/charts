@@ -13,8 +13,21 @@
     </v-card-title>
     <v-data-table :headers="headers" :items="analysis" :search="search">
       <template v-slot:item.mr_up_votes="{ item }">
-        <v-chip :color="getColor(item.mr_up_votes)" dark>{{
-          item.mr_up_votes
+        <v-chip
+          :color="
+            getColor(
+              item.mr_up_votes,
+              item.mr_pending_discussion,
+              item.mr_down_votes
+            )
+          "
+          dark
+          >{{ item.mr_up_votes }}
+        </v-chip> </template
+      >,
+      <template v-slot:item.mr_pending_discussion="{ item }">
+        <v-chip :color="getColor2(item.mr_pending_discussion)">{{
+          item.mr_pending_discussion
         }}</v-chip>
       </template>
     </v-data-table>
@@ -32,9 +45,9 @@ export default {
     return {
       search: '',
       headers: [
+        { text: 'Up Votes', value: 'mr_up_votes' },
         { text: 'Project', value: 'mr_project', align: 'left' },
         { text: 'Title', value: 'mr_title', url: 'mr_link' },
-        { text: 'Up Votes', value: 'mr_up_votes' },
         { text: 'Down Votes', value: 'mr_down_votes' },
         { text: 'Pending Discussion', value: 'mr_pending_discussion' },
         { text: 'Last Update', value: 'mr_updated' }
@@ -42,10 +55,13 @@ export default {
     }
   },
   methods: {
-    getColor(title) {
-      if (title > 1) return 'red'
-      else if (title > 1) return 'deepOrange'
-      else return 'green'
+    getColor(up, discussion, down) {
+      if (up >= 2 && discussion === false) return 'green'
+      else if (up > 0) return 'orange'
+      else if (down > 1) return 'red'
+    },
+    getColor2(discussion) {
+      if (discussion === true) return 'orange'
     }
   }
 }
