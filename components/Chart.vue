@@ -19,9 +19,6 @@ export default {
       required: true
     }
   },
-  mounted() {
-    this.render()
-  },
   computed: {
     chartData() {
       return this.data
@@ -32,6 +29,10 @@ export default {
       this.render()
     }
   },
+  mounted() {
+    this.render()
+  },
+
   methods: {
     render() {
       if (this.data) {

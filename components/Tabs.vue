@@ -11,7 +11,7 @@
         <TabOne :analysis="data" />
       </v-tab-item>
       <v-tab-item value="tab-1">
-        <TabTwo />
+        <TabTwo :mr_analysis="mr" />
       </v-tab-item>
       <v-tab-item value="tab-2">
         <TabThree />
@@ -28,6 +28,10 @@ export default {
   components: { TabOne, TabTwo, TabThree },
   props: {
     data: {
+      type: Array,
+      required: true
+    },
+    mr: {
       type: Array,
       required: true
     }
