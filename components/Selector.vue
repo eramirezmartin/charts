@@ -1,10 +1,12 @@
 <template>
-  <v-select
-    v-model="selected"
-    :items="items"
-    label="Select"
-    return-object
-  ></v-select>
+  <v-app>
+    <v-select
+      v-model="selected"
+      :items="items"
+      label="Select"
+      data-app
+    ></v-select>
+  </v-app>
 </template>
 <script>
 export default {

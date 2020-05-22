@@ -33,7 +33,7 @@ export default {
       search: '',
       headers: [
         { text: 'Project', value: 'mr_project', align: 'left' },
-        { text: 'Title', value: 'mr_title' },
+        { text: 'Title', value: 'mr_title', url: 'mr_link' },
         { text: 'Up Votes', value: 'mr_up_votes' },
         { text: 'Down Votes', value: 'mr_down_votes' },
         { text: 'Pending Discussion', value: 'mr_pending_discussion' },

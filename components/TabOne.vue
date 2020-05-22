@@ -1,8 +1,8 @@
 <template>
   <section>
     <Selector :items="selectorItems" />
-    <Chart v-bind:data="priorityData" :height="200" />
-    <Chart v-bind:data="typeData" :height="200" />
+    <Chart :data="priorityData" :height="200" />
+    <Chart :data="typeData" :height="200" />
   </section>
 </template>
 
