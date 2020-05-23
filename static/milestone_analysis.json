@@ -1,6 +1,6 @@
 [
   {
-    "milestone": "devel_sprint_2020_weeks1011",
+    "milestone": "Devel Sprint 2020 Weeks1011",
     "dates": "Mar 3, 2020–Mar 17, 2020",
     "milestone_closed_issues": 98,
     "milestone_merge_request": 49,
@@ -14,13 +14,13 @@
     "p_low": 6,
     "tp_bug": 22,
     "tp_new_feature": 18,
-    "tp_technical_debt": 3,
+    "tp_technical_debt Debt": 3,
     "tp_discussion": 11,
     "tp_poc": 2,
     "tp_support": 40
   },
   {
-    "milestone": "devel_sprint_2020_weeks1213",
+    "milestone": "Devel Sprint 2020 Weeks1213",
     "dates": "Mar 17, 2020–Mar 31, 2020",
     "milestone_closed_issues": 124,
     "milestone_merge_request": 84,
@@ -34,13 +34,13 @@
     "p_low": 7,
     "tp_bug": 35,
     "tp_new_feature": 37,
-    "tp_technical_debt": 2,
+    "tp_technical_debt Debt": 2,
     "tp_discussion": 10,
     "tp_poc": 3,
     "tp_support": 28
   },
   {
-    "milestone": "devel_sprint_2020_weeks1415",
+    "milestone": "Devel Sprint 2020 Weeks1415",
     "dates": "Mar 31, 2020–Apr 21, 2020",
     "milestone_closed_issues": 151,
     "milestone_merge_request": 115,
@@ -54,13 +54,13 @@
     "p_low": 14,
     "tp_bug": 57,
     "tp_new_feature": 35,
-    "tp_technical_debt": 6,
+    "tp_technical_debt Debt": 6,
     "tp_discussion": 3,
     "tp_poc": 1,
     "tp_support": 38
   },
   {
-    "milestone": "devel_sprint_2020_weeks1718",
+    "milestone": "Devel Sprint 2020 Weeks1718",
     "dates": "Apr 21, 2020–May 5, 2020",
     "milestone_closed_issues": 113,
     "milestone_merge_request": 88,
@@ -74,13 +74,13 @@
     "p_low": 0,
     "tp_bug": 42,
     "tp_new_feature": 35,
-    "tp_technical_debt": 4,
+    "tp_technical_debt Debt": 4,
     "tp_discussion": 13,
     "tp_poc": 2,
     "tp_support": 12
   },
   {
-    "milestone": "devel_sprint_2020_weeks1920",
+    "milestone": "Devel Sprint 2020 Weeks1920",
     "dates": "May 5, 2020–May 19, 2020",
     "milestone_closed_issues": 132,
     "milestone_merge_request": 89,
@@ -94,7 +94,7 @@
     "p_low": 0,
     "tp_bug": 34,
     "tp_new_feature": 38,
-    "tp_technical_debt": 11,
+    "tp_technical_debt Debt": 11,
     "tp_discussion": 11,
     "tp_poc": 1,
     "tp_support": 32

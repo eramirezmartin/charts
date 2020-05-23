@@ -37,7 +37,7 @@
         ></template
       >
       <template v-slot:item.mr_pending_discussion="{ item }">
-        <v-chip :color="getColor2(item.mr_pending_discussion)">{{
+        <v-chip :color="getColor(item.mr_pending_discussion)">{{
           item.mr_pending_discussion
         }}</v-chip>
       </template>
@@ -68,11 +68,8 @@ export default {
   methods: {
     getColor(up, discussion, down) {
       if (up >= 2 && discussion === false) return 'green'
-      else if (up > 0) return 'orange'
+      else if (up > 0 || discussion === true) return 'orange'
       else if (down > 1) return 'red'
-    },
-    getColor2(discussion) {
-      if (discussion === true) return 'orange'
     }
   }
 }

@@ -15,23 +15,44 @@
       :headers="headers"
       :items="analysis"
       :search="search"
+      :calculate-widths="true"
       :disable-pagination="true"
       :hide-default-footer="true"
     >
-      <template v-slot:item.issue_title="{ item }"
-        ><a :href="item.issue_link" target="_blank">
-          {{ item.issue_title }}</a
-        ></template
-      >
+      <template v-slot:item.issue_title="{ item }">
+        <a :href="item.issue_link" target="_blank">
+          {{ item.issue_title }}
+        </a>
+      </template>
       <template v-slot:item.issue_priority="{ item }">
-        <v-chip :color="getColor(item.issue_priority)" dark>{{
-          item.issue_priority
-        }}</v-chip>
+        <v-chip :color="getColor(item.issue_priority, 'priority')" dark
+          >{{ item.issue_priority }}
+        </v-chip>
+      </template>
+      <template v-slot:item.issue_status="{ item }">
+        <v-chip :color="getColor(item.issue_status, 'flow')" dark
+          >{{ item.issue_status }}
+        </v-chip>
       </template>
     </v-data-table>
   </v-card>
 </template>
 <script>
+const priority = {
+  Hotfix: 'red',
+  Critical: 'orange',
+  High: 'blue',
+  Medium: 'green',
+  Low: 'yellow'
+}
+const flow = {
+  QA: 'red',
+  Doing: 'dark blue',
+  Ready: 'green',
+  Analysis: 'brown',
+  Waiting: 'purple',
+  Open: 'grey'
+}
 export default {
   props: {
     analysis: {
@@ -53,12 +74,9 @@ export default {
     }
   },
   methods: {
-    getColor(discussion) {
-      if (discussion === 'Hotfix') return 'red'
-      else if (discussion === 'Critical') return 'orange'
-      else if (discussion === 'High') return 'blue'
-      else if (discussion === 'Medium') return 'green'
-      else if (discussion === 'Low') return 'yellow'
+    getColor(discussion, enumType) {
+      if (enumType === 'priority') return priority[discussion]
+      else if (enumType === 'flow') return flow[discussion]
     }
   }
 }
