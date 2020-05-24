@@ -2,7 +2,8 @@
   <v-select
     v-model="selected"
     :items="items"
-    label="Select"
+    label="Milestone"
+    class="flex-grow-0"
     @change="onChange"
   ></v-select>
 </template>
@@ -18,11 +19,15 @@ export default {
     selected: null
   }),
   created() {
-    this.selected = this.items[this.items.length - 1].value
+    if (this.items && this.items.length) {
+      this.selected = this.items[this.items.length - 1].value
+    }
+    console.info('holas')
     this.onChange()
   },
   methods: {
     onChange() {
+      console.info('emit')
       this.$emit('change', this.selected)
     }
   }

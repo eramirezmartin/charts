@@ -1,1 +1,101 @@
-[{"mr_project": "tv/plexustv_daemons", "mr_title": "plexustv_gc, sync prod to repo", "mr_link": "https://primus.omniaccess.com/development/tv/plexustv_daemons/merge_requests/2", "mr_updated": "2020-05-15", "mr_pending_discussion": true, "mr_up_votes": 1, "mr_down_votes": 0}, {"mr_project": "tv/plexustv-web", "mr_title": "feat(model): Add fields to support STB reboot", "mr_link": "https://primus.omniaccess.com/development/tv/plexustv-web/merge_requests/6", "mr_updated": "2020-05-19", "mr_pending_discussion": false, "mr_up_votes": 2, "mr_down_votes": 0}, {"mr_project": "Unity/backend", "mr_title": "fix: Fixed network field type on vsat accounting", "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/13", "mr_updated": "2020-05-20", "mr_pending_discussion": false, "mr_up_votes": 1, "mr_down_votes": 0}, {"mr_project": "Unity/backend", "mr_title": "Resolve \"UnityInstaller service\"", "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/4", "mr_updated": "2020-05-21", "mr_pending_discussion": true, "mr_up_votes": 0, "mr_down_votes": 0}, {"mr_project": "mesh_apps/vsat-nms", "mr_title": "Resolve \"Get HRC status params for Newtec modems\"", "mr_link": "https://primus.omniaccess.com/development/mesh_apps/vsat-nms/merge_requests/113", "mr_updated": "2020-05-21", "mr_pending_discussion": false, "mr_up_votes": 0, "mr_down_votes": 0}, {"mr_project": "tv/plexustv-irtrans", "mr_title": "WIP:feat(remotes): Add infomir-4513", "mr_link": "https://primus.omniaccess.com/development/tv/plexustv-irtrans/merge_requests/2", "mr_updated": "2020-05-21", "mr_pending_discussion": false, "mr_up_votes": 0, "mr_down_votes": 0}, {"mr_project": "Unity/backend", "mr_title": "Resolve \"Unity device database registration - model\"", "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/17", "mr_updated": "2020-05-22", "mr_pending_discussion": false, "mr_up_votes": 0, "mr_down_votes": 0}, {"mr_project": "Unity/backend", "mr_title": "Resolve \"Unity standard - model definition\"", "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/16", "mr_updated": "2020-05-22", "mr_pending_discussion": false, "mr_up_votes": 2, "mr_down_votes": 0}, {"mr_project": "Unity/backend", "mr_title": "feat: Initial implementation of rpi frontend integration", "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/15", "mr_updated": "2020-05-22", "mr_pending_discussion": true, "mr_up_votes": 2, "mr_down_votes": 0}, {"mr_project": "tv/LibreELEC.tv", "mr_title": "feat(stb-reboot): Add fields and logic related to reboot via Web", "mr_link": "https://primus.omniaccess.com/development/tv/LibreELEC.tv/merge_requests/3", "mr_updated": "2020-05-22", "mr_pending_discussion": false, "mr_up_votes": 0, "mr_down_votes": 0}, {"mr_project": "mesh/core", "mr_title": "feat(core): add suppot to bigints", "mr_link": "https://primus.omniaccess.com/development/mesh/core/merge_requests/188", "mr_updated": "2020-05-22", "mr_pending_discussion": false, "mr_up_votes": 1, "mr_down_votes": 0}]
+[
+  {
+    "mr_project": "tv/plexustv_daemons",
+    "mr_title": "plexustv_gc, sync prod to repo",
+    "mr_link": "https://primus.omniaccess.com/development/tv/plexustv_daemons/merge_requests/2",
+    "mr_updated": "2020-05-15",
+    "mr_pending_discussion": true,
+    "mr_up_votes": 1,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "tv/plexustv-web",
+    "mr_title": "feat(model): Add fields to support STB reboot",
+    "mr_link": "https://primus.omniaccess.com/development/tv/plexustv-web/merge_requests/6",
+    "mr_updated": "2020-05-19",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 2,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "Unity/backend",
+    "mr_title": "fix: Fixed network field type on vsat accounting",
+    "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/13",
+    "mr_updated": "2020-05-20",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 1,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "Unity/backend",
+    "mr_title": "Resolve \"UnityInstaller service\"",
+    "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/4",
+    "mr_updated": "2020-05-21",
+    "mr_pending_discussion": true,
+    "mr_up_votes": 0,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "mesh_apps/vsat-nms",
+    "mr_title": "Resolve \"Get HRC status params for Newtec modems\"",
+    "mr_link": "https://primus.omniaccess.com/development/mesh_apps/vsat-nms/merge_requests/113",
+    "mr_updated": "2020-05-21",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 0,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "tv/plexustv-irtrans",
+    "mr_title": "WIP:feat(remotes): Add infomir-4513",
+    "mr_link": "https://primus.omniaccess.com/development/tv/plexustv-irtrans/merge_requests/2",
+    "mr_updated": "2020-05-21",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 0,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "Unity/backend",
+    "mr_title": "Resolve \"Unity device database registration - model\"",
+    "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/17",
+    "mr_updated": "2020-05-22",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 0,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "Unity/backend",
+    "mr_title": "Resolve \"Unity standard - model definition\"",
+    "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/16",
+    "mr_updated": "2020-05-22",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 2,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "Unity/backend",
+    "mr_title": "feat: Initial implementation of rpi frontend integration",
+    "mr_link": "https://primus.omniaccess.com/development/Unity/backend/merge_requests/15",
+    "mr_updated": "2020-05-22",
+    "mr_pending_discussion": true,
+    "mr_up_votes": 2,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "tv/LibreELEC.tv",
+    "mr_title": "feat(stb-reboot): Add fields and logic related to reboot via Web",
+    "mr_link": "https://primus.omniaccess.com/development/tv/LibreELEC.tv/merge_requests/3",
+    "mr_updated": "2020-05-22",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 0,
+    "mr_down_votes": 0
+  },
+  {
+    "mr_project": "mesh/core",
+    "mr_title": "feat(core): add suppot to bigints",
+    "mr_link": "https://primus.omniaccess.com/development/mesh/core/merge_requests/188",
+    "mr_updated": "2020-05-22",
+    "mr_pending_discussion": false,
+    "mr_up_votes": 1,
+    "mr_down_votes": 0
+  }
+]

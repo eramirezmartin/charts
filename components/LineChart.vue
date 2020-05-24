@@ -1,5 +1,5 @@
 <script>
-import { Pie } from 'vue-chartjs'
+import { Line } from 'vue-chartjs'
 
 const chartColors = {
   red: 'rgb(255, 99, 132)',
@@ -12,7 +12,7 @@ const chartColors = {
 }
 
 export default {
-  extends: Pie,
+  extends: Line,
   props: {
     data: {
       type: Object,
@@ -41,12 +41,7 @@ export default {
       return {
         responsive: true,
         legend: {
-          display: true,
-          position: 'top',
-          fullWidth: true,
-          labels: {
-            fontSize: 16
-          }
+          display: false
         },
         title: {
           display: true,
@@ -68,7 +63,6 @@ export default {
         labels: data.labels,
         datasets: [
           {
-            label: 'Income',
             backgroundColor: [
               chartColors.red,
               chartColors.orange,

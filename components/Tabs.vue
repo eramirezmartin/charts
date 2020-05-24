@@ -1,55 +1,36 @@
 <template>
   <v-card>
     <v-tabs v-model="tab" background-color="primary" dark>
-      <v-tab v-for="(item, i) in items" :key="item.tab" :href="`#tab-${i}`">
-        {{ item.tab }}
+      <v-tab v-for="(item, index) in items" :key="`tab-${index}`" :to="item.to">
+        {{ item.name }}
       </v-tab>
     </v-tabs>
-
-    <v-tabs-items v-model="tab" class="pt-10 pb-10 pl-10 pr-10">
-      <v-tab-item value="tab-0">
-        <TabOne :analysis="data" />
-      </v-tab-item>
-      <v-tab-item value="tab-1">
-        <TabTwo :analysis="mr" />
-      </v-tab-item>
-      <v-tab-item value="tab-2">
-        <TabThree :analysis="issues" />
-      </v-tab-item>
-    </v-tabs-items>
   </v-card>
 </template>
 <script>
-import TabOne from '~/components/TabOne.vue'
-import TabTwo from '~/components/TabTwo.vue'
-import TabThree from '~/components/TabThree.vue'
-
 export default {
-  components: { TabOne, TabTwo, TabThree },
-  props: {
-    data: {
-      type: Array,
-      required: true
-    },
-    mr: {
-      type: Array,
-      required: true
-    },
-    issues: {
-      type: Array,
-      required: true
-    }
-  },
   data() {
     return {
       current: null,
       priorityData: null,
       typeData: null,
-      tab: null,
+      tab: 0,
       items: [
-        { tab: 'Milestone Report', content: 'Tab 1 Content' },
-        { tab: 'Devel MR', content: 'Tab 2 Content' },
-        { tab: 'Devel Issues', content: 'Tab 3 Content' }
+        {
+          to: 'overview',
+          name: 'Milestone Report',
+          content: 'Tab 1 Content'
+        },
+        {
+          to: 'mr',
+          name: 'Devel MR',
+          content: 'Tab 2 Content'
+        },
+        {
+          to: 'issues',
+          name: 'Devel Issues',
+          content: 'Tab 3 Content'
+        }
       ]
     }
   }

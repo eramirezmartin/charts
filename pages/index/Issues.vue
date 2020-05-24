@@ -25,12 +25,12 @@
         </a>
       </template>
       <template v-slot:item.issue_priority="{ item }">
-        <v-chip :color="getColor(item.issue_priority, 'priority')" dark
+        <v-chip :color="priorityColor[item.issue_priority]" dark
           >{{ item.issue_priority }}
         </v-chip>
       </template>
       <template v-slot:item.issue_status="{ item }">
-        <v-chip :color="getColor(item.issue_status, 'flow')" dark
+        <v-chip :color="flowColor[item.issue_status]" dark
           >{{ item.issue_status }}
         </v-chip>
       </template>
@@ -38,31 +38,29 @@
   </v-card>
 </template>
 <script>
-const priority = {
-  Hotfix: 'red',
-  Critical: 'orange',
-  High: 'blue',
-  Medium: 'green',
-  Low: 'yellow'
-}
-const flow = {
-  QA: 'red',
-  Doing: 'dark blue',
-  Ready: 'green',
-  Analysis: 'brown',
-  Waiting: 'purple',
-  Open: 'grey'
-}
+import analysis from '~/static/milestone_issues.json'
 export default {
-  props: {
-    analysis: {
-      type: Array,
-      required: true
-    }
+  asyncData() {
+    return { analysis }
   },
   data() {
     return {
       search: '',
+      priorityColor: {
+        Hotfix: 'red',
+        Critical: 'orange',
+        High: 'blue',
+        Medium: 'green',
+        Low: 'yellow'
+      },
+      flowColor: {
+        QA: 'red',
+        Doing: 'dark blue',
+        Ready: 'green',
+        Analysis: 'brown',
+        Waiting: 'purple',
+        Open: 'grey'
+      },
       headers: [
         { text: 'Priority', value: 'issue_priority' },
         { text: 'Project', value: 'issue_project', align: 'left' },
@@ -71,12 +69,6 @@ export default {
         { text: 'Status', value: 'issue_status' },
         { text: 'Assigend', value: 'issue_assigned' }
       ]
-    }
-  },
-  methods: {
-    getColor(discussion, enumType) {
-      if (enumType === 'priority') return priority[discussion]
-      else if (enumType === 'flow') return flow[discussion]
     }
   }
 }

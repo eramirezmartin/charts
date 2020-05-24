@@ -37,7 +37,7 @@
         ></template
       >
       <template v-slot:item.mr_pending_discussion="{ item }">
-        <v-chip :color="getColor(item.mr_pending_discussion)">{{
+        <v-chip :color="item.mr_pending_discussion ? 'orange' : ''">{{
           item.mr_pending_discussion
         }}</v-chip>
       </template>
@@ -45,12 +45,10 @@
   </v-card>
 </template>
 <script>
+import analysis from '~/static/milestone_mr.json'
 export default {
-  props: {
-    analysis: {
-      type: Array,
-      required: true
-    }
+  asyncData() {
+    return { analysis }
   },
   data() {
     return {
@@ -67,8 +65,8 @@ export default {
   },
   methods: {
     getColor(up, discussion, down) {
-      if (up >= 2 && discussion === false) return 'green'
-      else if (up > 0 || discussion === true) return 'orange'
+      if (up >= 2 && !discussion) return 'green'
+      else if (up > 0 || discussion) return 'orange'
       else if (down > 1) return 'red'
     }
   }

@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex">
+  <section class="d-flex flex-wrap">
     <v-flex>
       <h3 class="display-3">{{ data.milestone_planned_percentage }}</h3>
       <p class="body-1">% milestone</p>
@@ -33,12 +33,9 @@ export default {
 }
 </script>
 <style scoped>
-section {
-  display: flex;
-}
-
 h3,
 p {
   text-align: center;
+  font-weight: normal;
 }
 </style>

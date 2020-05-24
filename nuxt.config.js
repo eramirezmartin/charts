@@ -47,7 +47,6 @@ export default {
    ** Nuxt.js modules
    */
   modules: ['nuxt-purgecss', '@nuxtjs/style-resources'],
-
   purgeCSS: {
     mode: 'postcss'
   },
