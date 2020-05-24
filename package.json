@@ -1,7 +1,7 @@
 {
-  "name": "Milestone Analysis",
+  "name": "milestone-analysis",
   "version": "1.0.0",
-  "description": "My cool Nuxt.js project",
+  "description": "Milestone Analysis by OmniAccess",
   "author": "Miguel Angel Aragon Gonzalez",
   "private": true,
   "scripts": {

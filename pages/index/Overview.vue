@@ -5,7 +5,7 @@
         <v-col cols="2">
           <Selector :items="selectorItems" @change="updateChartData" />
         </v-col>
-        <v-col v-if="current" cols="10" class="text-center">
+        <v-col v-if="current" cols="10" class="pl-10">
           <h1 class="display-3 pb-12 d-inline-block">
             {{ current.milestone }}
           </h1>
