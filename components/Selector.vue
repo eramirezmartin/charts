@@ -22,12 +22,10 @@ export default {
     if (this.items && this.items.length) {
       this.selected = this.items[this.items.length - 1].value
     }
-    console.info('holas')
     this.onChange()
   },
   methods: {
     onChange() {
-      console.info('emit')
       this.$emit('change', this.selected)
     }
   }

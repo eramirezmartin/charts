@@ -60,7 +60,6 @@ export default {
     if (this.analysis && this.analysis.length) {
       this.formatSelectorData()
       this.lineMilestoneData = this.getLineChartData()
-      console.info('jolas', this.selectorItems)
     }
   },
   methods: {
