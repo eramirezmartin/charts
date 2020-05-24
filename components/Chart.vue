@@ -2,7 +2,7 @@
 import { Pie } from 'vue-chartjs'
 
 const chartColors = {
-  red: 'rgb(255, 99, 132)',
+  red: 'rgb(255, 0, 0)',
   orange: 'rgb(255, 159, 64)',
   yellow: 'rgb(255, 205, 86)',
   green: 'rgb(75, 192, 192)',

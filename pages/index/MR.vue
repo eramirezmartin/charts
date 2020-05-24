@@ -37,7 +37,7 @@
         ></template
       >
       <template v-slot:item.mr_pending_discussion="{ item }">
-        <v-chip :color="item.mr_pending_discussion ? 'orange' : ''">{{
+        <v-chip :color="item.mr_pending_discussion ? 'orange' : 'white'" dark>{{
           item.mr_pending_discussion
         }}</v-chip>
       </template>

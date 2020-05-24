@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card v-if="analysis">
     <v-card-title>
       Devel Issues
       <v-spacer></v-spacer>
