@@ -7,6 +7,7 @@
     </v-app>
   </div>
 </template>
+
 <script>
 import Tabs from '~/components/Tabs.vue'
 

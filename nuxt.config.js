@@ -36,15 +36,35 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
     // Doc: https://github.com/nuxt-community/eslint-module
-    // '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module'
   ],
   router: {
     base: '/reports/milestone/',
     extendRoutes(routes, resolve) {
-      const route = routes.find((r) => r.path === '/')
-      route.redirect = '/Overview'
+      routes = [
+        {
+          path: '/',
+          component: resolve(__dirname, 'pages/index.vue'),
+          children: [
+            {
+              path: '',
+              component: resolve(__dirname, 'pages/Overview.vue')
+            },
+            {
+              path: '/Merge',
+              component: resolve(__dirname, 'pages/Merge.vue')
+            },
+            {
+              path: '/Issues',
+              component: resolve(__dirname, 'pages/Issues.vue')
+            }
+          ]
+        },
+        { path: '/Overview', redirect: '/' }
+      ]
+      return routes
     }
   },
   styleResources: {},
@@ -58,7 +78,6 @@ export default {
    */
   build: {
     analyze: false,
-    extractCSS: false,
-    extend(config, ctx) {}
+    extractCSS: false
   }
 }

@@ -11,10 +11,10 @@
 export default {
   data() {
     return {
-      tab: 'tab-0',
+      tab: '/',
       items: [
         {
-          to: '/Overview',
+          to: '/',
           name: 'Milestone Report',
           content: 'Tab 1 Content'
         },
