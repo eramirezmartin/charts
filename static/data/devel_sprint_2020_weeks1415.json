@@ -1,0 +1,1801 @@
+{
+  "milestone": "devel_sprint_2020_weeks1415",
+  "milestone_closed_issues": 151,
+  "milestone_merge_request": 115,
+  "original_total_issues": 91,
+  "% milestone": 45.05,
+  "number_added_issues": 64,
+  "priority": {
+    "p_critical": "18.35%",
+    "p_high": "36.71%",
+    "p_hotfix": "14.56%",
+    "p_low": "9.49%",
+    "p_medium": "15.82%"
+  },
+  "type": {
+    "tp_bug": "37.97%",
+    "tp_new_feature": "23.42%",
+    "tp_technical_debt": "3.8%",
+    "tp_discussion": "1.9%",
+    "tp_poc": "0.63%",
+    "tp_support": "25.32%"
+  },
+  "original_issues": [
+    {
+      "id": 4327,
+      "project": "Rollup preset",
+      "name": "Allow project to specify other plugins to be added to rollup.",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4373,
+      "project": "ptv_mosaic_registry",
+      "name": "Add support for OPTIONS request",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4184,
+      "project": "map-server",
+      "name": "Create map server for our map visualizations",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4121,
+      "project": "PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4133,
+      "project": "Network Core Intelligence",
+      "name": "IPAM importer service",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3804,
+      "project": "Network Core Intelligence",
+      "name": "Create service & drivers for Sandvine SubscriberPolicyBroker",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4114,
+      "project": "aio-hls-tc",
+      "name": "Assist Tier2 in pinpointing \"buffering problem\" on vessels",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4113,
+      "project": "aio-hls-tc",
+      "name": "Official docs + visual infra overview",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4440,
+      "project": "frontend",
+      "name": "HDMI selection attributes changes in STB Detail View",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4257,
+      "project": "frontend",
+      "name": "Add Amiri Mosaic Channel to the Customer Mosaic View",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4173,
+      "project": "frontend",
+      "name": "Move from webpack to rollup",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4409,
+      "project": "unity",
+      "name": "UnityInstaller service",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4408,
+      "project": "unity",
+      "name": "UnityNUC service",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4203,
+      "project": "unity",
+      "name": "Installer image build instructions and daily build procedures",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 3969,
+      "project": "unity",
+      "name": "Proposed deployment user interface",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4453,
+      "project": "Alanis",
+      "name": "Bandwidth planner: Define models",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4207,
+      "project": "Alanis",
+      "name": "Define Sat Control model v1",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4456,
+      "project": "OmniAccess Enterprise",
+      "name": "Investigate CMDB",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4392,
+      "project": "OmniAccess Enterprise",
+      "name": "add new vessel status in model",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4391,
+      "project": "OmniAccess Enterprise",
+      "name": "Add endpoint to allow posting the current footprint",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4324,
+      "project": "OmniAccess Enterprise",
+      "name": "POC NAV CRM web service",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4457,
+      "project": "meshclient-vuex-plugin",
+      "name": "Support Data Payload partial",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4281,
+      "project": "locations",
+      "name": "Move HTTP proxy services to this project",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4050,
+      "project": "locations",
+      "name": "Generate location_change events",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4458,
+      "project": "OA Style",
+      "name": "Fix chart date picker appearing below the content",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4435,
+      "project": "OA Style",
+      "name": "Show beam switches still appear in the graphs when deactivated",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4428,
+      "project": "OA Style",
+      "name": "Allow external controls",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4427,
+      "project": "OA Style",
+      "name": "Hide reset zoom button if no zoomed",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4426,
+      "project": "OA Style",
+      "name": "Show modems connected network on hover on map",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4414,
+      "project": "OA Style",
+      "name": "Vessel view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4253,
+      "project": "OA Style",
+      "name": "Create OAAppHeader component",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4250,
+      "project": "OA Style",
+      "name": "Update OANavigationDrawer to be responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4444,
+      "project": "vsat-view",
+      "name": "Netreports | static routes",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4443,
+      "project": "vsat-view",
+      "name": "Netreports | Bandwidth usage",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4442,
+      "project": "vsat-view",
+      "name": "Netreports | CIR/MIR usage",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4439,
+      "project": "vsat-view",
+      "name": "Show beam switches still appear in the graphs when deactivated",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4438,
+      "project": "vsat-view",
+      "name": "Visualize db levels in footprints",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4398,
+      "project": "vsat-view",
+      "name": "Incorrect information for a Newtec Modem",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4388,
+      "project": "vsat-view",
+      "name": "Horizontal scroll required in network view with many columns",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4379,
+      "project": "vsat-view",
+      "name": "Network view charts with incorrect max values",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4318,
+      "project": "vsat-view",
+      "name": "Colour online / offline lost in network view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4313,
+      "project": "vsat-view",
+      "name": "Switch to hide outages in graphis",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4040,
+      "project": "vsat-view",
+      "name": "Several remotes without any network",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 3954,
+      "project": "vsat-view",
+      "name": "There is no real-time data in Idirect",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3598,
+      "project": "vsat-view",
+      "name": "Add CW generation",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 3179,
+      "project": "vsat-view",
+      "name": "List of broken footprints",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4455,
+      "project": "vsat-nms",
+      "name": "Ignore past data in iDirect NMS driver",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4447,
+      "project": "vsat-nms",
+      "name": "Migrate historical data of Dialog modems to match new PK",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4446,
+      "project": "vsat-nms",
+      "name": "Add support for multiple 4IF in Dialog NMS driver",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4423,
+      "project": "vsat-nms",
+      "name": "iDirect networks without status",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4358,
+      "project": "vsat-nms",
+      "name": "Online value error in some vsat modems",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4098,
+      "project": "vsat-nms",
+      "name": "Get HRC status params for Newtec modems",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3877,
+      "project": "vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4437,
+      "project": "support",
+      "name": "31032020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4343,
+      "project": "support",
+      "name": "4G Contract for CEFAS",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4319,
+      "project": "support",
+      "name": "PlexusController - MY Anna I",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4198,
+      "project": "support",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4151,
+      "project": "support",
+      "name": "To check the sd_io_deployment.py script",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4418,
+      "project": "LibreELEC.tv",
+      "name": "NUC Kernel upgrade, Identifying NUC Models",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4187,
+      "project": "LibreELEC.tv",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4087,
+      "project": "LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 3892,
+      "project": "LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4450,
+      "project": "frontend",
+      "name": "Fix chart date picker appearing below the content",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4375,
+      "project": "frontend",
+      "name": "Add OAAppHeader from OAStyle",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4208,
+      "project": "frontend",
+      "name": "Create \"pre\" environment",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4168,
+      "project": "frontend",
+      "name": "Design of 'network switch' view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4085,
+      "project": "frontend",
+      "name": "Make lateral menu responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 3935,
+      "project": "frontend",
+      "name": "Relevant information to show on Plexus Unity side panel of vsat modem view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4209,
+      "project": "sat_control",
+      "name": "CRUD Operations Provider Contracts",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4445,
+      "project": "core",
+      "name": "Add IMAP support to the email library",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4401,
+      "project": "core",
+      "name": "To avoid the need of sending the whole object on an object creation with a proxy field",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4399,
+      "project": "core",
+      "name": "Proxy models creates a NOT NULL field on the target models",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4359,
+      "project": "core",
+      "name": "Investigate slow insertions in alanis02pre",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4287,
+      "project": "core",
+      "name": "Dispatcher code reorganization",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4421,
+      "project": "core",
+      "name": "Received a response for an unknown request Received",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4262,
+      "project": "core",
+      "name": "Authorization subsystem - 01 - Design authorization models",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4243,
+      "project": "core",
+      "name": "Add parallelization to commands that are able to",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4231,
+      "project": "core",
+      "name": "Many dependencies in the meshcore",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4230,
+      "project": "core",
+      "name": "Drivers architecture",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4216,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 01 - Identification",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4190,
+      "project": "core",
+      "name": "Parallelization: TaskManager and Service possible improvements",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4179,
+      "project": "core",
+      "name": "Extend  Field parameters",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4092,
+      "project": "core",
+      "name": "Multipath Node usage",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4067,
+      "project": "core",
+      "name": "To get the possibility to do a subscribe on an specific event_type",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3982,
+      "project": "core",
+      "name": "DQS.Discussion for the slow queries event use",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4449,
+      "project": "csp",
+      "name": "Register Dialog modems by MAC",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4448,
+      "project": "csp",
+      "name": "Add support for Newtec SCPC modems",
+      "assignee": "Victor Rawinad"
+    }
+  ],
+  "closed_issues": [
+    {
+      "id": 4579,
+      "project": "Rollup preset",
+      "name": "fix @rollup/plugin-commonjs version until bug gets solved",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4327,
+      "project": "Rollup preset",
+      "name": "Allow project to specify other plugins to be added to rollup.",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4373,
+      "project": "ptv_mosaic_registry",
+      "name": "Add support for OPTIONS request",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4300,
+      "project": "ptv_amiri_mosaic_deployment",
+      "name": "Robustness, add \"SELF\" monitoring and reconfiguration",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 3804,
+      "project": "Network Core Intelligence",
+      "name": "Create service & drivers for Sandvine SubscriberPolicyBroker",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4474,
+      "project": "ptv_transcoder",
+      "name": "HOTFIX - Fix timeout and scaling issues",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4288,
+      "project": "ptv_transcoder",
+      "name": "Detect config changes, deal with broken input streams, add \"thumbnail\" HLS of mosaic output",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4114,
+      "project": "aio-hls-tc",
+      "name": "Assist Tier2 in pinpointing \"buffering problem\" on vessels",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4556,
+      "project": "Mesh Store Worker",
+      "name": "cloneless data retrieval",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4576,
+      "project": "ORM Query Builder",
+      "name": "Build error with last commonjs version",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4573,
+      "project": "Pipe Procesing",
+      "name": "immutable state for mesh store 2.0.0",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4498,
+      "project": "Pipe Procesing",
+      "name": "Allow nullish processors",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4531,
+      "project": "Mesh Queries",
+      "name": "Vue reactivity system triggering unnecessary updates",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4483,
+      "project": "Mesh Queries",
+      "name": "Query is subscribing when isOptimizable === true",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4638,
+      "project": "Promised Worker",
+      "name": "Expose self methods on this context",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4492,
+      "project": "frontend",
+      "name": "Channel names missing for each static decoder",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4257,
+      "project": "frontend",
+      "name": "Add Amiri Mosaic Channel to the Customer Mosaic View",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4173,
+      "project": "frontend",
+      "name": "Move from webpack to rollup",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4618,
+      "project": "Alanis",
+      "name": "set pm2 scripts for itinerary fetcher",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4611,
+      "project": "Alanis",
+      "name": "Sync pm2 files in lab03 to repo",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4595,
+      "project": "Alanis",
+      "name": "add is_online switches in traffic_by_vsat_modem_aggregate_real_time_every_* accounting",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4593,
+      "project": "Alanis",
+      "name": "Pre is dying. We need to move its services to somewhere else",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4562,
+      "project": "Alanis",
+      "name": "fix imports from oawimaxareaparser",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4507,
+      "project": "Alanis",
+      "name": "fix imports with GeoAreaParser",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4485,
+      "project": "Alanis",
+      "name": "Set pm2 startup scripts so the dispatchers are run with a domain.",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4470,
+      "project": "Alanis",
+      "name": "cherwell import errored in PROD",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4620,
+      "project": "OmniAccess Enterprise",
+      "name": "Itinerary fetcher needs a quickfix to properly set the range in days",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4392,
+      "project": "OmniAccess Enterprise",
+      "name": "add new vessel status in model",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4391,
+      "project": "OmniAccess Enterprise",
+      "name": "Add endpoint to allow posting the current footprint",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4457,
+      "project": "meshclient-vuex-plugin",
+      "name": "Support Data Payload partial",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4601,
+      "project": "locations",
+      "name": "Fix wrong location of distance_checker.py",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4561,
+      "project": "locations",
+      "name": "http_location should have the location pk either hardcoded or get it from an argument",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4479,
+      "project": "locations",
+      "name": "Add endpoint to allow posting the current footprint",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4281,
+      "project": "locations",
+      "name": "Move HTTP proxy services to this project",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4580,
+      "project": "OA Style",
+      "name": "CIR and MIR on the Bitrate axis does not match with the reality",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4536,
+      "project": "OA Style",
+      "name": "OAButton has duplicated logic for showing loading spinner which is causing layout issues",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4535,
+      "project": "OA Style",
+      "name": "Adding an extra root element to OANavigation drawer has broken TOM layout",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4506,
+      "project": "OA Style",
+      "name": "Horizontal scroll required in network view with many columns",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4504,
+      "project": "OA Style",
+      "name": "Disable chart updates when selecting past",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4472,
+      "project": "OA Style",
+      "name": "Allow null values on lat long positions",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4458,
+      "project": "OA Style",
+      "name": "Fix chart date picker appearing below the content",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4435,
+      "project": "OA Style",
+      "name": "Show beam switches still appear in the graphs when deactivated",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4427,
+      "project": "OA Style",
+      "name": "Hide reset zoom button if no zoomed",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4426,
+      "project": "OA Style",
+      "name": "Show modems connected network on hover on map",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4367,
+      "project": "OA Style",
+      "name": "Add prop to OAChart to be able to select time picker: OARelativeTimeOptions vs OADateRangeInput",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4253,
+      "project": "OA Style",
+      "name": "Create OAAppHeader component",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4250,
+      "project": "OA Style",
+      "name": "Update OANavigationDrawer to be responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4614,
+      "project": "vsat-view",
+      "name": "No CIR/MIR usage forsome newtec networks",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4613,
+      "project": "vsat-view",
+      "name": "No modems in Newtec network",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4570,
+      "project": "vsat-view",
+      "name": "CIR and MIR on the Bitrate axis does not match with the reality",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4568,
+      "project": "vsat-view",
+      "name": "dbm in Hypercare are not shown when positive",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4529,
+      "project": "vsat-view",
+      "name": "Detected geo_areas without geo_area_shapes",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4520,
+      "project": "vsat-view",
+      "name": "Do not send any delete requests without modems pks",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4519,
+      "project": "vsat-view",
+      "name": "Remove dashboard view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4518,
+      "project": "vsat-view",
+      "name": "All vessel on o_ku_pmi_e12wb_eu_if01_0001 detectas as out of GT footprint",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4516,
+      "project": "vsat-view",
+      "name": "Error updating one remote nominal beam at Tom",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4514,
+      "project": "vsat-view",
+      "name": "Modem view looks horrible in Safari",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4512,
+      "project": "vsat-view",
+      "name": "Newtec remote information not correct",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4510,
+      "project": "vsat-view",
+      "name": "Datepicker used in Hypercare",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4503,
+      "project": "vsat-view",
+      "name": "Disable chart updates when selecting past",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4487,
+      "project": "vsat-view",
+      "name": "Incorrect offline and nominals in network view",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4484,
+      "project": "vsat-view",
+      "name": "flickering charts and no values on modem table network view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4475,
+      "project": "vsat-view",
+      "name": "Network view - datepicker layout incorrect",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4473,
+      "project": "vsat-view",
+      "name": "Newtecs not reporting return_snr",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4471,
+      "project": "vsat-view",
+      "name": "Vessel image not rendering correctly",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4442,
+      "project": "vsat-view",
+      "name": "Netreports | CIR/MIR usage",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4439,
+      "project": "vsat-view",
+      "name": "Show beam switches still appear in the graphs when deactivated",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4398,
+      "project": "vsat-view",
+      "name": "Incorrect information for a Newtec Modem",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4388,
+      "project": "vsat-view",
+      "name": "Horizontal scroll required in network view with many columns",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4318,
+      "project": "vsat-view",
+      "name": "Colour online / offline lost in network view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4313,
+      "project": "vsat-view",
+      "name": "Switch to hide outages in graphis",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4040,
+      "project": "vsat-view",
+      "name": "Several remotes without any network",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 3954,
+      "project": "vsat-view",
+      "name": "There is no real-time data in Idirect",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4610,
+      "project": "vsat-nms",
+      "name": "Wrong offline modems counters in Newtec networks",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4603,
+      "project": "vsat-nms",
+      "name": "New event in modem",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4599,
+      "project": "vsat-nms",
+      "name": "Save last  consumed timestamp for every processor , and get it when service start",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4546,
+      "project": "vsat-nms",
+      "name": "Update SCPC IPs",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4499,
+      "project": "vsat-nms",
+      "name": "Compute Influx IP from CMS IP in Dialog driver",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4496,
+      "project": "vsat-nms",
+      "name": "Newtec beam switch logic change",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4489,
+      "project": "vsat-nms",
+      "name": "Integer out of range in vsat_modem_status (Dialog)",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4455,
+      "project": "vsat-nms",
+      "name": "Ignore past data in iDirect NMS driver",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4446,
+      "project": "vsat-nms",
+      "name": "Add support for multiple 4IF in Dialog NMS driver",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4358,
+      "project": "vsat-nms",
+      "name": "Online value error in some vsat modems",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4466,
+      "project": "meshclient-js",
+      "name": "DDOS WS reconnection",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4645,
+      "project": "support",
+      "name": "Lighning fix cache",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4644,
+      "project": "support",
+      "name": "Soaring change base plan and fix cache",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4643,
+      "project": "support",
+      "name": "Suspend Radgrid iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4642,
+      "project": "support",
+      "name": "20042020 report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4624,
+      "project": "support",
+      "name": "To activate again the Viking Ocean iO contracts",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4623,
+      "project": "support",
+      "name": "To change Sapphire vessel name, adding \"Saga\"",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4622,
+      "project": "support",
+      "name": "17042020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4609,
+      "project": "support",
+      "name": "Daily report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4594,
+      "project": "support",
+      "name": "VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4574,
+      "project": "support",
+      "name": "MY Crescent SIM card deactivation",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4572,
+      "project": "support",
+      "name": "Process 1304 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4566,
+      "project": "support",
+      "name": "Plexus of SY Anne is  not showing the beam E70B_AFR.",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4558,
+      "project": "support",
+      "name": "Create Paloma iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4557,
+      "project": "support",
+      "name": "MY Turama antenna issues",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4555,
+      "project": "support",
+      "name": "Reactivate iO contract for MY Elandess",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4554,
+      "project": "support",
+      "name": "Formosa errors on Plexus Cloud communication",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4551,
+      "project": "support",
+      "name": "Auth errors on alanis01",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4550,
+      "project": "support",
+      "name": "Daily report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4540,
+      "project": "support",
+      "name": "Sales support, upgrading demo PlexusTV FW",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4538,
+      "project": "support",
+      "name": "VF Report 07042020",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4525,
+      "project": "support",
+      "name": "To remove the trial on iO Soaring contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4523,
+      "project": "support",
+      "name": "06032020 VF reports",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4517,
+      "project": "support",
+      "name": "To suspend Queen K iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4502,
+      "project": "support",
+      "name": "To locate 687640235 SIM card",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4500,
+      "project": "support",
+      "name": "03042020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4476,
+      "project": "support",
+      "name": "Support upgrade nctlhub machine",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4465,
+      "project": "support",
+      "name": "To generate the March iO reports",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4464,
+      "project": "support",
+      "name": "To balance the March iO consumptions",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4461,
+      "project": "support",
+      "name": "To check, and suspend if needed, the Caribbean trial iO contracts",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4460,
+      "project": "support",
+      "name": "Reactivate Finesse iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4437,
+      "project": "support",
+      "name": "31032020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4343,
+      "project": "support",
+      "name": "4G Contract for CEFAS",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4319,
+      "project": "support",
+      "name": "PlexusController - MY Anna I",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4198,
+      "project": "support",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4187,
+      "project": "LibreELEC.tv",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4600,
+      "project": "core",
+      "name": "No ratings found since last April 8",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4541,
+      "project": "core",
+      "name": "Timeout seen on incident rating notification",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4513,
+      "project": "frontend",
+      "name": "Plexus Ctrl screenshots for Steve",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4480,
+      "project": "frontend",
+      "name": "Add prop to OAChart to be able to select time picker: OARelativeTimeOptions vs OADateRangeInput",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4450,
+      "project": "frontend",
+      "name": "Fix chart date picker appearing below the content",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4375,
+      "project": "frontend",
+      "name": "Add OAAppHeader from OAStyle",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4335,
+      "project": "frontend",
+      "name": "Fix error opening Plexus Unity side panel",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4329,
+      "project": "frontend",
+      "name": "Make login screen responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4303,
+      "project": "frontend",
+      "name": "Make alert dialog responsive",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4302,
+      "project": "frontend",
+      "name": "Make side panels responsive",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4168,
+      "project": "frontend",
+      "name": "Design of 'network switch' view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4085,
+      "project": "frontend",
+      "name": "Make lateral menu responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 3935,
+      "project": "frontend",
+      "name": "Relevant information to show on Plexus Unity side panel of vsat modem view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4619,
+      "project": "core",
+      "name": "Accounting service is not reporting 0 values",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4602,
+      "project": "core",
+      "name": "replace 'nunique' pandas operation with a custom function",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4597,
+      "project": "core",
+      "name": "Add timing logs to DPS",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4591,
+      "project": "core",
+      "name": "Filter old data in accounting service",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4534,
+      "project": "core",
+      "name": "DPS syntax error when sending ack",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4501,
+      "project": "core",
+      "name": "Add parsing of objects to geo_area_parser.py",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4494,
+      "project": "core",
+      "name": "Remove misplaced model definitions",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4488,
+      "project": "core",
+      "name": "Fix user_data.domain is not being properly set",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4486,
+      "project": "core",
+      "name": "Periodic task skip_first_run not working",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4287,
+      "project": "core",
+      "name": "Dispatcher code reorganization",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4421,
+      "project": "core",
+      "name": "Received a response for an unknown request Received",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4226,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 06 - Node - domain awareness",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4224,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 04 - Include domain information in messages",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4592,
+      "project": "app_ionic",
+      "name": "Remove the map for certain user role",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4412,
+      "project": "app_ionic",
+      "name": "Fix style of phone links on Support section",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4590,
+      "project": "csp",
+      "name": "To remove the map for certain user role",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4582,
+      "project": "csp",
+      "name": "To get the login log for a list of accounts",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4448,
+      "project": "csp",
+      "name": "Add support for Newtec SCPC modems",
+      "assignee": "Miguel Vallespir"
+    }
+  ],
+  "added_issues": [
+    {
+      "id": 4474,
+      "project": "ptv_transcoder",
+      "name": "HOTFIX - Fix timeout and scaling issues"
+    },
+    {
+      "id": 4498,
+      "project": "Pipe Procesing",
+      "name": "Allow nullish processors"
+    },
+    {
+      "id": 4531,
+      "project": "Mesh Queries",
+      "name": "Vue reactivity system triggering unnecessary updates"
+    },
+    {
+      "id": 4483,
+      "project": "Mesh Queries",
+      "name": "Query is subscribing when isOptimizable === true"
+    },
+    {
+      "id": 4539,
+      "project": "Alanis",
+      "name": "non_nominal_remotes and nominal_remotes not updated from a long time ago"
+    },
+    {
+      "id": 4507,
+      "project": "Alanis",
+      "name": "fix imports with GeoAreaParser"
+    },
+    {
+      "id": 4485,
+      "project": "Alanis",
+      "name": "Set pm2 startup scripts so the dispatchers are run with a domain."
+    },
+    {
+      "id": 4470,
+      "project": "Alanis",
+      "name": "cherwell import errored in PROD"
+    },
+    {
+      "id": 4530,
+      "project": "OmniAccess Enterprise",
+      "name": "contract_status not updated"
+    },
+    {
+      "id": 4479,
+      "project": "locations",
+      "name": "Add endpoint to allow posting the current footprint"
+    },
+    {
+      "id": 4536,
+      "project": "OA Style",
+      "name": "OAButton has duplicated logic for showing loading spinner which is causing layout issues"
+    },
+    {
+      "id": 4535,
+      "project": "OA Style",
+      "name": "Adding an extra root element to OANavigation drawer has broken TOM layout"
+    },
+    {
+      "id": 4506,
+      "project": "OA Style",
+      "name": "Horizontal scroll required in network view with many columns"
+    },
+    {
+      "id": 4504,
+      "project": "OA Style",
+      "name": "Disable chart updates when selecting past"
+    },
+    {
+      "id": 4472,
+      "project": "OA Style",
+      "name": "Allow null values on lat long positions"
+    },
+    {
+      "id": 4367,
+      "project": "OA Style",
+      "name": "Add prop to OAChart to be able to select time picker: OARelativeTimeOptions vs OADateRangeInput"
+    },
+    {
+      "id": 4529,
+      "project": "vsat-view",
+      "name": "Detected geo_areas without geo_area_shapes"
+    },
+    {
+      "id": 4520,
+      "project": "vsat-view",
+      "name": "Do not send any delete requests without modems pks"
+    },
+    {
+      "id": 4519,
+      "project": "vsat-view",
+      "name": "Remove dashboard view"
+    },
+    {
+      "id": 4518,
+      "project": "vsat-view",
+      "name": "All vessel on o_ku_pmi_e12wb_eu_if01_0001 detectas as out of GT footprint"
+    },
+    {
+      "id": 4516,
+      "project": "vsat-view",
+      "name": "Error updating one remote nominal beam at Tom"
+    },
+    {
+      "id": 4514,
+      "project": "vsat-view",
+      "name": "Modem view looks horrible in Safari"
+    },
+    {
+      "id": 4511,
+      "project": "vsat-view",
+      "name": "Red offline not correct in graphics"
+    },
+    {
+      "id": 4510,
+      "project": "vsat-view",
+      "name": "Datepicker used in Hypercare"
+    },
+    {
+      "id": 4509,
+      "project": "vsat-view",
+      "name": "Events not cleared"
+    },
+    {
+      "id": 4503,
+      "project": "vsat-view",
+      "name": "Disable chart updates when selecting past"
+    },
+    {
+      "id": 4487,
+      "project": "vsat-view",
+      "name": "Incorrect offline and nominals in network view"
+    },
+    {
+      "id": 4484,
+      "project": "vsat-view",
+      "name": "flickering charts and no values on modem table network view"
+    },
+    {
+      "id": 4475,
+      "project": "vsat-view",
+      "name": "Network view - datepicker layout incorrect"
+    },
+    {
+      "id": 4473,
+      "project": "vsat-view",
+      "name": "Newtecs not reporting return_snr"
+    },
+    {
+      "id": 4471,
+      "project": "vsat-view",
+      "name": "Vessel image not rendering correctly"
+    },
+    {
+      "id": 4459,
+      "project": "vsat-view",
+      "name": "TOM - Project Blue - RF signal levels trigger"
+    },
+    {
+      "id": 4546,
+      "project": "vsat-nms",
+      "name": "Update SCPC IPs"
+    },
+    {
+      "id": 4499,
+      "project": "vsat-nms",
+      "name": "Compute Influx IP from CMS IP in Dialog driver"
+    },
+    {
+      "id": 4489,
+      "project": "vsat-nms",
+      "name": "Integer out of range in vsat_modem_status (Dialog)"
+    },
+    {
+      "id": 4463,
+      "project": "vsat-nms",
+      "name": "Accept arbitrary args in NMS services"
+    },
+    {
+      "id": 4466,
+      "project": "meshclient-js",
+      "name": "WS reconnection"
+    },
+    {
+      "id": 4551,
+      "project": "support",
+      "name": "Auth errors on alanis01"
+    },
+    {
+      "id": 4550,
+      "project": "support",
+      "name": "Daily report"
+    },
+    {
+      "id": 4540,
+      "project": "support",
+      "name": "Sales support, upgrading demo PlexusTV FW"
+    },
+    {
+      "id": 4538,
+      "project": "support",
+      "name": "VF Report 07042020"
+    },
+    {
+      "id": 4525,
+      "project": "support",
+      "name": "To remove the trial on iO Soaring contract"
+    },
+    {
+      "id": 4523,
+      "project": "support",
+      "name": "06032020 VF reports"
+    },
+    {
+      "id": 4517,
+      "project": "support",
+      "name": "To suspend Queen K iO contract"
+    },
+    {
+      "id": 4502,
+      "project": "support",
+      "name": "To locate 687640235 SIM card"
+    },
+    {
+      "id": 4500,
+      "project": "support",
+      "name": "03042020 VF report"
+    },
+    {
+      "id": 4476,
+      "project": "support",
+      "name": "Support upgrade nctlhub machine"
+    },
+    {
+      "id": 4465,
+      "project": "support",
+      "name": "To generate the March iO reports"
+    },
+    {
+      "id": 4464,
+      "project": "support",
+      "name": "To balance the March iO consumptions"
+    },
+    {
+      "id": 4461,
+      "project": "support",
+      "name": "To check, and suspend if needed, the Caribbean trial iO contracts"
+    },
+    {
+      "id": 4460,
+      "project": "support",
+      "name": "Reactivate Finesse iO contract"
+    },
+    {
+      "id": 4541,
+      "project": "core",
+      "name": "Timeout seen on incident rating notification"
+    },
+    {
+      "id": 4513,
+      "project": "frontend",
+      "name": "Plexus Ctrl screenshots for Steve"
+    },
+    {
+      "id": 4480,
+      "project": "frontend",
+      "name": "Add prop to OAChart to be able to select time picker: OARelativeTimeOptions vs OADateRangeInput"
+    },
+    {
+      "id": 4335,
+      "project": "frontend",
+      "name": "Fix error opening Plexus Unity side panel"
+    },
+    {
+      "id": 4329,
+      "project": "frontend",
+      "name": "Make login screen responsive"
+    },
+    {
+      "id": 4303,
+      "project": "frontend",
+      "name": "Make alert dialog responsive"
+    },
+    {
+      "id": 4302,
+      "project": "frontend",
+      "name": "Make side panels responsive"
+    },
+    {
+      "id": 4534,
+      "project": "core",
+      "name": "DPS syntax error when sending ack"
+    },
+    {
+      "id": 4501,
+      "project": "core",
+      "name": "Add parsing of objects to geo_area_parser.py"
+    },
+    {
+      "id": 4488,
+      "project": "core",
+      "name": "Fix user_data.domain is not being properly set"
+    },
+    {
+      "id": 4486,
+      "project": "core",
+      "name": "Periodic task skip_first_run not working"
+    },
+    {
+      "id": 4226,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 06 - Node - domain awareness"
+    },
+    {
+      "id": 4224,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 04 - Include domain information in messages"
+    }
+  ]
+}

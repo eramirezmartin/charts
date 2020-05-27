@@ -1,0 +1,1332 @@
+{
+  "milestone": "devel_sprint_2020_weeks1213",
+  "milestone_closed_issues": 124,
+  "milestone_merge_request": 84,
+  "original_total_issues": 97,
+  "% milestone": 47.42,
+  "number_added_issues": 83,
+  "priority": {
+    "p_critical": "12.31%",
+    "p_high": "44.62%",
+    "p_hotfix": "8.46%",
+    "p_low": "5.38%",
+    "p_medium": "23.85%"
+  },
+  "type": {
+    "tp_bug": "28.46%",
+    "tp_new_feature": "30.0%",
+    "tp_technical_debt": "1.54%",
+    "tp_discussion": "8.46%",
+    "tp_poc": "2.31%",
+    "tp_support": "22.31%"
+  },
+  "original_issues": [
+    {
+      "id": 4211,
+      "project": "ptv_amiri_mosaic_deployment",
+      "name": "Docs rewrite",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4184,
+      "project": "map-server",
+      "name": "Create map server for our map visualizations",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4121,
+      "project": "PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4133,
+      "project": "Network Core Intelligence",
+      "name": "IPAM importer service",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3804,
+      "project": "Network Core Intelligence",
+      "name": "Create service & drivers for Sandvine SubscriberPolicyBroker",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4114,
+      "project": "aio-hls-tc",
+      "name": "Assist Tier2 in pinpointing \"buffering problem\" on vessels",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4113,
+      "project": "aio-hls-tc",
+      "name": "Official docs + visual infra overview",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4081,
+      "project": "Mesh Store Worker",
+      "name": "Support expanded models",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4173,
+      "project": "frontend",
+      "name": "Move from webpack to rollup",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4203,
+      "project": "unity",
+      "name": "Installer image build instructions and daily build procedures",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4057,
+      "project": "unity",
+      "name": "UnityControl Service",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4043,
+      "project": "unity",
+      "name": "Unity deployment data flow",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 3969,
+      "project": "unity",
+      "name": "Proposed deployment user interface",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3751,
+      "project": "unity",
+      "name": "RPi start script",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4090,
+      "project": "unity",
+      "name": "Make Plexus Unity models",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4241,
+      "project": "plexustv_daemons",
+      "name": "STB <-> GC messaging changes, Reboot + WiFi related",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 3897,
+      "project": "plexustv_daemons",
+      "name": "Add comparison of stream sources to start a new transcoding process",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4245,
+      "project": "Alanis",
+      "name": "modems_by_is_online_aggregate_real_time_every_60s doesn't exist",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4207,
+      "project": "Alanis",
+      "name": "Define Sat Control model v1",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4091,
+      "project": "Alanis",
+      "name": "Update accounting V1 to V2",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 3996,
+      "project": "Alanis",
+      "name": "Set up failover mechanism for PG database",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3995,
+      "project": "Alanis",
+      "name": "Set up a PG replica for relational models",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4232,
+      "project": "OmniAccess Enterprise",
+      "name": "Bandwidth planner Workflow",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4213,
+      "project": "OmniAccess Enterprise",
+      "name": "Write docs/WI to manage Telenor API",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4210,
+      "project": "OmniAccess Enterprise",
+      "name": "Move HTTP proxy services to this project",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4200,
+      "project": "OmniAccess Enterprise",
+      "name": "Retrieve and persist the scheduled itinerary for Viking Oceans",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 3920,
+      "project": "OmniAccess Enterprise",
+      "name": "Relate modems and vessels with Cherwell data",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4107,
+      "project": "locations",
+      "name": "Add field scheduled_location",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4050,
+      "project": "locations",
+      "name": "Generate location_change events",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 3972,
+      "project": "locations",
+      "name": "Refactor on distance_checker",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4253,
+      "project": "OA Style",
+      "name": "Create OAAppHeader component",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4250,
+      "project": "OA Style",
+      "name": "Update OANavigationDrawer to be responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4194,
+      "project": "OA Style",
+      "name": "Add lat long position",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4116,
+      "project": "OA Style",
+      "name": "Mesh tables",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4172,
+      "project": "vsat-view",
+      "name": "Footprint E70B AFR - tom",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4089,
+      "project": "vsat-view",
+      "name": "Beam switch label",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4060,
+      "project": "vsat-view",
+      "name": "Unable to list preferences: F.CIR, R. CIR and nominal network on Tom",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4040,
+      "project": "vsat-view",
+      "name": "Several remotes without any network",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4033,
+      "project": "vsat-view",
+      "name": "Summary view for a Fleet of boats for account management",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance",
+      "assignee": "Jordi Ferrer Riera"
+    },
+    {
+      "id": 3954,
+      "project": "vsat-view",
+      "name": "There is no real-time data in Idirect",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3875,
+      "project": "vsat-view",
+      "name": "Bandwidth planner",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3777,
+      "project": "vsat-view",
+      "name": "table columns",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 3613,
+      "project": "vsat-view",
+      "name": "Add lat long position",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 3592,
+      "project": "vsat-view",
+      "name": "Out of footprint events are not cleared when a beamswitch happens",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3588,
+      "project": "vsat-view",
+      "name": "Newtec L2 errors graph",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 2439,
+      "project": "vsat-view",
+      "name": "Vessel view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4195,
+      "project": "vsat-nms",
+      "name": "Error in task update_networks_status()",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4098,
+      "project": "vsat-nms",
+      "name": "Get HRC status params for Newtec modems",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4045,
+      "project": "vsat-nms",
+      "name": "Create documentation to scpc service data options",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3877,
+      "project": "vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3840,
+      "project": "vsat-nms",
+      "name": "Get status metrics from InfluxDB in Newtec Dialog",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4251,
+      "project": "vsat",
+      "name": "Remove stop_on_task_fail from VsatModem",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4097,
+      "project": "vsat",
+      "name": "Add HRC fields to vsat_modem_status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4198,
+      "project": "support",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4170,
+      "project": "support",
+      "name": "Find SIM card 8934561001800074230",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4159,
+      "project": "support",
+      "name": "Viking report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4140,
+      "project": "support",
+      "name": "Viking monitoring syslogs",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4130,
+      "project": "support",
+      "name": "Viking - Remove wimax notifications",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4239,
+      "project": "LibreELEC.tv",
+      "name": "Enable remote WiFi management",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4238,
+      "project": "LibreELEC.tv",
+      "name": "Enable remote operated reboot",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4187,
+      "project": "LibreELEC.tv",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4087,
+      "project": "LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 3892,
+      "project": "LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4208,
+      "project": "frontend",
+      "name": "Create \"pre\" environment",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4168,
+      "project": "frontend",
+      "name": "Design of 'switch' view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4126,
+      "project": "frontend",
+      "name": "Update side panel to show agreed information for vsat antenna",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4085,
+      "project": "frontend",
+      "name": "Make lateral menu responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4066,
+      "project": "frontend",
+      "name": "Work on responsive design of Vsat modem view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4034,
+      "project": "frontend",
+      "name": "Design of 'Plexus Unity' health view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 3987,
+      "project": "frontend",
+      "name": "Plexus Unity models",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 3935,
+      "project": "frontend",
+      "name": "Relevant information to show on Plexus Unity side panel of vsat modem view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4209,
+      "project": "sat_control",
+      "name": "CRUD Operations Provider Contracts",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4248,
+      "project": "core",
+      "name": "Device service is failing",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4243,
+      "project": "core",
+      "name": "Add parallelization to commands that are able to",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4234,
+      "project": "core",
+      "name": "Accounting policy v2 loader doesn't take outputs, only aggregations",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4233,
+      "project": "core",
+      "name": "Accounting policy validator has no boolean cast operation",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4231,
+      "project": "core",
+      "name": "Many dependencies in the meshcore",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4230,
+      "project": "core",
+      "name": "Drivers architecture",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4216,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 01 - Identification",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4190,
+      "project": "core",
+      "name": "Parallelization: TaskManager and Service possible improvements",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4179,
+      "project": "core",
+      "name": "Extend  Field parameters",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4092,
+      "project": "core",
+      "name": "Multipath Node usage",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4070,
+      "project": "core",
+      "name": "Evaluate aiomultiprocess to provide multicore capabilities to the mesh_core services and commands",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4069,
+      "project": "core",
+      "name": "Parallelize services' tasks in the main event loop",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4067,
+      "project": "core",
+      "name": "To get the possibility to do a subscribe on an specific event_type",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3993,
+      "project": "core",
+      "name": "Implement aggregation count_switches in accounting service",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 3983,
+      "project": "core",
+      "name": "Influx failover strategy",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3982,
+      "project": "core",
+      "name": "DQS.Discussion for the slow queries event use",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3980,
+      "project": "core",
+      "name": "Strategy to ensure data consistency after a service disconnection",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 2575,
+      "project": "core",
+      "name": "Data.Payload messages for relational and status updates need to include ONLY the key-value pairs that changed",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 1485,
+      "project": "core",
+      "name": "Design and document authorization subsystem",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4129,
+      "project": "plexustv-web",
+      "name": "Merge code from production",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 3490,
+      "project": "csp",
+      "name": "Modify the CSP notifications to use a hardcoded/templated subject on emails",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    }
+  ],
+  "added_issues": [
+    {
+      "id": 4283,
+      "project": "Rollup preset",
+      "name": "ERR_SSL_PROTOCOL_ERROR when serving https on macos"
+    },
+    {
+      "id": 4273,
+      "project": "Rollup preset",
+      "name": "Add two namedExports for PlexusTV project"
+    },
+    {
+      "id": 4373,
+      "project": "ptv_mosaic_registry",
+      "name": "Add support for OPTIONS request"
+    },
+    {
+      "id": 4357,
+      "project": "PlexusTV Infrastructure",
+      "name": "Amiri Static FTA - New decoder VU+ Zero 4K"
+    },
+    {
+      "id": 4340,
+      "project": "rollup-plugin-oastyle-autoimport",
+      "name": "Do not depend on folder name for oa-style directory resolution"
+    },
+    {
+      "id": 4255,
+      "project": "Network Core Intelligence",
+      "name": "Discussion about traffic shaping models"
+    },
+    {
+      "id": 4284,
+      "project": "network_switch",
+      "name": "Implement network_switch service"
+    },
+    {
+      "id": 4386,
+      "project": "tsplayer",
+      "name": "Webpack to rollup"
+    },
+    {
+      "id": 4257,
+      "project": "frontend",
+      "name": "Add Amiri Mosaic Channel to the Customer Mosaic View"
+    },
+    {
+      "id": 4061,
+      "project": "unity",
+      "name": "Unity network_switch service"
+    },
+    {
+      "id": 4059,
+      "project": "unity",
+      "name": "Unity VsatModem Service"
+    },
+    {
+      "id": 4325,
+      "project": "Alanis",
+      "name": "Update alanis auth for itinerary fetcher"
+    },
+    {
+      "id": 4268,
+      "project": "Alanis",
+      "name": "Received a response for an unknown request Received"
+    },
+    {
+      "id": 4392,
+      "project": "OmniAccess Enterprise",
+      "name": "add new vessel status in model"
+    },
+    {
+      "id": 4263,
+      "project": "OmniAccess Enterprise",
+      "name": "vessel_location with status errored in vsatviewpre"
+    },
+    {
+      "id": 4308,
+      "project": "locations",
+      "name": "Group location coordinates"
+    },
+    {
+      "id": 4261,
+      "project": "locations",
+      "name": "Heading position not working for SCPC remotes"
+    },
+    {
+      "id": 4256,
+      "project": "locations",
+      "name": "Check inconsistent values in weather service"
+    },
+    {
+      "id": 4281,
+      "project": "locations",
+      "name": "Move HTTP proxy services to this project"
+    },
+    {
+      "id": 2289,
+      "project": "locations",
+      "name": "Save H3 indexes for locations"
+    },
+    {
+      "id": 4385,
+      "project": "OA Style",
+      "name": "Beam switch label"
+    },
+    {
+      "id": 4356,
+      "project": "OA Style",
+      "name": "Switch to hide outages in graphs"
+    },
+    {
+      "id": 4332,
+      "project": "OA Style",
+      "name": "Table does not fit when sveral columns are added and the page is loaded"
+    },
+    {
+      "id": 4366,
+      "project": "OA Style",
+      "name": "Add option to restore to default in columns view"
+    },
+    {
+      "id": 4338,
+      "project": "OA Style",
+      "name": "Select one remote nominal beam (TOM) automatically select all remotes"
+    },
+    {
+      "id": 4157,
+      "project": "OA Style",
+      "name": "date range input widget"
+    },
+    {
+      "id": 4398,
+      "project": "vsat-view",
+      "name": "Incorrect information for a Newtec Modem"
+    },
+    {
+      "id": 4380,
+      "project": "vsat-view",
+      "name": "Network view for Newtec networks Upstream"
+    },
+    {
+      "id": 4339,
+      "project": "vsat-view",
+      "name": "Batch upgrade - Nominals"
+    },
+    {
+      "id": 4323,
+      "project": "vsat-view",
+      "name": "Default priority sorting lost in Modems View"
+    },
+    {
+      "id": 4322,
+      "project": "vsat-view",
+      "name": "implement new datepicker"
+    },
+    {
+      "id": 4320,
+      "project": "vsat-view",
+      "name": "Table does not fit when sveral columns are added and the page is loaded"
+    },
+    {
+      "id": 4316,
+      "project": "vsat-view",
+      "name": "remove priority selector from nominals view"
+    },
+    {
+      "id": 4314,
+      "project": "vsat-view",
+      "name": "Select one remote nominal beam (TOM) automatically select all remotes"
+    },
+    {
+      "id": 4286,
+      "project": "vsat-view",
+      "name": "F.CIR , R.CIR, F.MIR etc not visible in the SCP-C modems"
+    },
+    {
+      "id": 4275,
+      "project": "vsat-view",
+      "name": "Footprint not correct in E33"
+    },
+    {
+      "id": 4358,
+      "project": "vsat-nms",
+      "name": "Online value error in some vsat modems"
+    },
+    {
+      "id": 4296,
+      "project": "vsat-nms",
+      "name": "SNMP-based driver for mdm6000"
+    },
+    {
+      "id": 4280,
+      "project": "vsat-nms",
+      "name": "SCPC modems do not detect offline"
+    },
+    {
+      "id": 4180,
+      "project": "vsat-nms",
+      "name": "Error 503 in newctec scpc modems"
+    },
+    {
+      "id": 4282,
+      "project": "vsat",
+      "name": "Implement method \"set management ip\""
+    },
+    {
+      "id": 4393,
+      "project": "meshclient-js",
+      "name": "withRelated should be accomulable"
+    },
+    {
+      "id": 4404,
+      "project": "support",
+      "name": "Process 27032020 VF report"
+    },
+    {
+      "id": 4403,
+      "project": "support",
+      "name": "Broken streams from capture server 192.168.22.171"
+    },
+    {
+      "id": 4376,
+      "project": "support",
+      "name": "Process 26032020 VF report"
+    },
+    {
+      "id": 4372,
+      "project": "support",
+      "name": "Ticket 201778 Ocean Star"
+    },
+    {
+      "id": 4365,
+      "project": "support",
+      "name": "Check Viking Ocean SIM cards for the vessels in EU"
+    },
+    {
+      "id": 4364,
+      "project": "support",
+      "name": "Support SD to install the custom Controller on Odissey Taruma"
+    },
+    {
+      "id": 4353,
+      "project": "support",
+      "name": "To process the 25032020 VF report"
+    },
+    {
+      "id": 4352,
+      "project": "support",
+      "name": "To check all the Odissey vessels as per watchdog issue"
+    },
+    {
+      "id": 4334,
+      "project": "support",
+      "name": "To process VF 24032020 report"
+    },
+    {
+      "id": 4331,
+      "project": "support",
+      "name": "Project Mab - - Newtec VSAT offline - Switch from iDirect to Newtec not working OA202139#"
+    },
+    {
+      "id": 4326,
+      "project": "support",
+      "name": "SD Request - PlexusController Calypso"
+    },
+    {
+      "id": 4321,
+      "project": "support",
+      "name": "No access to many services from the VPN"
+    },
+    {
+      "id": 4319,
+      "project": "support",
+      "name": "PlexusController - MY Anna I"
+    },
+    {
+      "id": 4311,
+      "project": "support",
+      "name": "To suspend MY Stormborn"
+    },
+    {
+      "id": 4310,
+      "project": "support",
+      "name": "Process VF report 23032020"
+    },
+    {
+      "id": 4301,
+      "project": "support",
+      "name": "Clean iO contracts and states"
+    },
+    {
+      "id": 4294,
+      "project": "support",
+      "name": "VF 20032020 report"
+    },
+    {
+      "id": 4274,
+      "project": "support",
+      "name": "NOC Support, missing channel Amiri AD Sports 1 HD"
+    },
+    {
+      "id": 4272,
+      "project": "support",
+      "name": "Sunrise with 4G issues"
+    },
+    {
+      "id": 4271,
+      "project": "support",
+      "name": "Ask for Alpha One SIM cards reactivation"
+    },
+    {
+      "id": 4270,
+      "project": "support",
+      "name": "To get a report of all the activated SIM cards"
+    },
+    {
+      "id": 4269,
+      "project": "support",
+      "name": "To help cherwell admin to modify a onestep"
+    },
+    {
+      "id": 4260,
+      "project": "support",
+      "name": "18032020 VF Report"
+    },
+    {
+      "id": 4259,
+      "project": "support",
+      "name": "Report of incidents without sent rating"
+    },
+    {
+      "id": 4375,
+      "project": "frontend",
+      "name": "Add OAAppHeader from OAStyle"
+    },
+    {
+      "id": 4370,
+      "project": "plexus_controller",
+      "name": "Update plexuscontroller PXE installer for NUC10"
+    },
+    {
+      "id": 4397,
+      "project": "core",
+      "name": "Using undefined var in makemigrations"
+    },
+    {
+      "id": 4345,
+      "project": "core",
+      "name": "Settings logging is broken"
+    },
+    {
+      "id": 4312,
+      "project": "core",
+      "name": "DeviceService class invalid argument"
+    },
+    {
+      "id": 4297,
+      "project": "core",
+      "name": "Implement command get_table in SNMP client"
+    },
+    {
+      "id": 4292,
+      "project": "core",
+      "name": "Define classes required for new drivers structure"
+    },
+    {
+      "id": 4287,
+      "project": "core",
+      "name": "Dispatcher code reorganization"
+    },
+    {
+      "id": 4285,
+      "project": "core",
+      "name": "DQS stalls when using with_related with status models"
+    },
+    {
+      "id": 4262,
+      "project": "core",
+      "name": "Authorization subsystem - 01 - Design authorization models"
+    },
+    {
+      "id": 4226,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 06 - Node - domain awareness"
+    },
+    {
+      "id": 4224,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 04 - Include domain information in messages"
+    },
+    {
+      "id": 4371,
+      "project": "plexustv-web",
+      "name": "OPTIONS response 401 for box details"
+    },
+    {
+      "id": 4382,
+      "project": "app_ionic",
+      "name": "Change phone number shown on Support section"
+    },
+    {
+      "id": 4306,
+      "project": "app_ionic",
+      "name": "Map on iCSP app not operational"
+    },
+    {
+      "id": 4389,
+      "project": "csp",
+      "name": "Modify support contact options"
+    },
+    {
+      "id": 4289,
+      "project": "csp",
+      "name": "Create csp.noc pre production environment"
+    }
+  ],
+  "missing_issues": [
+    {
+      "id": 4184,
+      "project": "map-server",
+      "name": "Create map server for our map visualizations",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4121,
+      "project": "PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4133,
+      "project": "Network Core Intelligence",
+      "name": "IPAM importer service",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3804,
+      "project": "Network Core Intelligence",
+      "name": "Create service & drivers for Sandvine SubscriberPolicyBroker",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4114,
+      "project": "aio-hls-tc",
+      "name": "Assist Tier2 in pinpointing \"buffering problem\" on vessels",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4113,
+      "project": "aio-hls-tc",
+      "name": "Official docs + visual infra overview",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4173,
+      "project": "frontend",
+      "name": "Move from webpack to rollup",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4203,
+      "project": "unity",
+      "name": "Installer image build instructions and daily build procedures",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3969,
+      "project": "unity",
+      "name": "Proposed deployment user interface",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4241,
+      "project": "plexustv_daemons",
+      "name": "STB <-> GC messaging changes, Reboot + WiFi related",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4207,
+      "project": "Alanis",
+      "name": "Define Sat Control model v1",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 3996,
+      "project": "Alanis",
+      "name": "Set up failover mechanism for PG database",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4050,
+      "project": "locations",
+      "name": "Generate location_change events",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 3972,
+      "project": "locations",
+      "name": "Refactor on distance_checker",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4253,
+      "project": "OA Style",
+      "name": "Create OAAppHeader component",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4250,
+      "project": "OA Style",
+      "name": "Update OANavigationDrawer to be responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4040,
+      "project": "vsat-view",
+      "name": "Several remotes without any network",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4033,
+      "project": "vsat-view",
+      "name": "Summary view for a Fleet of boats for account management",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance",
+      "assignee": "Jordi Ferrer Riera"
+    },
+    {
+      "id": 3954,
+      "project": "vsat-view",
+      "name": "There is no real-time data in Idirect",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 3592,
+      "project": "vsat-view",
+      "name": "Out of footprint events are not cleared when a beamswitch happens",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3588,
+      "project": "vsat-view",
+      "name": "Newtec L2 errors graph",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 2439,
+      "project": "vsat-view",
+      "name": "Vessel view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4098,
+      "project": "vsat-nms",
+      "name": "Get HRC status params for Newtec modems",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 3877,
+      "project": "vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4198,
+      "project": "support",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4170,
+      "project": "support",
+      "name": "Find SIM card 8934561001800074230",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4238,
+      "project": "LibreELEC.tv",
+      "name": "Enable remote operated reboot",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4187,
+      "project": "LibreELEC.tv",
+      "name": "NOC Support, VAVA II",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4087,
+      "project": "LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 3892,
+      "project": "LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4208,
+      "project": "frontend",
+      "name": "Create \"pre\" environment",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4168,
+      "project": "frontend",
+      "name": "Design of 'switch' view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4085,
+      "project": "frontend",
+      "name": "Make lateral menu responsive",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4034,
+      "project": "frontend",
+      "name": "Design of 'Plexus Unity' health view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 3935,
+      "project": "frontend",
+      "name": "Relevant information to show on Plexus Unity side panel of vsat modem view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4209,
+      "project": "sat_control",
+      "name": "CRUD Operations Provider Contracts",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4243,
+      "project": "core",
+      "name": "Add parallelization to commands that are able to",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4231,
+      "project": "core",
+      "name": "Many dependencies in the meshcore",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4230,
+      "project": "core",
+      "name": "Drivers architecture",
+      "assignee": "Miguel Angel Aragon Gonzalez"
+    },
+    {
+      "id": 4216,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions - 01 - Identification",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4190,
+      "project": "core",
+      "name": "Parallelization: TaskManager and Service possible improvements",
+      "assignee": "Miguel Vallespir Solivellas"
+    },
+    {
+      "id": 4179,
+      "project": "core",
+      "name": "Extend  Field parameters",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4092,
+      "project": "core",
+      "name": "Multipath Node usage",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4070,
+      "project": "core",
+      "name": "Evaluate aiomultiprocess to provide multicore capabilities to the mesh_core services and commands",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4067,
+      "project": "core",
+      "name": "To get the possibility to do a subscribe on an specific event_type",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3983,
+      "project": "core",
+      "name": "Influx failover strategy",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 3982,
+      "project": "core",
+      "name": "DQS.Discussion for the slow queries event use",
+      "assignee": "Juanma Sanchez"
+    }
+  ]
+}

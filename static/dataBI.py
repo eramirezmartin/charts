@@ -8,18 +8,8 @@ import gitlab
 TOKEN = 'bUXR6N_H9bETU6VAPSyx'
 
 
-def backup_file(filename):
-    try:
-        shutil.copy(filename + '.json', filename + '.json.BK')
-    except FileNotFoundError:
-        with open(filename + '.json', mode='w') as milestone_file:
-            json.dump([], milestone_file)
-        milestone_file.close()
-
-
 def read_milestone_files():
     PATH = 'data'
-    backup_file('milestone_analysis')
     list_files = sorted(os.listdir(PATH))
     for file in list_files:
         if file.startswith('devel_'):
@@ -172,8 +162,8 @@ def get_mr():
 
 # print(datetime.now())
 # read_milestone_files()
-# print(datetime.now())
-# get_mr()
-# print(datetime.now())
+print(datetime.now())
+get_mr()
+print(datetime.now())
 get_issues("devel_sprint_2020_weeks2122")
-# print(datetime.now())
+print(datetime.now())

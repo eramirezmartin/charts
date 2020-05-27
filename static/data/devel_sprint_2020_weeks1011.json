@@ -1,0 +1,1074 @@
+{
+  "milestone": "devel_sprint_2020_weeks1011",
+  "milestone_closed_issues": 98,
+  "milestone_merge_request": 49,
+  "original_total_issues": 67,
+  "% milestone": 40.3,
+  "number_added_issues": 102,
+  "priority": {
+    "p_critical": "7.87%",
+    "p_high": "57.3%",
+    "p_hotfix": "11.24%",
+    "p_low": "5.62%",
+    "p_medium": "13.48%"
+  },
+  "type": {
+    "tp_bug": "22.47%",
+    "tp_new_feature": "17.98%",
+    "tp_technical_debt": "3.37%",
+    "tp_discussion": "11.24%",
+    "tp_poc": "2.25%",
+    "tp_support": "40.45%"
+  },
+  "original_issues": [
+    {
+      "id": 3997,
+      "project": "Offline base layer map service",
+      "name": "How to know if the frontend is in the internal network of the vessel"
+    },
+    {
+      "id": 3992,
+      "project": "Offline base layer map service",
+      "name": "Create custom offline base layer for our Map Components"
+    },
+    {
+      "id": 3985,
+      "project": "Cherwell",
+      "name": "Check the Cherwell API to know how to integrate it with the new core"
+    },
+    {
+      "id": 3804,
+      "project": "Network Core Intelligence",
+      "name": "Create service & drivers for Sandvine SubscriberPolicyBroker"
+    },
+    {
+      "id": 4004,
+      "project": "Mesh Store Worker",
+      "name": "Check if an expanded model is sent instead of its pk"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller"
+    },
+    {
+      "id": 4043,
+      "project": "unity",
+      "name": "Unity deployment data flow"
+    },
+    {
+      "id": 3893,
+      "project": "unity",
+      "name": "Upgrade firmware and set ip to newtec modem"
+    },
+    {
+      "id": 3883,
+      "project": "unity",
+      "name": "Define user friendly feature set"
+    },
+    {
+      "id": 3751,
+      "project": "unity",
+      "name": "RPi start script"
+    },
+    {
+      "id": 3735,
+      "project": "unity",
+      "name": "RPI base system"
+    },
+    {
+      "id": 3957,
+      "project": "plexustv_daemons",
+      "name": "ptv-infra-hardware, new capture server hardware needed"
+    },
+    {
+      "id": 3897,
+      "project": "plexustv_daemons",
+      "name": "Add comparison of stream sources to start a new transcoding process"
+    },
+    {
+      "id": 3996,
+      "project": "Alanis",
+      "name": "Set up failover mechanism for PG database"
+    },
+    {
+      "id": 3995,
+      "project": "Alanis",
+      "name": "Set up a PG replica for relational models"
+    },
+    {
+      "id": 3920,
+      "project": "OmniAccess Enterprise",
+      "name": "Relate modems and vessels with Cherwell data"
+    },
+    {
+      "id": 4050,
+      "project": "locations",
+      "name": "Generate location_change events"
+    },
+    {
+      "id": 4022,
+      "project": "locations",
+      "name": "add source tag to weather service"
+    },
+    {
+      "id": 3972,
+      "project": "locations",
+      "name": "Refactor on distance_checker"
+    },
+    {
+      "id": 4046,
+      "project": "OA Style",
+      "name": "implement search compiler"
+    },
+    {
+      "id": 4015,
+      "project": "OA Style",
+      "name": "Add prop to OAMap as a flag indicating to use local map server"
+    },
+    {
+      "id": 3970,
+      "project": "OA Style",
+      "name": "Strategies for adapting to different display sizes (responsive)"
+    },
+    {
+      "id": 3854,
+      "project": "OA Style",
+      "name": "es modules"
+    },
+    {
+      "id": 4052,
+      "project": "vsat-view",
+      "name": "Leaving events not cleared correctly"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form"
+    },
+    {
+      "id": 4040,
+      "project": "vsat-view",
+      "name": "Several remotes without any network"
+    },
+    {
+      "id": 4036,
+      "project": "vsat-view",
+      "name": "Show same graphics (return snr / return c/n) independ of modem supplier"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports"
+    },
+    {
+      "id": 4006,
+      "project": "vsat-view",
+      "name": "Hypercare - Alarm when hypercare modem not in nominal"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 3954,
+      "project": "vsat-view",
+      "name": "There is no real-time data in Idirect"
+    },
+    {
+      "id": 3901,
+      "project": "vsat-view",
+      "name": "TOM caching index.html"
+    },
+    {
+      "id": 3875,
+      "project": "vsat-view",
+      "name": "Bandwidth planner"
+    },
+    {
+      "id": 3843,
+      "project": "vsat-view",
+      "name": "Bandwidth pool accountings"
+    },
+    {
+      "id": 3777,
+      "project": "vsat-view",
+      "name": "table columns"
+    },
+    {
+      "id": 3760,
+      "project": "vsat-view",
+      "name": "Return/Forward CIR Not met event causes most modems to be orange"
+    },
+    {
+      "id": 3592,
+      "project": "vsat-view",
+      "name": "Out of footprint events are not cleared when a beamswitch happens"
+    },
+    {
+      "id": 4045,
+      "project": "vsat-nms",
+      "name": "Create documentation to scpc service"
+    },
+    {
+      "id": 4010,
+      "project": "vsat-nms",
+      "name": "Emit events on each network connection change"
+    },
+    {
+      "id": 3877,
+      "project": "vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status"
+    },
+    {
+      "id": 3840,
+      "project": "vsat-nms",
+      "name": "Get status metrics from InfluxDB in Newtec Dialog"
+    },
+    {
+      "id": 2120,
+      "project": "vsat-nms",
+      "name": "Add support for SCPC remotes"
+    },
+    {
+      "id": 4021,
+      "project": "vsat",
+      "name": "Add the upload gxt function to the Newtec driver"
+    },
+    {
+      "id": 2113,
+      "project": "vsat",
+      "name": "Implement driver for Newtec SCPC remotes"
+    },
+    {
+      "id": 4051,
+      "project": "support",
+      "name": "Feed my new colleagues"
+    },
+    {
+      "id": 4017,
+      "project": "support",
+      "name": "Prepare February reports"
+    },
+    {
+      "id": 3892,
+      "project": "LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue"
+    },
+    {
+      "id": 4034,
+      "project": "frontend",
+      "name": "Design of 'Plexus Unity' view"
+    },
+    {
+      "id": 3987,
+      "project": "frontend",
+      "name": "Plexus Unity models"
+    },
+    {
+      "id": 3945,
+      "project": "frontend",
+      "name": "Teleport side panel information"
+    },
+    {
+      "id": 3935,
+      "project": "frontend",
+      "name": "Relevant information to show on Plexus Unity side panel of vsat modem view"
+    },
+    {
+      "id": 3933,
+      "project": "frontend",
+      "name": "Relevant information to show on antenna side panel of vsat modem view"
+    },
+    {
+      "id": 4028,
+      "project": "plexus_ansible",
+      "name": "Prepare the configuration steps to let SD configure the PLX Controllers as Moralis"
+    },
+    {
+      "id": 4049,
+      "project": "sat_control",
+      "name": "Sat Control requermiemnt analysis"
+    },
+    {
+      "id": 4053,
+      "project": "core",
+      "name": "Update accounting V1 to V2"
+    },
+    {
+      "id": 4048,
+      "project": "core",
+      "name": "DPS notifies full persisted graphs"
+    },
+    {
+      "id": 4044,
+      "project": "core",
+      "name": "Configuration section for all models"
+    },
+    {
+      "id": 3993,
+      "project": "core",
+      "name": "Implement aggregation count_switches in accounting service"
+    },
+    {
+      "id": 3983,
+      "project": "core",
+      "name": "Influx Evolution"
+    },
+    {
+      "id": 3981,
+      "project": "core",
+      "name": "DQS.Create event to log slow query"
+    },
+    {
+      "id": 3890,
+      "project": "core",
+      "name": "Custom endpoint to get single status"
+    },
+    {
+      "id": 3493,
+      "project": "core",
+      "name": "Allow services to parallelize tasks"
+    },
+    {
+      "id": 2575,
+      "project": "core",
+      "name": "Data.Payload messages for relational and status updates need to include ONLY the key-value pairs that changed"
+    },
+    {
+      "id": 1971,
+      "project": "core",
+      "name": "Inter dispatcher subscriptions"
+    },
+    {
+      "id": 1485,
+      "project": "core",
+      "name": "Design and document authorization subsystem"
+    },
+    {
+      "id": 3810,
+      "project": "plexustv-web",
+      "name": "Send remote tv command to decoder returns fail when it shoud return success"
+    },
+    {
+      "id": 3490,
+      "project": "csp",
+      "name": "Modify the CSP notifications to use a hardcoded/templated subject on emails"
+    }
+  ],
+  "added_issues": [
+    {
+      "id": 4185,
+      "project": "map-server",
+      "name": "How to know if the frontend is in the internal network of the vessel"
+    },
+    {
+      "id": 4184,
+      "project": "map-server",
+      "name": "Create map server for our map visualizations"
+    },
+    {
+      "id": 4121,
+      "project": "PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD"
+    },
+    {
+      "id": 4077,
+      "project": "br-stb",
+      "name": "\"Facelift\" on PlexusTV skin"
+    },
+    {
+      "id": 4076,
+      "project": "br-stb",
+      "name": "autostart.sh, patch and deploy as separate service"
+    },
+    {
+      "id": 4075,
+      "project": "br-stb",
+      "name": "stb.py, not registering new STB if /flash/.plexustv_secret is set"
+    },
+    {
+      "id": 4074,
+      "project": "br-stb",
+      "name": "Initial Kodi startup background"
+    },
+    {
+      "id": 4073,
+      "project": "br-stb",
+      "name": "system_api.py, add additional dependencies"
+    },
+    {
+      "id": 4072,
+      "project": "br-stb",
+      "name": "ir.py, add additional dependencies"
+    },
+    {
+      "id": 4071,
+      "project": "br-stb",
+      "name": "stb.py, add additional dependencies"
+    },
+    {
+      "id": 4114,
+      "project": "aio-hls-tc",
+      "name": "Assist Tier2 in pinpointing \"buffering problem\" on vessels"
+    },
+    {
+      "id": 4113,
+      "project": "aio-hls-tc",
+      "name": "Official docs + visual infra overview"
+    },
+    {
+      "id": 4081,
+      "project": "Mesh Store Worker",
+      "name": "Support expanded models"
+    },
+    {
+      "id": 4175,
+      "project": "frontend",
+      "name": "Fix error in style of TimeStatusChart"
+    },
+    {
+      "id": 4173,
+      "project": "frontend",
+      "name": "Move from webpack to rollup"
+    },
+    {
+      "id": 4156,
+      "project": "frontend",
+      "name": "Not assigned customer subscriptions list is not listing all"
+    },
+    {
+      "id": 4145,
+      "project": "frontend",
+      "name": "Customer mosaic fails processing fetched url channels on Customer Mosaic View"
+    },
+    {
+      "id": 4203,
+      "project": "unity",
+      "name": "Installer image build instructions and daily build procedures"
+    },
+    {
+      "id": 4009,
+      "project": "unity",
+      "name": "Unity Trailer"
+    },
+    {
+      "id": 3969,
+      "project": "unity",
+      "name": "Proposed deployment user interface"
+    },
+    {
+      "id": 4090,
+      "project": "unity",
+      "name": "Make Plexus Unity models"
+    },
+    {
+      "id": 4091,
+      "project": "Alanis",
+      "name": "Update accounting V1 to V2"
+    },
+    {
+      "id": 4200,
+      "project": "OmniAccess Enterprise",
+      "name": "Retrieve and persist the scheduled itinerary for Viking Oceans"
+    },
+    {
+      "id": 4056,
+      "project": "OmniAccess Enterprise",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 4107,
+      "project": "locations",
+      "name": "Add field scheduled_location"
+    },
+    {
+      "id": 4194,
+      "project": "OA Style",
+      "name": "Add lat long position"
+    },
+    {
+      "id": 4154,
+      "project": "OA Style",
+      "name": "Changing footprint map opacity"
+    },
+    {
+      "id": 4116,
+      "project": "OA Style",
+      "name": "Mesh tables"
+    },
+    {
+      "id": 4080,
+      "project": "OA Style",
+      "name": "fix bad unsubscription implementation"
+    },
+    {
+      "id": 4197,
+      "project": "vsat-view",
+      "name": "Hash web workers build"
+    },
+    {
+      "id": 4182,
+      "project": "vsat-view",
+      "name": "Vessel route still printed incorrectly"
+    },
+    {
+      "id": 4162,
+      "project": "vsat-view",
+      "name": "ESR polifills"
+    },
+    {
+      "id": 4163,
+      "project": "vsat-view",
+      "name": "Multiple errors on TOM for Firefox ESR and Safari"
+    },
+    {
+      "id": 4172,
+      "project": "vsat-view",
+      "name": "Footprint E70B AFR - tom"
+    },
+    {
+      "id": 4134,
+      "project": "vsat-view",
+      "name": "remove map side panel on network view"
+    },
+    {
+      "id": 4117,
+      "project": "vsat-view",
+      "name": "update accountings names"
+    },
+    {
+      "id": 4109,
+      "project": "vsat-view",
+      "name": "Include an option  to view not active modem in modem view"
+    },
+    {
+      "id": 4101,
+      "project": "vsat-view",
+      "name": "FW/RT MIR/CIR position"
+    },
+    {
+      "id": 4089,
+      "project": "vsat-view",
+      "name": "Beam switch label"
+    },
+    {
+      "id": 4060,
+      "project": "vsat-view",
+      "name": "Unable to list preferences: F.CIR, R. CIR and nominal network on Tom"
+    },
+    {
+      "id": 4058,
+      "project": "vsat-view",
+      "name": "Graphics of a modem section are not updated"
+    },
+    {
+      "id": 4042,
+      "project": "vsat-view",
+      "name": "Opacity of the footprints"
+    },
+    {
+      "id": 3999,
+      "project": "vsat-view",
+      "name": "Map view show empty"
+    },
+    {
+      "id": 3962,
+      "project": "vsat-view",
+      "name": "network view add load chart"
+    },
+    {
+      "id": 3949,
+      "project": "vsat-view",
+      "name": "wrong route in the map for a newtec modem"
+    },
+    {
+      "id": 3929,
+      "project": "vsat-view",
+      "name": "Terminal not reaching 30% during N hours of the CIR for the last 6 hours WHEN REQUESTED"
+    },
+    {
+      "id": 3803,
+      "project": "vsat-view",
+      "name": "add vsat_modem alarms on hypercare"
+    },
+    {
+      "id": 3613,
+      "project": "vsat-view",
+      "name": "Add lat long position"
+    },
+    {
+      "id": 3588,
+      "project": "vsat-view",
+      "name": "Newtec L2 errors graph"
+    },
+    {
+      "id": 4195,
+      "project": "vsat-nms",
+      "name": "Error in task update_networks_status()"
+    },
+    {
+      "id": 4119,
+      "project": "vsat-nms",
+      "name": "Connect to Blue"
+    },
+    {
+      "id": 4115,
+      "project": "vsat-nms",
+      "name": "Error in Task update_remotes_status()"
+    },
+    {
+      "id": 4093,
+      "project": "vsat-nms",
+      "name": "To many session open in newtec scpc"
+    },
+    {
+      "id": 4088,
+      "project": "vsat-nms",
+      "name": "Network provisioning procedure"
+    },
+    {
+      "id": 4068,
+      "project": "vsat-nms",
+      "name": "Evaluate influxdb native subscription possibilitiues"
+    },
+    {
+      "id": 4202,
+      "project": "support",
+      "name": "VF 13032020 report"
+    },
+    {
+      "id": 4201,
+      "project": "support",
+      "name": "MY Calypso \"Internet Selector\""
+    },
+    {
+      "id": 4192,
+      "project": "support",
+      "name": "Add 4 SIM cards to the crescent contract"
+    },
+    {
+      "id": 4189,
+      "project": "support",
+      "name": "Suspend iO Finese contract"
+    },
+    {
+      "id": 4188,
+      "project": "support",
+      "name": "Create Caribbean iO contracts"
+    },
+    {
+      "id": 4198,
+      "project": "support",
+      "name": "NOC Support, VAVA II"
+    },
+    {
+      "id": 4181,
+      "project": "support",
+      "name": "Support Infra to connect Linux devices to the OA VPN"
+    },
+    {
+      "id": 4170,
+      "project": "support",
+      "name": "Find SIM card 8934561001800074230"
+    },
+    {
+      "id": 4169,
+      "project": "support",
+      "name": "Process vf report 11032020"
+    },
+    {
+      "id": 4152,
+      "project": "support",
+      "name": "Usuario IO - Sergio Ramirez"
+    },
+    {
+      "id": 4149,
+      "project": "support",
+      "name": "Doubts on ansible-playbook viking_add_newtec.yml --limit 10.19.2.253 --ask-vault"
+    },
+    {
+      "id": 4148,
+      "project": "support",
+      "name": "Suspend iO contracts"
+    },
+    {
+      "id": 4147,
+      "project": "support",
+      "name": "10032020 VF report"
+    },
+    {
+      "id": 4146,
+      "project": "support",
+      "name": "Support Marlink on iO contract"
+    },
+    {
+      "id": 4140,
+      "project": "support",
+      "name": "Viking monitoring syslogs"
+    },
+    {
+      "id": 4138,
+      "project": "support",
+      "name": "Donald support"
+    },
+    {
+      "id": 4132,
+      "project": "support",
+      "name": "Add Meleq to the VF reports at iO"
+    },
+    {
+      "id": 4131,
+      "project": "support",
+      "name": "4G / bonding Project 13705 - Build AVIT"
+    },
+    {
+      "id": 4130,
+      "project": "support",
+      "name": "Viking - Remove wimax notifications"
+    },
+    {
+      "id": 4127,
+      "project": "support",
+      "name": "Process VF 10032020 report"
+    },
+    {
+      "id": 4124,
+      "project": "support",
+      "name": "Plexus Controller BAS - Bird island  (segmentation fault)"
+    },
+    {
+      "id": 4112,
+      "project": "support",
+      "name": "Import channel list on decoder Amiri B4-C"
+    },
+    {
+      "id": 4110,
+      "project": "support",
+      "name": "Deactivate old Skadi SIM cards"
+    },
+    {
+      "id": 4108,
+      "project": "support",
+      "name": "Viking Skadi, need 8x SIMs"
+    },
+    {
+      "id": 4096,
+      "project": "support",
+      "name": "MY Lauren L plexus controller that has the Hard Disk full"
+    },
+    {
+      "id": 4065,
+      "project": "support",
+      "name": "Acceso a Plexus Cloud"
+    },
+    {
+      "id": 4187,
+      "project": "LibreELEC.tv",
+      "name": "NOC Support, VAVA II"
+    },
+    {
+      "id": 4087,
+      "project": "LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC"
+    },
+    {
+      "id": 4086,
+      "project": "LibreELEC.tv",
+      "name": "NUC10 driver into LibreELEC kernel"
+    },
+    {
+      "id": 4186,
+      "project": "core",
+      "name": "PLX6 plexus-232082 with failed logins"
+    },
+    {
+      "id": 4168,
+      "project": "frontend",
+      "name": "Design of 'switch' view"
+    },
+    {
+      "id": 4126,
+      "project": "frontend",
+      "name": "Update side panel to show agreed information for vsat antenna"
+    },
+    {
+      "id": 4094,
+      "project": "frontend",
+      "name": "Change webpack for rollup"
+    },
+    {
+      "id": 4085,
+      "project": "frontend",
+      "name": "Make lateral menu responsive"
+    },
+    {
+      "id": 4066,
+      "project": "frontend",
+      "name": "Work on responsive design of Vsat modem view"
+    },
+    {
+      "id": 4150,
+      "project": "core",
+      "name": "Add HTTP proxy service for CSP"
+    },
+    {
+      "id": 4128,
+      "project": "core",
+      "name": "Coroutine not awaited in a external library"
+    },
+    {
+      "id": 4120,
+      "project": "core",
+      "name": "Mysql driver has 3306 port hardcoded, should be dinamically passed"
+    },
+    {
+      "id": 4103,
+      "project": "core",
+      "name": "Wrong indentation on run_tasks of the class Service"
+    },
+    {
+      "id": 4102,
+      "project": "core",
+      "name": "Add 'skip_first_run' functionality to the service periodic tasks"
+    },
+    {
+      "id": 4092,
+      "project": "core",
+      "name": "Multipath Node usage"
+    },
+    {
+      "id": 4070,
+      "project": "core",
+      "name": "Evaluate aiomultiprocess to provide multicore capabilities to the mesh_core services and commands"
+    },
+    {
+      "id": 4069,
+      "project": "core",
+      "name": "Parallelize services' tasks in the main event loop"
+    },
+    {
+      "id": 4067,
+      "project": "core",
+      "name": "To get the possibility to do a subscribe on an specific event_type"
+    },
+    {
+      "id": 4129,
+      "project": "plexustv-web",
+      "name": "Merge code from production"
+    },
+    {
+      "id": 4095,
+      "project": "plexustv-stb",
+      "name": "Decoder B4 C doesnt work"
+    },
+    {
+      "id": 4063,
+      "project": "plexustv-stb",
+      "name": "Al kass 2 HD audio and video not sync"
+    }
+  ],
+  "missing_issues": [
+    {
+      "id": 3997,
+      "project": "Offline base layer map service",
+      "name": "How to know if the frontend is in the internal network of the vessel"
+    },
+    {
+      "id": 3992,
+      "project": "Offline base layer map service",
+      "name": "Create custom offline base layer for our Map Components"
+    },
+    {
+      "id": 3985,
+      "project": "Cherwell",
+      "name": "Check the Cherwell API to know how to integrate it with the new core"
+    },
+    {
+      "id": 3804,
+      "project": "Network Core Intelligence",
+      "name": "Create service & drivers for Sandvine SubscriberPolicyBroker"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller"
+    },
+    {
+      "id": 4043,
+      "project": "unity",
+      "name": "Unity deployment data flow"
+    },
+    {
+      "id": 3893,
+      "project": "unity",
+      "name": "Upgrade firmware and set ip to newtec modem"
+    },
+    {
+      "id": 3751,
+      "project": "unity",
+      "name": "RPi start script"
+    },
+    {
+      "id": 3735,
+      "project": "unity",
+      "name": "RPI base system"
+    },
+    {
+      "id": 3897,
+      "project": "plexustv_daemons",
+      "name": "Add comparison of stream sources to start a new transcoding process"
+    },
+    {
+      "id": 3996,
+      "project": "Alanis",
+      "name": "Set up failover mechanism for PG database"
+    },
+    {
+      "id": 3995,
+      "project": "Alanis",
+      "name": "Set up a PG replica for relational models"
+    },
+    {
+      "id": 3920,
+      "project": "OmniAccess Enterprise",
+      "name": "Relate modems and vessels with Cherwell data"
+    },
+    {
+      "id": 4050,
+      "project": "locations",
+      "name": "Generate location_change events"
+    },
+    {
+      "id": 3972,
+      "project": "locations",
+      "name": "Refactor on distance_checker"
+    },
+    {
+      "id": 4046,
+      "project": "OA Style",
+      "name": "implement search compiler"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form"
+    },
+    {
+      "id": 4040,
+      "project": "vsat-view",
+      "name": "Several remotes without any network"
+    },
+    {
+      "id": 4036,
+      "project": "vsat-view",
+      "name": "Show same graphics (return snr / return c/n) independ of modem supplier"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 3954,
+      "project": "vsat-view",
+      "name": "There is no real-time data in Idirect"
+    },
+    {
+      "id": 3875,
+      "project": "vsat-view",
+      "name": "Bandwidth planner"
+    },
+    {
+      "id": 3843,
+      "project": "vsat-view",
+      "name": "Bandwidth pool accountings"
+    },
+    {
+      "id": 3777,
+      "project": "vsat-view",
+      "name": "table columns"
+    },
+    {
+      "id": 3592,
+      "project": "vsat-view",
+      "name": "Out of footprint events are not cleared when a beamswitch happens"
+    },
+    {
+      "id": 4045,
+      "project": "vsat-nms",
+      "name": "Create documentation to scpc service"
+    },
+    {
+      "id": 3877,
+      "project": "vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status"
+    },
+    {
+      "id": 3840,
+      "project": "vsat-nms",
+      "name": "Get status metrics from InfluxDB in Newtec Dialog"
+    },
+    {
+      "id": 3892,
+      "project": "LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue"
+    },
+    {
+      "id": 4034,
+      "project": "frontend",
+      "name": "Design of 'Plexus Unity' view"
+    },
+    {
+      "id": 3987,
+      "project": "frontend",
+      "name": "Plexus Unity models"
+    },
+    {
+      "id": 3935,
+      "project": "frontend",
+      "name": "Relevant information to show on Plexus Unity side panel of vsat modem view"
+    },
+    {
+      "id": 4053,
+      "project": "core",
+      "name": "Update accounting V1 to V2"
+    },
+    {
+      "id": 4044,
+      "project": "core",
+      "name": "Configuration section for all models"
+    },
+    {
+      "id": 3993,
+      "project": "core",
+      "name": "Implement aggregation count_switches in accounting service"
+    },
+    {
+      "id": 3983,
+      "project": "core",
+      "name": "Influx Evolution"
+    },
+    {
+      "id": 2575,
+      "project": "core",
+      "name": "Data.Payload messages for relational and status updates need to include ONLY the key-value pairs that changed"
+    },
+    {
+      "id": 1485,
+      "project": "core",
+      "name": "Design and document authorization subsystem"
+    },
+    {
+      "id": 3490,
+      "project": "csp",
+      "name": "Modify the CSP notifications to use a hardcoded/templated subject on emails"
+    }
+  ]
+}

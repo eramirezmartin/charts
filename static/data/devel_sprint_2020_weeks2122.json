@@ -1,0 +1,434 @@
+{
+  "milestone": "devel_sprint_2020_weeks2122",
+  "dates": "May 19, 2020–Jun 2, 2020",
+  "milestone_closed_issues": 0,
+  "milestone_merge_request": 0,
+  "original_total_issues": 84,
+  "% milestone": 0,
+  "number_added_issues": 0,
+  "priority": {},
+  "type": {},
+  "original_issues": [
+    {
+      "id": 5000,
+      "project": "Unity / Hardware design and validation",
+      "name": "Form for building Unity standard specifications"
+    },
+    {
+      "id": 4840,
+      "project": "Unity / Hardware design and validation",
+      "name": "Unity device database registration - model"
+    },
+    {
+      "id": 4834,
+      "project": "Unity / Hardware design and validation",
+      "name": "Unity device reception + validation + database registration procedure"
+    },
+    {
+      "id": 4121,
+      "project": "tv / PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD"
+    },
+    {
+      "id": 4851,
+      "project": "mesh_apps / network_switch",
+      "name": "network switch change status report"
+    },
+    {
+      "id": 4726,
+      "project": "mesh_apps / network_switch",
+      "name": "The api call to get the cpu load doesn't work"
+    },
+    {
+      "id": 3743,
+      "project": "npm_packages / Mesh Store Worker",
+      "name": "Add support for timeseries"
+    },
+    {
+      "id": 5022,
+      "project": "Unity / RPi UI",
+      "name": "Add Vue Router"
+    },
+    {
+      "id": 4882,
+      "project": "Unity / RPi UI",
+      "name": "Adicional modem Data"
+    },
+    {
+      "id": 4881,
+      "project": "Unity / RPi UI",
+      "name": "Map view"
+    },
+    {
+      "id": 4749,
+      "project": "Unity / RPi UI",
+      "name": "Vsat view"
+    },
+    {
+      "id": 4166,
+      "project": "Unity / RPi UI",
+      "name": "Switch status view"
+    },
+    {
+      "id": 4164,
+      "project": "Unity / RPi UI",
+      "name": "Traffic view"
+    },
+    {
+      "id": 5007,
+      "project": "Unity / backend",
+      "name": "To decide how to deal with the different relay setups"
+    },
+    {
+      "id": 5004,
+      "project": "Unity / backend",
+      "name": "NUC post install pxe server"
+    },
+    {
+      "id": 5003,
+      "project": "Unity / backend",
+      "name": "Add docker registry on RPi base image"
+    },
+    {
+      "id": 4978,
+      "project": "Unity / backend",
+      "name": "Enable NOC VNC access to the unity rpi desktop environment"
+    },
+    {
+      "id": 4973,
+      "project": "Unity / backend",
+      "name": "Service to monitor logical health parameters"
+    },
+    {
+      "id": 4958,
+      "project": "Unity / backend",
+      "name": "Unity RPi TouchScreen Frontend integration"
+    },
+    {
+      "id": 4957,
+      "project": "Unity / backend",
+      "name": "Setup unity->teleport authentication, subscriptions and authorization"
+    },
+    {
+      "id": 4955,
+      "project": "Unity / backend",
+      "name": "Set all unities so they belong to their unique domain, one domain per unity"
+    },
+    {
+      "id": 4954,
+      "project": "Unity / backend",
+      "name": "Provide a dispatcher gateway, to be installed in unity.omniaccess.com, to work as entry point"
+    },
+    {
+      "id": 4946,
+      "project": "Unity / backend",
+      "name": "To add a field to the unity_device describing its role or position"
+    },
+    {
+      "id": 4939,
+      "project": "Unity / backend",
+      "name": "Build a user/keypair manager to manage users in unity.omniaccess.com"
+    },
+    {
+      "id": 4938,
+      "project": "Unity / backend",
+      "name": "Build a secure ssh service to provide an endpoint to the unity call-home mechanism"
+    },
+    {
+      "id": 4937,
+      "project": "Unity / backend",
+      "name": "Collect modems syslogs"
+    },
+    {
+      "id": 4934,
+      "project": "Unity / backend",
+      "name": "Implement latency and qoe measurement"
+    },
+    {
+      "id": 4898,
+      "project": "Unity / backend",
+      "name": "Front panel LEDs Evolution"
+    },
+    {
+      "id": 4897,
+      "project": "Unity / backend",
+      "name": "Front panel LEDs V1"
+    },
+    {
+      "id": 4809,
+      "project": "Unity / backend",
+      "name": "Active Antenna"
+    },
+    {
+      "id": 4779,
+      "project": "Unity / backend",
+      "name": "Unity Frontend integration"
+    },
+    {
+      "id": 4767,
+      "project": "Unity / backend",
+      "name": "Unity mesh_core and unity_app upgrades"
+    },
+    {
+      "id": 4408,
+      "project": "Unity / backend",
+      "name": "UnityNUC service"
+    },
+    {
+      "id": 4203,
+      "project": "Unity / backend",
+      "name": "Installer image build instructions and daily build procedures"
+    },
+    {
+      "id": 3969,
+      "project": "Unity / backend",
+      "name": "Proposed deployment user interface"
+    },
+    {
+      "id": 4943,
+      "project": "tv / plexustv_daemons",
+      "name": "Equidia Receiver IR Remote"
+    },
+    {
+      "id": 4889,
+      "project": "tv / plexustv_daemons",
+      "name": "Synchronize prod to repo for plexustv_gc"
+    },
+    {
+      "id": 4241,
+      "project": "tv / plexustv_daemons",
+      "name": "STB <-> GC messaging changes, STB reboot"
+    },
+    {
+      "id": 4985,
+      "project": "Alanis",
+      "name": "Generate email to notify networks without footprint"
+    },
+    {
+      "id": 4660,
+      "project": "Alanis",
+      "name": "Add missing fields in vsat_modem_status accounting"
+    },
+    {
+      "id": 4530,
+      "project": "mesh_apps / OmniAccess Enterprise",
+      "name": "contract_status not updated"
+    },
+    {
+      "id": 4324,
+      "project": "mesh_apps / OmniAccess Enterprise",
+      "name": "POC NAV CRM web service"
+    },
+    {
+      "id": 4950,
+      "project": "OA Style",
+      "name": "changes relative to fleet view"
+    },
+    {
+      "id": 5033,
+      "project": "vsat-view",
+      "name": "Unity view in TOM"
+    },
+    {
+      "id": 4902,
+      "project": "vsat-view",
+      "name": "Add network name at SCPC Modems"
+    },
+    {
+      "id": 4586,
+      "project": "vsat-view",
+      "name": "Visualize beam slews for P. Blue SCPC"
+    },
+    {
+      "id": 4033,
+      "project": "vsat-view",
+      "name": "Summary view for a Fleet of boats for account management"
+    },
+    {
+      "id": 3702,
+      "project": "vsat-view",
+      "name": "Add LNB / BUC / Antenna and any other equipment information to TOM"
+    },
+    {
+      "id": 3572,
+      "project": "vsat-view",
+      "name": "Session kicked out"
+    },
+    {
+      "id": 2502,
+      "project": "vsat-view",
+      "name": "Modcod distribution graph- Newtec terminal"
+    },
+    {
+      "id": 2439,
+      "project": "vsat-view",
+      "name": "Vessel view"
+    },
+    {
+      "id": 4903,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Wrong heading and speed information"
+    },
+    {
+      "id": 4423,
+      "project": "mesh_apps / vsat-nms",
+      "name": "iDirect networks without status"
+    },
+    {
+      "id": 4098,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Get HRC status params for Newtec modems"
+    },
+    {
+      "id": 3877,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status"
+    },
+    {
+      "id": 5018,
+      "project": "mesh_apps / vsat",
+      "name": "Get diagnostics from Newtec MODEMs"
+    },
+    {
+      "id": 4680,
+      "project": "mesh_apps / vsat",
+      "name": "Add flag to mark non-roaming modems"
+    },
+    {
+      "id": 4655,
+      "project": "mesh_apps / vsat",
+      "name": "Implement GXT to WKT converter"
+    },
+    {
+      "id": 4527,
+      "project": "mesh_apps / vsat",
+      "name": "Implement mediator service and drivers"
+    },
+    {
+      "id": 4402,
+      "project": "mesh_apps / vsat",
+      "name": "Method for get beam name from Newtec dialog"
+    },
+    {
+      "id": 4932,
+      "project": "support",
+      "name": "Alucia 2 Move Joaquin SIM cards to Alucia2"
+    },
+    {
+      "id": 4887,
+      "project": "support",
+      "name": "Check email account after Office365 migration"
+    },
+    {
+      "id": 4671,
+      "project": "tv / LibreELEC.tv",
+      "name": "Improvement: vod branch should be in master"
+    },
+    {
+      "id": 4653,
+      "project": "tv / LibreELEC.tv",
+      "name": "New STB Firmware image for Amiri STB's"
+    },
+    {
+      "id": 4238,
+      "project": "tv / LibreELEC.tv",
+      "name": "Enable remote operated reboot"
+    },
+    {
+      "id": 4087,
+      "project": "tv / LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC"
+    },
+    {
+      "id": 3091,
+      "project": "tv / LibreELEC.tv",
+      "name": "STB Image changes for PlexusVOD and Apple TV Device Pool"
+    },
+    {
+      "id": 5015,
+      "project": "Unity / frontend",
+      "name": "Network Switch - MAC Address table data"
+    },
+    {
+      "id": 5014,
+      "project": "Unity / frontend",
+      "name": "Network Switch - Connect to actions"
+    },
+    {
+      "id": 4062,
+      "project": "Unity / frontend",
+      "name": "Dynamic model data generation based on application models definitions and some config"
+    },
+    {
+      "id": 4920,
+      "project": "mesh / core",
+      "name": "We need to add the node information to the DQS logs"
+    },
+    {
+      "id": 4918,
+      "project": "mesh / core",
+      "name": "DQS may need to reject queries with too few filters"
+    },
+    {
+      "id": 4674,
+      "project": "mesh / core",
+      "name": "Refactor huge functions in accounting service"
+    },
+    {
+      "id": 4637,
+      "project": "mesh / core",
+      "name": "Create new checker to detect modems is_online errored"
+    },
+    {
+      "id": 4604,
+      "project": "mesh / core",
+      "name": "Node representation of other dispatchers don't show their domain properly."
+    },
+    {
+      "id": 4417,
+      "project": "mesh / core",
+      "name": "Extend ORMClient so it can publish partial Data.Payload messages"
+    },
+    {
+      "id": 4416,
+      "project": "mesh / core",
+      "name": "Accounting service to be able to perform time-based weight operations"
+    },
+    {
+      "id": 4359,
+      "project": "mesh / core",
+      "name": "Investigate slow insertions in alanis02pre"
+    },
+    {
+      "id": 4292,
+      "project": "mesh / core",
+      "name": "Define classes required for new drivers structure"
+    },
+    {
+      "id": 4267,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 05 - Design AuthorizationRouteManager"
+    },
+    {
+      "id": 4266,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 04 - Dispatcher's Node authorization awareness"
+    },
+    {
+      "id": 4265,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 03 - Design classes to hold end user authorization"
+    },
+    {
+      "id": 4264,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 02 - Authentication Service integration"
+    },
+    {
+      "id": 3637,
+      "project": "mesh / core",
+      "name": "Add biginteger to our data model definition"
+    }
+  ],
+  "closed_issues": []
+}

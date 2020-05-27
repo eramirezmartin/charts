@@ -1,0 +1,13 @@
+image: node:12
+
+pages:
+  stage: deploy
+  script:
+  - yarn install
+  - yarn generate
+  artifacts:
+    paths:
+    - public
+  only:
+    refs:
+      - master

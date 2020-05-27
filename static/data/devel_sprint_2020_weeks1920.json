@@ -1,0 +1,1786 @@
+{
+  "milestone": "devel_sprint_2020_weeks1920",
+  "milestone_closed_issues": 132,
+  "milestone_merge_request": 89,
+  "original_total_issues": 99,
+  "% milestone": 52.53,
+  "number_added_issues": 94,
+  "priority": {
+    "p_critical": "26.28%",
+    "p_high": "54.01%",
+    "p_hotfix": "0.73%",
+    "p_low": "0.0%",
+    "p_medium": "12.41%"
+  },
+  "type": {
+    "tp_bug": "25.55%",
+    "tp_new_feature": "28.47%",
+    "tp_technical_debt": "8.03%",
+    "tp_discussion": "8.03%",
+    "tp_poc": "0.73%",
+    "tp_support": "24.09%"
+  },
+  "original_issues": [
+    {
+      "id": 4820,
+      "project": "Unity / Documentation",
+      "name": "Create Unity Datasheet"
+    },
+    {
+      "id": 4840,
+      "project": "Unity / Hardware design and validation",
+      "name": "Unity device database registration - model"
+    },
+    {
+      "id": 4834,
+      "project": "Unity / Hardware design and validation",
+      "name": "Unity device reception + validation + database registration procedure"
+    },
+    {
+      "id": 4121,
+      "project": "tv / PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD"
+    },
+    {
+      "id": 4752,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "BackboneTrafficShaping's logic should live in TrafficShapingDriver"
+    },
+    {
+      "id": 4726,
+      "project": "mesh_apps / network_switch",
+      "name": "The api call to get the cpu load doesn't work"
+    },
+    {
+      "id": 4649,
+      "project": "mesh_apps / network_switch",
+      "name": "Missing fields on relational and status definition"
+    },
+    {
+      "id": 4836,
+      "project": "Unity / RPi UI",
+      "name": "Start from the scratch a new project"
+    },
+    {
+      "id": 4749,
+      "project": "Unity / RPi UI",
+      "name": "Vsat view"
+    },
+    {
+      "id": 4493,
+      "project": "Unity / RPi UI",
+      "name": "Installation view"
+    },
+    {
+      "id": 4167,
+      "project": "Unity / RPi UI",
+      "name": "Views customization"
+    },
+    {
+      "id": 4166,
+      "project": "Unity / RPi UI",
+      "name": "Switch status view"
+    },
+    {
+      "id": 4165,
+      "project": "Unity / RPi UI",
+      "name": "Health status view"
+    },
+    {
+      "id": 4164,
+      "project": "Unity / RPi UI",
+      "name": "Traffic view"
+    },
+    {
+      "id": 4857,
+      "project": "Unity / backend",
+      "name": "WIKI: Unity Acoounting"
+    },
+    {
+      "id": 4809,
+      "project": "Unity / backend",
+      "name": "Active Antenna"
+    },
+    {
+      "id": 4779,
+      "project": "Unity / backend",
+      "name": "Unity Frontend integration"
+    },
+    {
+      "id": 4767,
+      "project": "Unity / backend",
+      "name": "Unity mesh_core and unity_app upgrades"
+    },
+    {
+      "id": 4751,
+      "project": "Unity / backend",
+      "name": "Unity VSAT routing single modem"
+    },
+    {
+      "id": 4748,
+      "project": "Unity / backend",
+      "name": "Unity Remote desktop access"
+    },
+    {
+      "id": 4747,
+      "project": "Unity / backend",
+      "name": "Install and deploy unity.omniaccess.com"
+    },
+    {
+      "id": 4729,
+      "project": "Unity / backend",
+      "name": "Unity-TOM synchronisation architecture and procedure"
+    },
+    {
+      "id": 4408,
+      "project": "Unity / backend",
+      "name": "UnityNUC service"
+    },
+    {
+      "id": 4203,
+      "project": "Unity / backend",
+      "name": "Installer image build instructions and daily build procedures"
+    },
+    {
+      "id": 4009,
+      "project": "Unity / backend",
+      "name": "Unity Trailer"
+    },
+    {
+      "id": 3969,
+      "project": "Unity / backend",
+      "name": "Proposed deployment user interface"
+    },
+    {
+      "id": 3950,
+      "project": "Unity / backend",
+      "name": "Unity base system with mesh framework"
+    },
+    {
+      "id": 3747,
+      "project": "Unity / backend",
+      "name": "Front panel LEDs should replicate the modem LEDs functionality."
+    },
+    {
+      "id": 4241,
+      "project": "tv / plexustv_daemons",
+      "name": "STB <-> GC messaging changes, STB reboot"
+    },
+    {
+      "id": 4660,
+      "project": "Alanis",
+      "name": "Add missing fields in vsat_modem_status accounting"
+    },
+    {
+      "id": 4668,
+      "project": "Alanis",
+      "name": "VSAT network charts for newtec keep on having 0dbs as min"
+    },
+    {
+      "id": 4539,
+      "project": "Alanis",
+      "name": "non_nominal_remotes and nominal_remotes not updated from a long time ago"
+    },
+    {
+      "id": 4453,
+      "project": "Alanis",
+      "name": "Bandwidth planner: Define models"
+    },
+    {
+      "id": 4530,
+      "project": "mesh_apps / OmniAccess Enterprise",
+      "name": "contract_status not updated"
+    },
+    {
+      "id": 4324,
+      "project": "mesh_apps / OmniAccess Enterprise",
+      "name": "POC NAV CRM web service"
+    },
+    {
+      "id": 4734,
+      "project": "OA Style",
+      "name": "Update 'NetwortTopology' component"
+    },
+    {
+      "id": 4801,
+      "project": "vsat-view",
+      "name": "Datapicker does not properly work in the map"
+    },
+    {
+      "id": 4778,
+      "project": "vsat-view",
+      "name": "Solve several problems related to login, logout and reconnections"
+    },
+    {
+      "id": 4741,
+      "project": "vsat-view",
+      "name": "Deactivated remote appearing on Tom"
+    },
+    {
+      "id": 4586,
+      "project": "vsat-view",
+      "name": "Visualize beam slews for P. Blue SCPC"
+    },
+    {
+      "id": 4544,
+      "project": "vsat-view",
+      "name": "Only one net its show with nominal icon"
+    },
+    {
+      "id": 4524,
+      "project": "vsat-view",
+      "name": "Add heading and speed graphics into the modem charts section"
+    },
+    {
+      "id": 4516,
+      "project": "vsat-view",
+      "name": "Error updating one remote nominal beam at Tom"
+    },
+    {
+      "id": 4497,
+      "project": "vsat-view",
+      "name": "Vessels not set in the modems"
+    },
+    {
+      "id": 4444,
+      "project": "vsat-view",
+      "name": "Netreports | static routes"
+    },
+    {
+      "id": 4379,
+      "project": "vsat-view",
+      "name": "Network view charts with incorrect max values"
+    },
+    {
+      "id": 4033,
+      "project": "vsat-view",
+      "name": "Summary view for a Fleet of boats for account management"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 3702,
+      "project": "vsat-view",
+      "name": "Add LNB / BUC / Antenna and any other equipment information to TOM"
+    },
+    {
+      "id": 3612,
+      "project": "vsat-view",
+      "name": "Add on modem>networks CIR/MIR for every network"
+    },
+    {
+      "id": 3588,
+      "project": "vsat-view",
+      "name": "Newtec L2 errors graph"
+    },
+    {
+      "id": 4839,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Offline event not cleared with ELSEWHERE"
+    },
+    {
+      "id": 4827,
+      "project": "mesh_apps / vsat-nms",
+      "name": "return_max_power missing in Newtec Dialog modems"
+    },
+    {
+      "id": 4812,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Implement network return load metrics for Newtec Dialog"
+    },
+    {
+      "id": 4795,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Investigate logs in tables event_msg_X as a source for connection status"
+    },
+    {
+      "id": 4782,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Beam switch not working from TOM"
+    },
+    {
+      "id": 4722,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Support for newtec XIF"
+    },
+    {
+      "id": 4605,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Nominal network inconsitency"
+    },
+    {
+      "id": 4477,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Define vsat_network objects for SCPC modems"
+    },
+    {
+      "id": 4423,
+      "project": "mesh_apps / vsat-nms",
+      "name": "iDirect networks without status"
+    },
+    {
+      "id": 4098,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Get HRC status params for Newtec modems"
+    },
+    {
+      "id": 3877,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status"
+    },
+    {
+      "id": 4849,
+      "project": "mesh_apps / vsat",
+      "name": "add bitrate in vsat modem status (newtec dialog)"
+    },
+    {
+      "id": 4680,
+      "project": "mesh_apps / vsat",
+      "name": "Add flag to mark non-roaming modems"
+    },
+    {
+      "id": 4655,
+      "project": "mesh_apps / vsat",
+      "name": "Implement GXT to WKT converter"
+    },
+    {
+      "id": 4527,
+      "project": "mesh_apps / vsat",
+      "name": "Implement mediator service and drivers"
+    },
+    {
+      "id": 4402,
+      "project": "mesh_apps / vsat",
+      "name": "Method for get beam name from Newtec dialog"
+    },
+    {
+      "id": 4856,
+      "project": "mesh / meshclient-js",
+      "name": "Wrong utf8 decoding"
+    },
+    {
+      "id": 4676,
+      "project": "choose-your-ip",
+      "name": "New routers @ Nittedal teleport"
+    },
+    {
+      "id": 4831,
+      "project": "support",
+      "name": "Viking Ocean Cruises - ESPN Receivers not authorized"
+    },
+    {
+      "id": 4653,
+      "project": "tv / LibreELEC.tv",
+      "name": "New STB Firmware image for Amiri STB's"
+    },
+    {
+      "id": 4238,
+      "project": "tv / LibreELEC.tv",
+      "name": "Enable remote operated reboot"
+    },
+    {
+      "id": 3091,
+      "project": "tv / LibreELEC.tv",
+      "name": "STB Image changes for PlexusVOD and Apple TV Device Pool"
+    },
+    {
+      "id": 4819,
+      "project": "controller / frontend",
+      "name": "Implement changes on store session module and update meshclient dependencies"
+    },
+    {
+      "id": 4763,
+      "project": "controller / frontend",
+      "name": "Implement 'Dashboard' view"
+    },
+    {
+      "id": 4756,
+      "project": "controller / frontend",
+      "name": "Implement 'Unity Health' view"
+    },
+    {
+      "id": 4689,
+      "project": "controller / frontend",
+      "name": "Update 'NetwortTopology' component"
+    },
+    {
+      "id": 4560,
+      "project": "controller / frontend",
+      "name": "Implement 'Network Switch' view"
+    },
+    {
+      "id": 4803,
+      "project": "mesh / core",
+      "name": "With expanded doesn't force the next model properly"
+    },
+    {
+      "id": 4797,
+      "project": "mesh / core",
+      "name": "Review DPS code to check how we get to a point with an insert duplicated 8 times"
+    },
+    {
+      "id": 4704,
+      "project": "mesh / core",
+      "name": "Add metrics on dispatcher"
+    },
+    {
+      "id": 4674,
+      "project": "mesh / core",
+      "name": "Refactor huge functions in accounting service"
+    },
+    {
+      "id": 4651,
+      "project": "mesh / core",
+      "name": "Make accounting service able to pass arguments to aggregation functions"
+    },
+    {
+      "id": 4640,
+      "project": "mesh / core",
+      "name": "Create new aggregation function to count specific values"
+    },
+    {
+      "id": 4634,
+      "project": "mesh / core",
+      "name": "Make accounting loader able to accept arguments for the aggregation functions"
+    },
+    {
+      "id": 4604,
+      "project": "mesh / core",
+      "name": "Node representation of other dispatchers don't show their domain properly."
+    },
+    {
+      "id": 4549,
+      "project": "mesh / core",
+      "name": "DPS and orm should be responsible for payload write"
+    },
+    {
+      "id": 4417,
+      "project": "mesh / core",
+      "name": "Extend ORMClient so it can publish partial Data.Payload messages"
+    },
+    {
+      "id": 4416,
+      "project": "mesh / core",
+      "name": "Accounting service to be able to perform time-based weight operations"
+    },
+    {
+      "id": 4399,
+      "project": "mesh / core",
+      "name": "Proxy models creates a NOT NULL field on the target models"
+    },
+    {
+      "id": 4359,
+      "project": "mesh / core",
+      "name": "Investigate slow insertions in alanis02pre"
+    },
+    {
+      "id": 4292,
+      "project": "mesh / core",
+      "name": "Define classes required for new drivers structure"
+    },
+    {
+      "id": 4267,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 05 - Design AuthorizationRouteManager"
+    },
+    {
+      "id": 4264,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 02 - Authentication Service integration"
+    },
+    {
+      "id": 4262,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 01 - Design authorization models"
+    },
+    {
+      "id": 4230,
+      "project": "mesh / core",
+      "name": "Drivers architecture"
+    },
+    {
+      "id": 4190,
+      "project": "mesh / core",
+      "name": "Parallelization: TaskManager and Service possible improvements"
+    },
+    {
+      "id": 4067,
+      "project": "mesh / core",
+      "name": "To get the possibility to do a subscribe on an specific event_type"
+    },
+    {
+      "id": 4824,
+      "project": "csp",
+      "name": "Wrong support section in the repo."
+    }
+  ],
+  "closed_issues": [
+    {
+      "id": 4820,
+      "project": "Unity / Documentation",
+      "name": "Create Unity Datasheet",
+      "assignee": "Jordi Ferrer Riera"
+    },
+    {
+      "id": 4862,
+      "project": "Unity / Hardware design and validation",
+      "name": "Install unity on training room rack",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4992,
+      "project": "npm_packages / UTLite",
+      "name": "Object.get was not evaluating correctly quotes around attributes",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4872,
+      "project": "npm_packages / UTLite",
+      "name": "exclude vue from the dependencies",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 5009,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "18052020 VF Report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4990,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "15052020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4850,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Detected needed changes on event subscriptions",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4837,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Add more log messages",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4807,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Workaround at model level",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4752,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "BackboneTrafficShaping's logic should live in TrafficShapingDriver",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4649,
+      "project": "mesh_apps / network_switch",
+      "name": "Missing fields on relational and status definition",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4991,
+      "project": "npm_packages / Mesh Queries",
+      "name": "do not update if it is being destoryed",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4989,
+      "project": "npm_packages / Promised Worker",
+      "name": "Improve message error stack trace",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4836,
+      "project": "Unity / RPi UI",
+      "name": "Start from the scratch a new project",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4167,
+      "project": "Unity / RPi UI",
+      "name": "Views customization",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4165,
+      "project": "Unity / RPi UI",
+      "name": "Health status view",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4935,
+      "project": "Unity / backend",
+      "name": "Request box unity.omniaccess.com",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4857,
+      "project": "Unity / backend",
+      "name": "Unity vsat_modem accounting",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4751,
+      "project": "Unity / backend",
+      "name": "Unity VSAT routing single modem",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4748,
+      "project": "Unity / backend",
+      "name": "Unity Remote desktop access",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4747,
+      "project": "Unity / backend",
+      "name": "Install and deploy unity.omniaccess.com",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4729,
+      "project": "Unity / backend",
+      "name": "Unity-TOM synchronisation architecture and procedure",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4009,
+      "project": "Unity / backend",
+      "name": "Unity Trailer",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 3950,
+      "project": "Unity / backend",
+      "name": "Unity base system with mesh framework",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 3747,
+      "project": "Unity / backend",
+      "name": "Front panel LEDs should replicate the modem LEDs functionality.",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 2699,
+      "project": "Unity / backend",
+      "name": "Basic touchscreen features",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 5031,
+      "project": "Alanis",
+      "name": "Fix alanis02 pm2 config file",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 5026,
+      "project": "Alanis",
+      "name": "Update newtec NMS configuration in PM2",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 5023,
+      "project": "Alanis",
+      "name": "Add vsat_shaper_service pm2 configuration",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4984,
+      "project": "Alanis",
+      "name": "Accounting to speeds and heading",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4975,
+      "project": "Alanis",
+      "name": "rename models to fit into 63 char limit",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4970,
+      "project": "Alanis",
+      "name": "The notification service is not working",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4900,
+      "project": "Alanis",
+      "name": "To update alanis02 config files and lab3 ecosystem",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4668,
+      "project": "Alanis",
+      "name": "VSAT network charts for newtec keep on having 0dbs as min",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4539,
+      "project": "Alanis",
+      "name": "non_nominal_remotes and nominal_remotes not updated from a long time ago",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 5016,
+      "project": "mesh_apps / OmniAccess Enterprise",
+      "name": "Set CI/CD flow",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4895,
+      "project": "OA Style",
+      "name": "changes relative to vessel view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4873,
+      "project": "OA Style",
+      "name": "export mesh store worker",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4870,
+      "project": "OA Style",
+      "name": "Adapt OAChartControlls to responsive",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4734,
+      "project": "OA Style",
+      "name": "Update 'NetwortTopology' component",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4596,
+      "project": "OA Style",
+      "name": "Ocean itinerary in advance",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4987,
+      "project": "vsat-view",
+      "name": "IS33e_k28h footprint missing.",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4953,
+      "project": "vsat-view",
+      "name": "Missing footprints",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4948,
+      "project": "vsat-view",
+      "name": "ORM changes not reflecting on TOM",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4904,
+      "project": "vsat-view",
+      "name": "Calendar does not work correctly when selecting 4months ago",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4901,
+      "project": "vsat-view",
+      "name": "The footprint are not appering in the global MAP",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4880,
+      "project": "vsat-view",
+      "name": "O_VRC_Alruna RTN graph: No data to display",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4878,
+      "project": "vsat-view",
+      "name": "implement new oa-style version",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4877,
+      "project": "vsat-view",
+      "name": "Populate the Newtec network footprints",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4866,
+      "project": "vsat-view",
+      "name": "Publish the steerable footprint, as it will be static",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4801,
+      "project": "vsat-view",
+      "name": "Datapicker does not properly work in the map",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4778,
+      "project": "vsat-view",
+      "name": "Solve several problems related to login, logout and reconnections",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4741,
+      "project": "vsat-view",
+      "name": "Deactivated remote appearing on Tom",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4544,
+      "project": "vsat-view",
+      "name": "Only one net its show with nominal icon",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4516,
+      "project": "vsat-view",
+      "name": "Error updating one remote nominal beam at Tom",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4497,
+      "project": "vsat-view",
+      "name": "Vessels not set in the modems",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4379,
+      "project": "vsat-view",
+      "name": "Network view charts with incorrect max values",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 3612,
+      "project": "vsat-view",
+      "name": "Add on modem>networks CIR/MIR for every network",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 3588,
+      "project": "vsat-view",
+      "name": "Newtec L2 errors graph",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 5012,
+      "project": "mesh_apps / vsat-nms",
+      "name": "NMS returns a list instead of bitrate values for not-provisioned networks",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4965,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Report CIR/MIR as vsat_modem_networks_status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4839,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Offline event not cleared with ELSEWHERE",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4827,
+      "project": "mesh_apps / vsat-nms",
+      "name": "return_max_power missing in Newtec Dialog modems",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4812,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Implement network return load metrics for Newtec Dialog",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4795,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Investigate logs in tables event_msg_X as a source for connection status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4782,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Beam switch not working from TOM",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4722,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Support for newtec XIF",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4964,
+      "project": "mesh_apps / vsat",
+      "name": "Store CIR/MIR per network as status of vsat_modem_networks",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4961,
+      "project": "mesh_apps / vsat",
+      "name": "Add CIR/MIR values in all networks to vsat_modem_status",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4890,
+      "project": "mesh_apps / vsat",
+      "name": "Control some additional exceptions on Newtec Dialog connections",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4888,
+      "project": "mesh_apps / vsat",
+      "name": "Missing params on connection retry  at the Dialog driver",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4849,
+      "project": "mesh_apps / vsat",
+      "name": "add bitrate in vsat modem status (newtec dialog)",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4856,
+      "project": "mesh / meshclient-js",
+      "name": "Wrong utf8 decoding",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4676,
+      "project": "choose-your-ip",
+      "name": "New routers @ Nittedal teleport",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 5019,
+      "project": "support",
+      "name": "VF 1905",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4993,
+      "project": "support",
+      "name": "Create Loyalty PAYG iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4986,
+      "project": "support",
+      "name": "CSP Notification issue",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4969,
+      "project": "support",
+      "name": "VF 1405 Report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4968,
+      "project": "support",
+      "name": "Amiri11 - Verify audio output, upgrade FW",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4952,
+      "project": "support",
+      "name": "VF 1352020",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4947,
+      "project": "support",
+      "name": "Escalation Task : New - Incident - 204489 - MY Lauren L",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4945,
+      "project": "support",
+      "name": "Assist NOC with new Vu+ receivers",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4930,
+      "project": "support",
+      "name": "VF 12052020",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4919,
+      "project": "support",
+      "name": "Set only salessupport as allowed account to have copies of the iO emails",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4916,
+      "project": "support",
+      "name": "MY Paloma 2 Base plan: 0 B",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4915,
+      "project": "support",
+      "name": "Project lightning has 500GB and apears with 0B ar iO portal",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4914,
+      "project": "support",
+      "name": "Pass Titan fleet to 50GB iO bundles",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4913,
+      "project": "support",
+      "name": "VF 11 report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4908,
+      "project": "support",
+      "name": "Generate Marlink/Viking iO reports.",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4907,
+      "project": "support",
+      "name": "To Suspend Aurora Borealis iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4906,
+      "project": "support",
+      "name": "To Suspend Crescent iO contract.",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4905,
+      "project": "support",
+      "name": "My Universer iO contract reactivation",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4876,
+      "project": "support",
+      "name": "07052020 VF Report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4867,
+      "project": "support",
+      "name": "iO Stormborn contract, pass it to 100GB",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4868,
+      "project": "support",
+      "name": "iO Megan contract, pass it to 200GB bundle",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4863,
+      "project": "support",
+      "name": "Install/Configure 3 nucs for Miguel Angel",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4860,
+      "project": "support",
+      "name": "Create Aurora 50 iO contract",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4859,
+      "project": "support",
+      "name": "VF 06 report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4831,
+      "project": "support",
+      "name": "Viking Ocean Cruises - ESPN Receivers not authorized",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4949,
+      "project": "Unity / frontend",
+      "name": "Add class props to UnityCheck, UnityDevicesCheck and AttributesTable",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4891,
+      "project": "Unity / frontend",
+      "name": "Configure CI/CD for auto publish to Unity PRE/PRO",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4875,
+      "project": "Unity / frontend",
+      "name": "Update to use new factory developed in oa-style",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4819,
+      "project": "Unity / frontend",
+      "name": "Implement changes on store session module and update meshclient dependencies",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4763,
+      "project": "Unity / frontend",
+      "name": "Implement 'Dashboard' view",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4756,
+      "project": "Unity / frontend",
+      "name": "Implement 'Unity Health' view",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4689,
+      "project": "Unity / frontend",
+      "name": "Update 'NetwortTopology' component",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4665,
+      "project": "Unity / frontend",
+      "name": "Missing accountings",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4577,
+      "project": "Unity / frontend",
+      "name": "Issues detected in QA phase",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4560,
+      "project": "Unity / frontend",
+      "name": "Implement 'Network Switch' view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4926,
+      "project": "plexus_controller",
+      "name": "[CSM notification] Escalation Task : New - Incident - 204639 - SY Adele",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 5032,
+      "project": "mesh / core",
+      "name": "Add missing requirement orjson",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 5002,
+      "project": "mesh / core",
+      "name": "Message authorization rule models need changes on the nullable fields",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4977,
+      "project": "mesh / core",
+      "name": "rename models to fit into 63 char limit",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4974,
+      "project": "mesh / core",
+      "name": "mesh commands to migrate cause overlong table names",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4967,
+      "project": "mesh / core",
+      "name": "Accounting service is discarding the entire payload message",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4940,
+      "project": "mesh / core",
+      "name": "Accounting services' no publish mode doesn't digest self-posted data",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4921,
+      "project": "mesh / core",
+      "name": "Dispatcher clossing ws connection without message",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4886,
+      "project": "mesh / core",
+      "name": "Add orjson codec support",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4871,
+      "project": "mesh / core",
+      "name": "Payload debugging using f-strings slows down the system and increases per-message CPU resource requirements",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4803,
+      "project": "mesh / core",
+      "name": "With expanded doesn't force the next model properly",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4797,
+      "project": "mesh / core",
+      "name": "Review DPS code to check how we get to a point with an insert duplicated 8 times",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4704,
+      "project": "mesh / core",
+      "name": "Add metrics on dispatcher",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4651,
+      "project": "mesh / core",
+      "name": "Make accounting service able to pass arguments to aggregation functions",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4640,
+      "project": "mesh / core",
+      "name": "Create new aggregation function to count specific values",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4634,
+      "project": "mesh / core",
+      "name": "Make accounting loader able to accept arguments for the aggregation functions",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4549,
+      "project": "mesh / core",
+      "name": "DPS and orm should be responsible for payload write",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4454,
+      "project": "mesh / core",
+      "name": "Refactor accounting loader to only support V2 and improve code readability/clarity",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4399,
+      "project": "mesh / core",
+      "name": "Proxy models creates a NOT NULL field on the target models",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4262,
+      "project": "mesh / core",
+      "name": "Authorization subsystem - 01 - Design authorization models",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4230,
+      "project": "mesh / core",
+      "name": "Drivers architecture",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4449,
+      "project": "csp",
+      "name": "Register Dialog modems by MAC",
+      "assignee": "Victor Rawinad"
+    }
+  ],
+  "added_issues": [
+    {
+      "id": 4862,
+      "project": "Unity / Hardware design and validation",
+      "name": "Install unity on training room rack"
+    },
+    {
+      "id": 4992,
+      "project": "npm_packages / UTLite",
+      "name": "Object.get was not evaluating correctly quotes around attributes"
+    },
+    {
+      "id": 4872,
+      "project": "npm_packages / UTLite",
+      "name": "exclude vue from the dependencies"
+    },
+    {
+      "id": 5009,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "18052020 VF Report"
+    },
+    {
+      "id": 4990,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "15052020 VF report"
+    },
+    {
+      "id": 4861,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Support Infra in the integration"
+    },
+    {
+      "id": 4850,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Detected needed changes on event subscriptions"
+    },
+    {
+      "id": 4837,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Add more log messages"
+    },
+    {
+      "id": 4807,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Workaround at model level"
+    },
+    {
+      "id": 4972,
+      "project": "mesh_apps / network_switch",
+      "name": "Migration error when installing this project"
+    },
+    {
+      "id": 4851,
+      "project": "mesh_apps / network_switch",
+      "name": "network switch change status report"
+    },
+    {
+      "id": 4991,
+      "project": "npm_packages / Mesh Queries",
+      "name": "do not update if it is being destoryed"
+    },
+    {
+      "id": 4989,
+      "project": "npm_packages / Promised Worker",
+      "name": "Improve message error stack trace"
+    },
+    {
+      "id": 4882,
+      "project": "Unity / RPi UI",
+      "name": "Adicional modem Data"
+    },
+    {
+      "id": 4881,
+      "project": "Unity / RPi UI",
+      "name": "Map view"
+    },
+    {
+      "id": 5003,
+      "project": "Unity / backend",
+      "name": "Add docker registry on RPi base image"
+    },
+    {
+      "id": 4958,
+      "project": "Unity / backend",
+      "name": "Unity RPi TouchScreen Frontend integration"
+    },
+    {
+      "id": 4935,
+      "project": "Unity / backend",
+      "name": "Request box unity.omniaccess.com"
+    },
+    {
+      "id": 4923,
+      "project": "Unity / backend",
+      "name": "configure the switch ports as indicated by the usf file"
+    },
+    {
+      "id": 4897,
+      "project": "Unity / backend",
+      "name": "Front panel LEDs V1"
+    },
+    {
+      "id": 2699,
+      "project": "Unity / backend",
+      "name": "Basic touchscreen features"
+    },
+    {
+      "id": 4889,
+      "project": "tv / plexustv_daemons",
+      "name": "Synchronize prod to repo for plexustv_gc"
+    },
+    {
+      "id": 4985,
+      "project": "Alanis",
+      "name": "Generate email to notify networks without footprint"
+    },
+    {
+      "id": 4984,
+      "project": "Alanis",
+      "name": "Accounting to speeds and heading"
+    },
+    {
+      "id": 4975,
+      "project": "Alanis",
+      "name": "rename models to fit into 63 char limit"
+    },
+    {
+      "id": 4970,
+      "project": "Alanis",
+      "name": "The notification service is not working"
+    },
+    {
+      "id": 4900,
+      "project": "Alanis",
+      "name": "To update alanis02 config files and lab3 ecosystem"
+    },
+    {
+      "id": 4950,
+      "project": "OA Style",
+      "name": "changes relative to fleet view"
+    },
+    {
+      "id": 4895,
+      "project": "OA Style",
+      "name": "changes relative to vessel view"
+    },
+    {
+      "id": 4873,
+      "project": "OA Style",
+      "name": "export mesh store worker"
+    },
+    {
+      "id": 4870,
+      "project": "OA Style",
+      "name": "Adapt OAChartControlls to responsive"
+    },
+    {
+      "id": 4596,
+      "project": "OA Style",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 4987,
+      "project": "vsat-view",
+      "name": "IS33e_k28h footprint missing."
+    },
+    {
+      "id": 4953,
+      "project": "vsat-view",
+      "name": "Missing footprints"
+    },
+    {
+      "id": 4948,
+      "project": "vsat-view",
+      "name": "ORM changes not reflecting on TOM"
+    },
+    {
+      "id": 4904,
+      "project": "vsat-view",
+      "name": "Calendar does not work correctly when selecting 4months ago"
+    },
+    {
+      "id": 4901,
+      "project": "vsat-view",
+      "name": "The footprint are not appering in the global MAP"
+    },
+    {
+      "id": 4880,
+      "project": "vsat-view",
+      "name": "O_VRC_Alruna RTN graph: No data to display"
+    },
+    {
+      "id": 4878,
+      "project": "vsat-view",
+      "name": "implement new oa-style version"
+    },
+    {
+      "id": 4877,
+      "project": "vsat-view",
+      "name": "Populate the Newtec network footprints"
+    },
+    {
+      "id": 4866,
+      "project": "vsat-view",
+      "name": "Publish the steerable footprint, as it will be static"
+    },
+    {
+      "id": 4654,
+      "project": "vsat-view",
+      "name": "Bandwidth planner: View MOC"
+    },
+    {
+      "id": 2439,
+      "project": "vsat-view",
+      "name": "Vessel view"
+    },
+    {
+      "id": 5012,
+      "project": "mesh_apps / vsat-nms",
+      "name": "NMS returns a list instead of bitrate values for not-provisioned networks"
+    },
+    {
+      "id": 4966,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Investigate Idirect driver spitting out statusses with no timestamp"
+    },
+    {
+      "id": 4965,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Report CIR/MIR as vsat_modem_networks_status"
+    },
+    {
+      "id": 4964,
+      "project": "mesh_apps / vsat",
+      "name": "Store CIR/MIR per network as status of vsat_modem_networks"
+    },
+    {
+      "id": 4961,
+      "project": "mesh_apps / vsat",
+      "name": "Add CIR/MIR values in all networks to vsat_modem_status"
+    },
+    {
+      "id": 4890,
+      "project": "mesh_apps / vsat",
+      "name": "Control some additional exceptions on Newtec Dialog connections"
+    },
+    {
+      "id": 4888,
+      "project": "mesh_apps / vsat",
+      "name": "Missing params on connection retry  at the Dialog driver"
+    },
+    {
+      "id": 4993,
+      "project": "support",
+      "name": "Create Loyalty PAYG iO contract"
+    },
+    {
+      "id": 4986,
+      "project": "support",
+      "name": "CSP Notification issue"
+    },
+    {
+      "id": 4969,
+      "project": "support",
+      "name": "VF 1405 Report"
+    },
+    {
+      "id": 4968,
+      "project": "support",
+      "name": "Amiri11 - Verify audio output, upgrade FW"
+    },
+    {
+      "id": 4952,
+      "project": "support",
+      "name": "VF 1352020"
+    },
+    {
+      "id": 4947,
+      "project": "support",
+      "name": "Escalation Task : New - Incident - 204489 - MY Lauren L"
+    },
+    {
+      "id": 4945,
+      "project": "support",
+      "name": "Assist NOC with new Vu+ receivers"
+    },
+    {
+      "id": 4932,
+      "project": "support",
+      "name": "Alucia 2 Move Joaquin SIM cards to Alucia2"
+    },
+    {
+      "id": 4930,
+      "project": "support",
+      "name": "VF 12052020"
+    },
+    {
+      "id": 4919,
+      "project": "support",
+      "name": "Set only salessupport as allowed account to have copies of the iO emails"
+    },
+    {
+      "id": 4916,
+      "project": "support",
+      "name": "MY Paloma 2 Base plan: 0 B"
+    },
+    {
+      "id": 4915,
+      "project": "support",
+      "name": "Project lightning has 500GB and apears with 0B ar iO portal"
+    },
+    {
+      "id": 4914,
+      "project": "support",
+      "name": "Pass Titan fleet to 50GB iO bundles"
+    },
+    {
+      "id": 4913,
+      "project": "support",
+      "name": "VF 11 report"
+    },
+    {
+      "id": 4908,
+      "project": "support",
+      "name": "Generate Marlink/Viking iO reports."
+    },
+    {
+      "id": 4907,
+      "project": "support",
+      "name": "To Suspend Aurora Borealis iO contract"
+    },
+    {
+      "id": 4906,
+      "project": "support",
+      "name": "To Suspend Crescent iO contract."
+    },
+    {
+      "id": 4905,
+      "project": "support",
+      "name": "My Universer iO contract reactivation"
+    },
+    {
+      "id": 4876,
+      "project": "support",
+      "name": "07052020 VF Report"
+    },
+    {
+      "id": 4867,
+      "project": "support",
+      "name": "iO Stormborn contract, pass it to 100GB"
+    },
+    {
+      "id": 4868,
+      "project": "support",
+      "name": "iO Megan contract, pass it to 200GB bundle"
+    },
+    {
+      "id": 4863,
+      "project": "support",
+      "name": "Install/Configure 3 nucs for Miguel Angel"
+    },
+    {
+      "id": 4860,
+      "project": "support",
+      "name": "Create Aurora 50 iO contract"
+    },
+    {
+      "id": 4859,
+      "project": "support",
+      "name": "VF 06 report"
+    },
+    {
+      "id": 4671,
+      "project": "tv / LibreELEC.tv",
+      "name": "Improvement: vod branch should be in master"
+    },
+    {
+      "id": 4087,
+      "project": "tv / LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC"
+    },
+    {
+      "id": 4949,
+      "project": "Unity / frontend",
+      "name": "Add class props to UnityCheck, UnityDevicesCheck and AttributesTable"
+    },
+    {
+      "id": 4891,
+      "project": "Unity / frontend",
+      "name": "Configure CI/CD for auto publish to Unity PRE/PRO"
+    },
+    {
+      "id": 4875,
+      "project": "Unity / frontend",
+      "name": "Update to use new factory developed in oa-style"
+    },
+    {
+      "id": 4577,
+      "project": "Unity / frontend",
+      "name": "Issues detected in QA phase"
+    },
+    {
+      "id": 4926,
+      "project": "plexus_controller",
+      "name": "[CSM notification] Escalation Task : New - Incident - 204639 - SY Adele"
+    },
+    {
+      "id": 5002,
+      "project": "mesh / core",
+      "name": "Message authorization rule models need changes on the nullable fields"
+    },
+    {
+      "id": 4977,
+      "project": "mesh / core",
+      "name": "rename models to fit into 63 char limit"
+    },
+    {
+      "id": 4974,
+      "project": "mesh / core",
+      "name": "mesh commands to migrate cause overlong table names"
+    },
+    {
+      "id": 4967,
+      "project": "mesh / core",
+      "name": "Accounting service is discarding the entire payload message"
+    },
+    {
+      "id": 4940,
+      "project": "mesh / core",
+      "name": "Accounting services' no publish mode doesn't digest self-posted data"
+    },
+    {
+      "id": 4921,
+      "project": "mesh / core",
+      "name": "Dispatcher clossing ws connection without message"
+    },
+    {
+      "id": 4920,
+      "project": "mesh / core",
+      "name": "We need to add the node information to the DQS logs"
+    },
+    {
+      "id": 4918,
+      "project": "mesh / core",
+      "name": "DQS may need to reject queries with too few filters"
+    },
+    {
+      "id": 4886,
+      "project": "mesh / core",
+      "name": "Add orjson codec support"
+    },
+    {
+      "id": 4871,
+      "project": "mesh / core",
+      "name": "Payload debugging using f-strings slows down the system and increases per-message CPU resource requirements"
+    },
+    {
+      "id": 4637,
+      "project": "mesh / core",
+      "name": "Create new checker to detect modems is_online errored"
+    },
+    {
+      "id": 4454,
+      "project": "mesh / core",
+      "name": "Refactor accounting loader to only support V2 and improve code readability/clarity"
+    },
+    {
+      "id": 4449,
+      "project": "csp",
+      "name": "Register Dialog modems by MAC"
+    }
+  ]
+}

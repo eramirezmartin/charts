@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div><img src="oa.png" width="292" height="70" /></div>
+    <div><img src="~/assets/images/oa.png" width="292" height="70" /></div>
     <v-app>
       <Tabs />
       <main class="pa-10"><router-view /></main>

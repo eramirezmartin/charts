@@ -17,15 +17,13 @@
       <Statistics class="py-12" :data="current" />
       <v-container :fluid="true">
         <v-row no-gutters>
-          <v-col cols="1"></v-col>
-          <v-col cols="4" class:v-text-center>
+          <v-col cols="2"></v-col>
+          <v-col cols="3" class:v-text-center>
             <Chart v-if="priorityData" :data="priorityData" />
           </v-col>
           <v-col cols="2"></v-col>
-          <v-col cols="4">
-            <Chart v-if="typeData" :data="typeData" />
-          </v-col>
-          <v-col cols="1"></v-col>
+          <v-col cols="3"> <Chart v-if="typeData" :data="typeData" /> </v-col>
+          <v-col cols="2"></v-col>
         </v-row>
         <v-row no-gutters></v-row>
         <v-col cols="12"></v-col>
@@ -35,24 +33,26 @@
           </v-col>
         </v-row>
         <v-row no-gutters>
-          <v-col cols="1"></v-col>
-          <v-col cols="4" class:v-text-center>
+          <v-col cols="2"></v-col>
+          <v-col cols="3" class:v-text-center>
             <LineChart :data="perMilestoneData" />
           </v-col>
           <v-col cols="2"></v-col>
-          <v-col cols="4">
+          <v-col cols="3">
             <LineChart :data="closedMilestoneData" />
           </v-col>
+          <v-col cols="2"></v-col>
         </v-row>
         <v-row no-gutters>
-          <v-col cols="1"></v-col>
-          <v-col cols="4" class:v-text-center>
+          <v-col cols="2"></v-col>
+          <v-col cols="3" class:v-text-center>
             <LineChart :data="MergeMilestoneData" />
           </v-col>
           <v-col cols="2"></v-col>
-          <v-col cols="4">
+          <v-col cols="3">
             <LineChart :data="originalMilestoneData" />
           </v-col>
+          <v-col cols="2"></v-col>
         </v-row>
       </v-container>
     </div>

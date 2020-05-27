@@ -11,23 +11,20 @@
 export default {
   data() {
     return {
-      current: null,
-      priorityData: null,
-      typeData: null,
-      tab: 0,
+      tab: 'tab-0',
       items: [
         {
-          to: 'overview',
+          to: '/Overview',
           name: 'Milestone Report',
           content: 'Tab 1 Content'
         },
         {
-          to: 'mr',
+          to: '/Merge',
           name: 'Devel MR',
           content: 'Tab 2 Content'
         },
         {
-          to: 'issues',
+          to: '/Issues',
           name: 'Devel Issues',
           content: 'Tab 3 Content'
         }

@@ -1,5 +1,8 @@
 export default {
   mode: 'universal',
+  generate: {
+    dir: 'public'
+  },
   /*
    ** Headers of the page
    */
@@ -14,7 +17,7 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }]
   },
   /*
    ** Customize the progress-bar color
@@ -23,39 +26,33 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['@assets/scss/main.scss'],
+  css: ['vuetify/dist/vuetify.css'],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
+
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify'
+    // Doc: https://github.com/nuxt-community/eslint-module
+    // '@nuxtjs/eslint-module'
   ],
   router: {
+    base: '/reports/milestone/',
     extendRoutes(routes, resolve) {
       const route = routes.find((r) => r.path === '/')
-      route.redirect = '/overview'
+      route.redirect = '/Overview'
     }
   },
-  styleResources: {
-    scss: [
-      './assets/scss/variables.scss',
-      './assets/scss/fluid-fonts.scss',
-      './assets/scss/fluid-spacing.scss'
-    ]
-  },
+  styleResources: {},
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-purgecss', '@nuxtjs/style-resources'],
-  purgeCSS: {
-    mode: 'postcss'
-  },
+  modules: [],
+
   /*
    ** Build configuration
    */

@@ -1,7 +1,7 @@
 <template>
   <section class="d-flex flex-wrap">
     <v-flex>
-      <h3 class="display-3">{{ data.milestone_planned_percentage }}</h3>
+      <h4 class="display-3">{{ data.milestone_planned_percentage }}</h4>
       <p class="body-1">% Planned Milestone</p>
     </v-flex>
     <v-flex>

@@ -1,0 +1,1627 @@
+{
+  "milestone": "devel_sprint_2020_weeks1718",
+  "milestone_closed_issues": 113,
+  "milestone_merge_request": 88,
+  "original_total_issues": 97,
+  "% milestone": 39.18,
+  "number_added_issues": 87,
+  "priority": {
+    "p_critical": "30.97%",
+    "p_high": "38.94%",
+    "p_hotfix": "15.04%",
+    "p_low": "0.0%",
+    "p_medium": "14.16%"
+  },
+  "type": {
+    "tp_bug": "37.17%",
+    "tp_new_feature": "30.97%",
+    "tp_technical_debt": "3.54%",
+    "tp_discussion": "11.5%",
+    "tp_poc": "1.77%",
+    "tp_support": "10.62%"
+  },
+  "original_issues": [
+    {
+      "id": 4598,
+      "project": "Rollup preset",
+      "name": "Allow applications extend rollup-preset"
+    },
+    {
+      "id": 4357,
+      "project": "PlexusTV Infrastructure",
+      "name": "Amiri Static FTA - New decoder VU+ Zero 4K"
+    },
+    {
+      "id": 4121,
+      "project": "PlexusTV Infrastructure",
+      "name": "Deployment of new Infrastructure for PlexusVOD"
+    },
+    {
+      "id": 4631,
+      "project": "rollup-plugin-oastyle-autoimport",
+      "name": "Sourcemaps"
+    },
+    {
+      "id": 4469,
+      "project": "Client info",
+      "name": "Add load time info"
+    },
+    {
+      "id": 4113,
+      "project": "aio-hls-tc",
+      "name": "Official docs + visual infra overview"
+    },
+    {
+      "id": 4649,
+      "project": "network_switch",
+      "name": "Missing fields on relational and status definition"
+    },
+    {
+      "id": 4628,
+      "project": "Mesh Client Worker",
+      "name": "Substitute on method with subscribe method on client"
+    },
+    {
+      "id": 4648,
+      "project": "frontend",
+      "name": "Image of the remote tv control is not fully visible in the new window opened"
+    },
+    {
+      "id": 4493,
+      "project": "Unity web UI",
+      "name": "Installation view"
+    },
+    {
+      "id": 4167,
+      "project": "Unity web UI",
+      "name": "Views customization"
+    },
+    {
+      "id": 4166,
+      "project": "Unity web UI",
+      "name": "Switch status view"
+    },
+    {
+      "id": 4165,
+      "project": "Unity web UI",
+      "name": "Healt status view"
+    },
+    {
+      "id": 4164,
+      "project": "Unity web UI",
+      "name": "Traffic view"
+    },
+    {
+      "id": 3398,
+      "project": "vod_device_pool",
+      "name": "Missing API call on legacy global controller"
+    },
+    {
+      "id": 4646,
+      "project": "unity",
+      "name": "End-user Documentation"
+    },
+    {
+      "id": 4639,
+      "project": "unity",
+      "name": "RPi screen does not start after rebooting the rpi"
+    },
+    {
+      "id": 4409,
+      "project": "unity",
+      "name": "UnityInstaller service"
+    },
+    {
+      "id": 4408,
+      "project": "unity",
+      "name": "UnityNUC service"
+    },
+    {
+      "id": 4203,
+      "project": "unity",
+      "name": "Installer image build instructions and daily build procedures"
+    },
+    {
+      "id": 3969,
+      "project": "unity",
+      "name": "Proposed deployment user interface"
+    },
+    {
+      "id": 3651,
+      "project": "unity",
+      "name": "NUC doesn't start"
+    },
+    {
+      "id": 4539,
+      "project": "Alanis",
+      "name": "non_nominal_remotes and nominal_remotes not updated from a long time ago"
+    },
+    {
+      "id": 4453,
+      "project": "Alanis",
+      "name": "Bandwidth planner: Define models"
+    },
+    {
+      "id": 4207,
+      "project": "Alanis",
+      "name": "Define Sat Control model v1"
+    },
+    {
+      "id": 4530,
+      "project": "OmniAccess Enterprise",
+      "name": "contract_status not updated"
+    },
+    {
+      "id": 4456,
+      "project": "OmniAccess Enterprise",
+      "name": "Investigate CMDB"
+    },
+    {
+      "id": 4324,
+      "project": "OmniAccess Enterprise",
+      "name": "POC NAV CRM web service"
+    },
+    {
+      "id": 4298,
+      "project": "OmniAccess Enterprise",
+      "name": "Create geo area name to lat, lon service using google maps geocoding api"
+    },
+    {
+      "id": 4050,
+      "project": "locations",
+      "name": "Refactor on heading_position"
+    },
+    {
+      "id": 3972,
+      "project": "locations",
+      "name": "Refactor on distance_checker"
+    },
+    {
+      "id": 4596,
+      "project": "OA Style",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 4585,
+      "project": "OA Style",
+      "name": "Port 'Network Device Diagram' component from 'web-components' repo"
+    },
+    {
+      "id": 4559,
+      "project": "OA Style",
+      "name": "Date picker not showing in Safari"
+    },
+    {
+      "id": 4428,
+      "project": "OA Style",
+      "name": "Allow external controls"
+    },
+    {
+      "id": 4654,
+      "project": "vsat-view",
+      "name": "Bandwidth planner: View MOC"
+    },
+    {
+      "id": 4650,
+      "project": "vsat-view",
+      "name": "VSAT network charts for newtec keep on having 0dbs as min"
+    },
+    {
+      "id": 4636,
+      "project": "vsat-view",
+      "name": "Add HTTP2 support to nginx config at deployment machines"
+    },
+    {
+      "id": 4641,
+      "project": "vsat-view",
+      "name": "New event in modem"
+    },
+    {
+      "id": 4544,
+      "project": "vsat-view",
+      "name": "Only one net its show with nominal icon"
+    },
+    {
+      "id": 4543,
+      "project": "vsat-view",
+      "name": "Change level zoom when entering a modem view"
+    },
+    {
+      "id": 4524,
+      "project": "vsat-view",
+      "name": "Add heading and speed graphics into the modem charts section"
+    },
+    {
+      "id": 4497,
+      "project": "vsat-view",
+      "name": "Vessels not set in the modems"
+    },
+    {
+      "id": 4482,
+      "project": "vsat-view",
+      "name": "Stacked bitrate graphic per modem in network view"
+    },
+    {
+      "id": 4444,
+      "project": "vsat-view",
+      "name": "Netreports | static routes"
+    },
+    {
+      "id": 4443,
+      "project": "vsat-view",
+      "name": "Netreports | Bandwidth usage"
+    },
+    {
+      "id": 4438,
+      "project": "vsat-view",
+      "name": "Visualize db levels in footprints"
+    },
+    {
+      "id": 4379,
+      "project": "vsat-view",
+      "name": "Network view charts with incorrect max values"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form"
+    },
+    {
+      "id": 4033,
+      "project": "vsat-view",
+      "name": "Summary view for a Fleet of boats for account management"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports"
+    },
+    {
+      "id": 3988,
+      "project": "vsat-view",
+      "name": "Ocean itinerary in advance"
+    },
+    {
+      "id": 3808,
+      "project": "vsat-view",
+      "name": "Tom not showing some remotes offline when they actually are."
+    },
+    {
+      "id": 3702,
+      "project": "vsat-view",
+      "name": "Add LNB / BUC / Antenna and any other equipment information to TOM"
+    },
+    {
+      "id": 3179,
+      "project": "vsat-view",
+      "name": "List of broken footprints"
+    },
+    {
+      "id": 4605,
+      "project": "vsat-nms",
+      "name": "Nominal network inconsitency"
+    },
+    {
+      "id": 4477,
+      "project": "vsat-nms",
+      "name": "Define vsat_network objects for SCPC modems"
+    },
+    {
+      "id": 4447,
+      "project": "vsat-nms",
+      "name": "Migrate historical data of Dialog modems to match new PK"
+    },
+    {
+      "id": 4423,
+      "project": "vsat-nms",
+      "name": "iDirect networks without status"
+    },
+    {
+      "id": 4098,
+      "project": "vsat-nms",
+      "name": "Get HRC status params for Newtec modems"
+    },
+    {
+      "id": 3877,
+      "project": "vsat-nms",
+      "name": "Add missing fields to bandwidth_pool_status"
+    },
+    {
+      "id": 4655,
+      "project": "vsat",
+      "name": "Implement GXT to GeoJSON converter"
+    },
+    {
+      "id": 4527,
+      "project": "vsat",
+      "name": "Implement mediator service and drivers"
+    },
+    {
+      "id": 4553,
+      "project": "meshclient-js",
+      "name": "Ping message has incorrect payload, typeid and subtypeid"
+    },
+    {
+      "id": 4547,
+      "project": "meshclient-js",
+      "name": "Decouple connection and authentication steps"
+    },
+    {
+      "id": 4522,
+      "project": "meshclient-js",
+      "name": "Self implemented ping for tracking connection to server is alive and address browser inconsistency on close event"
+    },
+    {
+      "id": 4653,
+      "project": "LibreELEC.tv",
+      "name": "New STB Firmware image for Amiri STB's"
+    },
+    {
+      "id": 4418,
+      "project": "LibreELEC.tv",
+      "name": "NUC Kernel upgrade, Identifying NUC Models"
+    },
+    {
+      "id": 4087,
+      "project": "LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC"
+    },
+    {
+      "id": 3892,
+      "project": "LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue"
+    },
+    {
+      "id": 3091,
+      "project": "LibreELEC.tv",
+      "name": "STB Image changes for PlexusVOD and Apple TV Device Pool"
+    },
+    {
+      "id": 4633,
+      "project": "frontend",
+      "name": "Design 'Dashboard' view"
+    },
+    {
+      "id": 4612,
+      "project": "frontend",
+      "name": "UI screenshots"
+    },
+    {
+      "id": 4577,
+      "project": "frontend",
+      "name": "Issues detected in QA phase"
+    },
+    {
+      "id": 4560,
+      "project": "frontend",
+      "name": "Implement 'Network Switch' view"
+    },
+    {
+      "id": 4208,
+      "project": "frontend",
+      "name": "Create \"pre\" environment"
+    },
+    {
+      "id": 4034,
+      "project": "frontend",
+      "name": "Design of 'Plexus Unity' health view"
+    },
+    {
+      "id": 4651,
+      "project": "core",
+      "name": "Make accounting service able to pass arguments to aggregation functions"
+    },
+    {
+      "id": 4640,
+      "project": "core",
+      "name": "Create new aggregation function to count specific values"
+    },
+    {
+      "id": 4637,
+      "project": "core",
+      "name": "Create new checker to detect modems is_online errored"
+    },
+    {
+      "id": 4634,
+      "project": "core",
+      "name": "Make accounting loader able to accept arguments for the aggregation functions"
+    },
+    {
+      "id": 4604,
+      "project": "core",
+      "name": "Node representation of other dispatchers don't show their domain properly."
+    },
+    {
+      "id": 4591,
+      "project": "core",
+      "name": "Filter old data in accounting service"
+    },
+    {
+      "id": 4575,
+      "project": "core",
+      "name": "Document proxy models"
+    },
+    {
+      "id": 4545,
+      "project": "core",
+      "name": "Postgres driver needs to cast column types when upserting using 'from values'"
+    },
+    {
+      "id": 4445,
+      "project": "core",
+      "name": "Add IMAP support to the email library"
+    },
+    {
+      "id": 4417,
+      "project": "core",
+      "name": "Extend ORMClient so it can publish partial Data.Payload messages"
+    },
+    {
+      "id": 4401,
+      "project": "core",
+      "name": "To avoid the need of sending the whole object on an object creation with a proxy field"
+    },
+    {
+      "id": 4399,
+      "project": "core",
+      "name": "Proxy models creates a NOT NULL field on the target models"
+    },
+    {
+      "id": 4359,
+      "project": "core",
+      "name": "Investigate slow insertions in alanis02pre"
+    },
+    {
+      "id": 4262,
+      "project": "core",
+      "name": "Authorization subsystem - 01 - Design authorization models"
+    },
+    {
+      "id": 4230,
+      "project": "core",
+      "name": "Drivers architecture"
+    },
+    {
+      "id": 4190,
+      "project": "core",
+      "name": "Parallelization: TaskManager and Service possible improvements"
+    },
+    {
+      "id": 4179,
+      "project": "core",
+      "name": "Extend  Field parameters"
+    },
+    {
+      "id": 4092,
+      "project": "core",
+      "name": "Multipath Node usage"
+    },
+    {
+      "id": 1361,
+      "project": "core",
+      "name": "Extend models definition to support partitions and expiration"
+    },
+    {
+      "id": 4449,
+      "project": "csp",
+      "name": "Register Dialog modems by MAC"
+    }
+  ],
+  "closed_issues": [
+    {
+      "id": 4833,
+      "project": "npm_packages / Rollup preset",
+      "name": "enable preserveModules for development",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4687,
+      "project": "npm_packages / Rollup preset",
+      "name": "OA style version is determined",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4673,
+      "project": "npm_packages / Rollup preset",
+      "name": "Add an ENV var to toggle sourcemaps",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4662,
+      "project": "npm_packages / Rollup preset",
+      "name": "CI/CD is broken because of progress plugin",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4357,
+      "project": "tv / PlexusTV Infrastructure",
+      "name": "Amiri Static FTA - New decoder VU+ Zero 4K",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4843,
+      "project": "npm_packages / UTLite",
+      "name": "add utilities for accountings",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4791,
+      "project": "npm_packages / UTLite",
+      "name": "Storage is returning undefined for falsy values",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4852,
+      "project": "npm_packages / Babel preset OA",
+      "name": "add plugin-syntax-numeric-separator",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4850,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Detected needed changes on event subscriptions",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4837,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Add more log messages",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4807,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Workaround at model level",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4469,
+      "project": "npm_packages / Client info",
+      "name": "Add load time info",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4113,
+      "project": "tv / POCs and Projects / aio-hls-tc",
+      "name": "Official docs + visual infra overview",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4814,
+      "project": "npm_packages / Mesh Store Worker",
+      "name": "Add request origin for debug purposes",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4815,
+      "project": "npm_packages / Mesh Queries",
+      "name": "Memory leak: query playing after destroyed",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4777,
+      "project": "npm_packages / Mesh Client Worker",
+      "name": "Add logout method",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4628,
+      "project": "npm_packages / Mesh Client Worker",
+      "name": "Adapt to new feature available in MeshClient 5.1.0 version",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4813,
+      "project": "npm_packages / Promised Worker",
+      "name": "Memory leak issue returning new proxies",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4728,
+      "project": "tv / frontend",
+      "name": "IR Remote for Vu+ 4K",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4648,
+      "project": "tv / frontend",
+      "name": "Fix problems detected after Plexus TV Release",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 3398,
+      "project": "tv / vod_device_pool",
+      "name": "Missing API call on legacy global controller",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4832,
+      "project": "Unity / backend",
+      "name": "switch port definition single modem",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4780,
+      "project": "Unity / backend",
+      "name": "Unity local accounting",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4776,
+      "project": "Unity / backend",
+      "name": "add report status unity control",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4771,
+      "project": "Unity / backend",
+      "name": "unity models",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4646,
+      "project": "Unity / backend",
+      "name": "End-user Documentation",
+      "assignee": "Jordi Ferrer Riera"
+    },
+    {
+      "id": 4639,
+      "project": "Unity / backend",
+      "name": "RPi screen does not start after rebooting the rpi",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4409,
+      "project": "Unity / backend",
+      "name": "UnityInstaller service",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 3952,
+      "project": "Unity / backend",
+      "name": "Power Supply Bell FNP300",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 3745,
+      "project": "Unity / backend",
+      "name": "Out of the box autossh or any other call-home mechanism",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 3735,
+      "project": "Unity / backend",
+      "name": "RPI base system",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 3651,
+      "project": "Unity / backend",
+      "name": "NUC doesn't start",
+      "assignee": "Jordi Ballester"
+    },
+    {
+      "id": 4456,
+      "project": "mesh_apps / OmniAccess Enterprise",
+      "name": "Investigate CMDB",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4844,
+      "project": "OA Style",
+      "name": "automatically get accounting resolutions",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4838,
+      "project": "OA Style",
+      "name": "Change level zoom when entering a modem view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4816,
+      "project": "OA Style",
+      "name": "OAChart memory leak",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4808,
+      "project": "OA Style",
+      "name": "OADynamicTable is not clearing its subscriptions",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4802,
+      "project": "OA Style",
+      "name": "OAChart is trying to access instance when not available",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4796,
+      "project": "OA Style",
+      "name": "OATimepicker is overwritting its own value",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4790,
+      "project": "OA Style",
+      "name": "dynamic table not remembering autofit selected when reloading page",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4772,
+      "project": "OA Style",
+      "name": "OAMap not updating",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4675,
+      "project": "OA Style",
+      "name": "Fix OASort in order to sort initial value set in component using this mixin",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4656,
+      "project": "OA Style",
+      "name": "Fix problem on yarn dev",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4585,
+      "project": "OA Style",
+      "name": "Port 'Network Device Diagram' component from 'web-components' repo",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4759,
+      "project": "OA Style",
+      "name": "Visualize db levels in footprints",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4428,
+      "project": "OA Style",
+      "name": "Allow external controls",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4663,
+      "project": "OA Style",
+      "name": "OA auto form",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4846,
+      "project": "vsat-view",
+      "name": "Exporse modelsDefinitios on $oa scope",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4817,
+      "project": "vsat-view",
+      "name": "Use MeshStore origin request prop for PathsWorker",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4784,
+      "project": "vsat-view",
+      "name": "dynamic table not remembering autofit selected when reloading page",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4781,
+      "project": "vsat-view",
+      "name": "ACKS not clearing correctly",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4774,
+      "project": "vsat-view",
+      "name": "Data Loading not working",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4683,
+      "project": "vsat-view",
+      "name": "OAChart not clearing bands correctly",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4654,
+      "project": "vsat-view",
+      "name": "Bandwidth planner: View MOC",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4650,
+      "project": "vsat-view",
+      "name": "VSAT network charts for newtec keep on having 0dbs as min",
+      "assignee": "Miguel Vallespir"
+    },
+    {
+      "id": 4636,
+      "project": "vsat-view",
+      "name": "Add HTTP2 support to nginx config at deployment machines",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4625,
+      "project": "vsat-view",
+      "name": "Create a switch to show/hide known-outage-reason modems",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4641,
+      "project": "vsat-view",
+      "name": "New event in modem",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4588,
+      "project": "vsat-view",
+      "name": "Boardwalk online in TOM when they are really offline",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4543,
+      "project": "vsat-view",
+      "name": "Change level zoom when entering a modem view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4482,
+      "project": "vsat-view",
+      "name": "Stacked bitrate graphic per modem in network view",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4443,
+      "project": "vsat-view",
+      "name": "Netreports | Bandwidth usage",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 4438,
+      "project": "vsat-view",
+      "name": "Visualize db levels in footprints",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4047,
+      "project": "vsat-view",
+      "name": "OA auto form",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4025,
+      "project": "vsat-view",
+      "name": "Netreports",
+      "assignee": "Gerard Rodes"
+    },
+    {
+      "id": 3808,
+      "project": "vsat-view",
+      "name": "Tom not showing some remotes offline when they actually are.",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4826,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Flat charts in newtec Dialog modems",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4743,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Use OK logs to mark remotes as online",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4739,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Force sorting always by timestamp in iDirect",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4737,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Offline Dialog modems switch between online/offline",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4727,
+      "project": "mesh_apps / vsat-nms",
+      "name": "bandwith_pool_status is reporting weird timestamps",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4724,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Fix syntax error in MySQL queries",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4658,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Gbps bitrate on beam switch",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4810,
+      "project": "mesh / meshclient-js",
+      "name": "Improved reconnection logic",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4783,
+      "project": "mesh / meshclient-js",
+      "name": "Login after failed login due to incorrect credential does not do nothing",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4762,
+      "project": "mesh / meshclient-js",
+      "name": "Existing WebSocket with opening connection 1",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4553,
+      "project": "mesh / meshclient-js",
+      "name": "Ping message has incorrect payload, typeid and subtypeid",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4547,
+      "project": "mesh / meshclient-js",
+      "name": "Decouple connection and authentication steps",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4522,
+      "project": "mesh / meshclient-js",
+      "name": "Self implemented ping for tracking connection to server is alive and address browser inconsistency on close event",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4841,
+      "project": "support",
+      "name": "05052020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4835,
+      "project": "support",
+      "name": "[CSM notification] Escalation Task : New - Incident - 204302 - MY Queen Miri",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4829,
+      "project": "support",
+      "name": "Process 040502020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4828,
+      "project": "support",
+      "name": "Convert Soaring to 500GB contract since May",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4805,
+      "project": "support",
+      "name": "30042020 VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4765,
+      "project": "support",
+      "name": "New iO customer; RV OceanXplorer",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4761,
+      "project": "support",
+      "name": "To process daily VF report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4730,
+      "project": "support",
+      "name": "27 report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4686,
+      "project": "support",
+      "name": "24042020 VF Report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4681,
+      "project": "support",
+      "name": "Ocean SUN didn't sent the Internet selector email",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4672,
+      "project": "support",
+      "name": "To process April 23th vf report",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4671,
+      "project": "tv / LibreELEC.tv",
+      "name": "Improvement: vod branch should be in master",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4418,
+      "project": "tv / LibreELEC.tv",
+      "name": "NUC Kernel upgrade, Identifying NUC Models",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4087,
+      "project": "tv / LibreELEC.tv",
+      "name": "NUC10 kernel with LibreELEC",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 3892,
+      "project": "tv / LibreELEC.tv",
+      "name": "NUC10, STB SW/HW Issue",
+      "assignee": "Morten Karlsen"
+    },
+    {
+      "id": 4670,
+      "project": "controller / frontend",
+      "name": "Read 'unity' and 'unity_device' models to represent Unity related devices in lateral menu",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4633,
+      "project": "controller / frontend",
+      "name": "Design 'Dashboard' view",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4612,
+      "project": "controller / frontend",
+      "name": "UI screenshots",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4577,
+      "project": "controller / frontend",
+      "name": "Issues detected in QA phase",
+      "assignee": "Jose Pascual Jimenez"
+    },
+    {
+      "id": 4208,
+      "project": "controller / frontend",
+      "name": "Create \"pre\" environment",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4034,
+      "project": "controller / frontend",
+      "name": "Design of 'Plexus Unity' health view",
+      "assignee": "Rafael Perello"
+    },
+    {
+      "id": 4736,
+      "project": "tv / plexustv-irtrans",
+      "name": "Create remote image for Vu+ and upload to miley",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4773,
+      "project": "mesh / core",
+      "name": "ACKs with fixed windows are never deleted from BD",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4688,
+      "project": "mesh / core",
+      "name": "Service based authentication is broken since !150",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4637,
+      "project": "mesh / core",
+      "name": "Create new checker to detect modems is_online errored",
+      "assignee": "Juan Luis Garcia"
+    },
+    {
+      "id": 4575,
+      "project": "mesh / core",
+      "name": "Document proxy models",
+      "assignee": "Victor Rawinad"
+    },
+    {
+      "id": 4227,
+      "project": "mesh / core",
+      "name": "Inter dispatcher subscriptions - 07 - allow domain delimited subscriptions",
+      "assignee": "Juanma Sanchez"
+    },
+    {
+      "id": 4223,
+      "project": "mesh / core",
+      "name": "Inter dispatcher subscriptions - 03 - Routing via other dispatchers",
+      "assignee": "unassigned"
+    },
+    {
+      "id": 4745,
+      "project": "alanis_legacy / csp / app_ionic",
+      "name": "Fix bad comparison of 'sp' flag",
+      "assignee": "David Reina"
+    },
+    {
+      "id": 4825,
+      "project": "csp",
+      "name": "\"Ooops\" Error on tickets section",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4800,
+      "project": "csp",
+      "name": "Fix ip hardcoded",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4799,
+      "project": "csp",
+      "name": "Remove old notification send function",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4798,
+      "project": "csp",
+      "name": "Typo @ handlers.py",
+      "assignee": "H\u00e9ctor \u00c1lvarez"
+    },
+    {
+      "id": 4449,
+      "project": "csp",
+      "name": "Register Dialog modems by MAC",
+      "assignee": "Victor Rawinad"
+    }
+  ],
+  "added_issues": [
+    {
+      "id": 4820,
+      "project": "Unity / Documentation",
+      "name": "Create Unity Datasheet"
+    },
+    {
+      "id": 4834,
+      "project": "Unity / Hardware design and validation",
+      "name": "Unity device reception + validation + database registration procedure"
+    },
+    {
+      "id": 4833,
+      "project": "npm_packages / Rollup preset",
+      "name": "enable preserveModules for development"
+    },
+    {
+      "id": 4687,
+      "project": "npm_packages / Rollup preset",
+      "name": "OA style version is determined"
+    },
+    {
+      "id": 4673,
+      "project": "npm_packages / Rollup preset",
+      "name": "Add an ENV var to toggle sourcemaps"
+    },
+    {
+      "id": 4662,
+      "project": "npm_packages / Rollup preset",
+      "name": "CI/CD is broken because of progress plugin"
+    },
+    {
+      "id": 4843,
+      "project": "npm_packages / UTLite",
+      "name": "add utilities for accountings"
+    },
+    {
+      "id": 4791,
+      "project": "npm_packages / UTLite",
+      "name": "Storage is returning undefined for falsy values"
+    },
+    {
+      "id": 4852,
+      "project": "npm_packages / Babel preset OA",
+      "name": "add plugin-syntax-numeric-separator"
+    },
+    {
+      "id": 4850,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Detected needed changes on event subscriptions"
+    },
+    {
+      "id": 4837,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Add more log messages"
+    },
+    {
+      "id": 4807,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "Workaround at model level"
+    },
+    {
+      "id": 4752,
+      "project": "mesh_apps / Network Core Intelligence",
+      "name": "BackboneTrafficShaping's logic should live in TrafficShapingDriver"
+    },
+    {
+      "id": 4814,
+      "project": "npm_packages / Mesh Store Worker",
+      "name": "Add request origin for debug purposes"
+    },
+    {
+      "id": 4815,
+      "project": "npm_packages / Mesh Queries",
+      "name": "Memory leak: query playing after destroyed"
+    },
+    {
+      "id": 4777,
+      "project": "npm_packages / Mesh Client Worker",
+      "name": "Add logout method"
+    },
+    {
+      "id": 4813,
+      "project": "npm_packages / Promised Worker",
+      "name": "Memory leak issue returning new proxies"
+    },
+    {
+      "id": 4728,
+      "project": "tv / frontend",
+      "name": "IR Remote for Vu+ 4K"
+    },
+    {
+      "id": 4832,
+      "project": "Unity / backend",
+      "name": "switch port definition single modem"
+    },
+    {
+      "id": 4776,
+      "project": "Unity / backend",
+      "name": "add report status unity control"
+    },
+    {
+      "id": 3952,
+      "project": "Unity / backend",
+      "name": "Power Supply Bell FNP300"
+    },
+    {
+      "id": 3745,
+      "project": "Unity / backend",
+      "name": "Out of the box autossh or any other call-home mechanism"
+    },
+    {
+      "id": 4668,
+      "project": "Alanis",
+      "name": "VSAT network charts for newtec keep on having 0dbs as min"
+    },
+    {
+      "id": 4844,
+      "project": "OA Style",
+      "name": "automatically get accounting resolutions"
+    },
+    {
+      "id": 4838,
+      "project": "OA Style",
+      "name": "Change level zoom when entering a modem view"
+    },
+    {
+      "id": 4816,
+      "project": "OA Style",
+      "name": "OAChart memory leak"
+    },
+    {
+      "id": 4808,
+      "project": "OA Style",
+      "name": "OADynamicTable is not clearing its subscriptions"
+    },
+    {
+      "id": 4802,
+      "project": "OA Style",
+      "name": "OAChart is trying to access instance when not available"
+    },
+    {
+      "id": 4796,
+      "project": "OA Style",
+      "name": "OATimepicker is overwritting its own value"
+    },
+    {
+      "id": 4790,
+      "project": "OA Style",
+      "name": "dynamic table not remembering autofit selected when reloading page"
+    },
+    {
+      "id": 4772,
+      "project": "OA Style",
+      "name": "OAMap not updating"
+    },
+    {
+      "id": 4734,
+      "project": "OA Style",
+      "name": "Update 'NetwortTopology' component"
+    },
+    {
+      "id": 4675,
+      "project": "OA Style",
+      "name": "Fix OASort in order to sort initial value set in component using this mixin"
+    },
+    {
+      "id": 4656,
+      "project": "OA Style",
+      "name": "Fix problem on yarn dev"
+    },
+    {
+      "id": 4759,
+      "project": "OA Style",
+      "name": "Visualize db levels in footprints"
+    },
+    {
+      "id": 4663,
+      "project": "OA Style",
+      "name": "OA auto form"
+    },
+    {
+      "id": 4846,
+      "project": "vsat-view",
+      "name": "Exporse modelsDefinitios on $oa scope"
+    },
+    {
+      "id": 4817,
+      "project": "vsat-view",
+      "name": "Use MeshStore origin request prop for PathsWorker"
+    },
+    {
+      "id": 4784,
+      "project": "vsat-view",
+      "name": "dynamic table not remembering autofit selected when reloading page"
+    },
+    {
+      "id": 4781,
+      "project": "vsat-view",
+      "name": "ACKS not clearing correctly"
+    },
+    {
+      "id": 4774,
+      "project": "vsat-view",
+      "name": "Data Loading not working"
+    },
+    {
+      "id": 4778,
+      "project": "vsat-view",
+      "name": "Solve several problems related to login, logout and reconnections"
+    },
+    {
+      "id": 4741,
+      "project": "vsat-view",
+      "name": "Deactivated remote appearing on Tom"
+    },
+    {
+      "id": 4683,
+      "project": "vsat-view",
+      "name": "OAChart not clearing bands correctly"
+    },
+    {
+      "id": 4625,
+      "project": "vsat-view",
+      "name": "Create a switch to show/hide known-outage-reason modems"
+    },
+    {
+      "id": 4588,
+      "project": "vsat-view",
+      "name": "Boardwalk online in TOM when they are really offline"
+    },
+    {
+      "id": 4516,
+      "project": "vsat-view",
+      "name": "Error updating one remote nominal beam at Tom"
+    },
+    {
+      "id": 4826,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Flat charts in newtec Dialog modems"
+    },
+    {
+      "id": 4795,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Investigate logs in tables event_msg_X as a source for connection status"
+    },
+    {
+      "id": 4743,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Use OK logs to mark remotes as online"
+    },
+    {
+      "id": 4739,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Force sorting always by timestamp in iDirect"
+    },
+    {
+      "id": 4737,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Offline Dialog modems switch between online/offline"
+    },
+    {
+      "id": 4727,
+      "project": "mesh_apps / vsat-nms",
+      "name": "bandwith_pool_status is reporting weird timestamps"
+    },
+    {
+      "id": 4724,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Fix syntax error in MySQL queries"
+    },
+    {
+      "id": 4658,
+      "project": "mesh_apps / vsat-nms",
+      "name": "Gbps bitrate on beam switch"
+    },
+    {
+      "id": 4810,
+      "project": "mesh / meshclient-js",
+      "name": "Improved reconnection logic"
+    },
+    {
+      "id": 4783,
+      "project": "mesh / meshclient-js",
+      "name": "Login after failed login due to incorrect credential does not do nothing"
+    },
+    {
+      "id": 4762,
+      "project": "mesh / meshclient-js",
+      "name": "Existing WebSocket with opening connection 1"
+    },
+    {
+      "id": 4676,
+      "project": "choose-your-ip",
+      "name": "New routers @ Nittedal teleport"
+    },
+    {
+      "id": 4841,
+      "project": "support",
+      "name": "05052020 VF report"
+    },
+    {
+      "id": 4835,
+      "project": "support",
+      "name": "[CSM notification] Escalation Task : New - Incident - 204302 - MY Queen Miri"
+    },
+    {
+      "id": 4829,
+      "project": "support",
+      "name": "Process 040502020 VF report"
+    },
+    {
+      "id": 4828,
+      "project": "support",
+      "name": "Convert Soaring to 500GB contract since May"
+    },
+    {
+      "id": 4805,
+      "project": "support",
+      "name": "30042020 VF report"
+    },
+    {
+      "id": 4765,
+      "project": "support",
+      "name": "New iO customer; RV OceanXplorer"
+    },
+    {
+      "id": 4761,
+      "project": "support",
+      "name": "To process daily VF report"
+    },
+    {
+      "id": 4730,
+      "project": "support",
+      "name": "27 report"
+    },
+    {
+      "id": 4686,
+      "project": "support",
+      "name": "24042020 VF Report"
+    },
+    {
+      "id": 4681,
+      "project": "support",
+      "name": "Ocean SUN didn't sent the Internet selector email"
+    },
+    {
+      "id": 4672,
+      "project": "support",
+      "name": "To process April 23th vf report"
+    },
+    {
+      "id": 4671,
+      "project": "tv / LibreELEC.tv",
+      "name": "Improvement: vod branch should be in master"
+    },
+    {
+      "id": 4819,
+      "project": "controller / frontend",
+      "name": "Implement changes on store session module and update meshclient dependencies"
+    },
+    {
+      "id": 4763,
+      "project": "controller / frontend",
+      "name": "Implement 'Dashboard' view"
+    },
+    {
+      "id": 4756,
+      "project": "controller / frontend",
+      "name": "Implement 'Unity Health' view"
+    },
+    {
+      "id": 4689,
+      "project": "controller / frontend",
+      "name": "Update 'NetwortTopology' component"
+    },
+    {
+      "id": 4670,
+      "project": "controller / frontend",
+      "name": "Read 'unity' and 'unity_device' models to represent Unity related devices in lateral menu"
+    },
+    {
+      "id": 4736,
+      "project": "tv / plexustv-irtrans",
+      "name": "Create remote image for Vu+ and upload to miley"
+    },
+    {
+      "id": 4797,
+      "project": "mesh / core",
+      "name": "Review DPS code to check how we get to a point with an insert duplicated 8 times"
+    },
+    {
+      "id": 4773,
+      "project": "mesh / core",
+      "name": "ACKs with fixed windows are never deleted from BD"
+    },
+    {
+      "id": 4688,
+      "project": "mesh / core",
+      "name": "Service based authentication is broken since !150"
+    },
+    {
+      "id": 4227,
+      "project": "mesh / core",
+      "name": "Inter dispatcher subscriptions - 07 - allow domain delimited subscriptions"
+    },
+    {
+      "id": 4223,
+      "project": "mesh / core",
+      "name": "Inter dispatcher subscriptions - 03 - Routing via other dispatchers"
+    },
+    {
+      "id": 4745,
+      "project": "alanis_legacy / csp / app_ionic",
+      "name": "Fix bad comparison of 'sp' flag"
+    },
+    {
+      "id": 4825,
+      "project": "csp",
+      "name": "\"Ooops\" Error on tickets section"
+    },
+    {
+      "id": 4800,
+      "project": "csp",
+      "name": "Fix ip hardcoded"
+    },
+    {
+      "id": 4799,
+      "project": "csp",
+      "name": "Remove old notification send function"
+    },
+    {
+      "id": 4798,
+      "project": "csp",
+      "name": "Typo @ handlers.py"
+    }
+  ]
+}

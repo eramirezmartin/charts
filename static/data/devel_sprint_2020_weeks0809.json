@@ -1,0 +1,448 @@
+{
+  "milestone": "devel_sprint_2020_weeks0809",
+  "original_total_issues": 85,
+  "% milestone": 100.0,
+  "number_added_issues": 0,
+  "priority": {
+    "p_critical": "7.06%",
+    "p_high": "44.71%",
+    "p_hotfix": "10.59%",
+    "p_low": "10.59%",
+    "p_medium": "23.53%"
+  },
+  "type": {
+    "tp_bug": "23.53%",
+    "tp_new_feature": "28.24%",
+    "tp_technical_debt": "3.53%",
+    "tp_discussion": "3.53%",
+    "tp_poc": "1.18%",
+    "tp_support": "40.0%"
+  },
+  "original_issues": [
+    {
+      "id": 3914,
+      "project": "Codec Benchmarks",
+      "name": "Create benchmarks of compression ratio using compression directly on the payload data attribute of the messages"
+    },
+    {
+      "id": 3900,
+      "project": "Codec Benchmarks",
+      "name": "Compression ratio benchmark should add info about gzip/brotli final compression"
+    },
+    {
+      "id": 3894,
+      "project": "Codec Benchmarks",
+      "name": "Move benchmark script from main thread to a Worker thread"
+    },
+    {
+      "id": 3882,
+      "project": "Codec Benchmarks",
+      "name": "Create updated benchmarks in browers for codecs to be used to communicate with dispatcher"
+    },
+    {
+      "id": 3948,
+      "project": "Object Condition Filtering",
+      "name": "es6 export"
+    },
+    {
+      "id": 3907,
+      "project": "Alanis",
+      "name": "Move logs to /var/log"
+    },
+    {
+      "id": 3724,
+      "project": "Alanis",
+      "name": "Deployment 2020 Q1"
+    },
+    {
+      "id": 3655,
+      "project": "Alanis",
+      "name": "Add accountings with lower resolution"
+    },
+    {
+      "id": 3990,
+      "project": "OA Style",
+      "name": "Fix \"Error in callback for watcher \"formattedOptions\": \"TypeError: Cannot read property 'date' of undefined\"\""
+    },
+    {
+      "id": 3973,
+      "project": "OA Style",
+      "name": "Create custom offline base layer for our Map Components"
+    },
+    {
+      "id": 3940,
+      "project": "OA Style",
+      "name": "Create OAEventLogReader component"
+    },
+    {
+      "id": 3921,
+      "project": "OA Style",
+      "name": "move utils into a new project"
+    },
+    {
+      "id": 3910,
+      "project": "OA Style",
+      "name": "group overlays and make names a toggle"
+    },
+    {
+      "id": 3881,
+      "project": "OA Style",
+      "name": "Create OAFileUpload component"
+    },
+    {
+      "id": 3878,
+      "project": "OA Style",
+      "name": "focus after vessel search / filter"
+    },
+    {
+      "id": 3874,
+      "project": "OA Style",
+      "name": "Chart offline bands generation broken while updating"
+    },
+    {
+      "id": 3965,
+      "project": "vsat-view",
+      "name": "oa chart is online band wrong"
+    },
+    {
+      "id": 3964,
+      "project": "vsat-view",
+      "name": "disable vessel overlay on vsat modem view"
+    },
+    {
+      "id": 3953,
+      "project": "vsat-view",
+      "name": "Vsat Network without data"
+    },
+    {
+      "id": 3937,
+      "project": "vsat-view",
+      "name": "Addapt modem view map to new overlays"
+    },
+    {
+      "id": 3932,
+      "project": "vsat-view",
+      "name": "Nominals view filters stopped working"
+    },
+    {
+      "id": 3916,
+      "project": "vsat-view",
+      "name": "Not in nominal error"
+    },
+    {
+      "id": 3913,
+      "project": "vsat-view",
+      "name": "login performance"
+    },
+    {
+      "id": 3906,
+      "project": "vsat-view",
+      "name": "Fake information about a remote outside of the coverage area"
+    },
+    {
+      "id": 3899,
+      "project": "vsat-view",
+      "name": "udpate accountings"
+    },
+    {
+      "id": 3898,
+      "project": "vsat-view",
+      "name": "Add modems to map"
+    },
+    {
+      "id": 3876,
+      "project": "vsat-view",
+      "name": "VSAT Modem beam switch event"
+    },
+    {
+      "id": 3796,
+      "project": "vsat-view",
+      "name": "Map --> Layers: add names of remotes option"
+    },
+    {
+      "id": 2726,
+      "project": "vsat-view",
+      "name": "Unable to find Suerte modem (not iDirect)"
+    },
+    {
+      "id": 3963,
+      "project": "vsat-nms",
+      "name": "Vsat Network without data"
+    },
+    {
+      "id": 3998,
+      "project": "meshclient-js",
+      "name": "Browser build includes nodejs module"
+    },
+    {
+      "id": 3927,
+      "project": "choose-your-ip",
+      "name": "RCONF stopped working on Feb 20th at 4 AM"
+    },
+    {
+      "id": 4039,
+      "project": "support",
+      "name": "Close February iO Consumption"
+    },
+    {
+      "id": 4037,
+      "project": "support",
+      "name": "Process VF report for 03032020"
+    },
+    {
+      "id": 4030,
+      "project": "support",
+      "name": "New iO Mobile contract for Fabian's Ipad."
+    },
+    {
+      "id": 4020,
+      "project": "support",
+      "name": "Convert Excellece Caribbean trial contract to PAYG"
+    },
+    {
+      "id": 4019,
+      "project": "support",
+      "name": "Suspend Marla and Blue Shadow iO contracts"
+    },
+    {
+      "id": 4018,
+      "project": "support",
+      "name": "Convert Vertigo contract from trial Caribbean to PAYG Caribbean"
+    },
+    {
+      "id": 4016,
+      "project": "support",
+      "name": "Process VF report for 02032020"
+    },
+    {
+      "id": 4012,
+      "project": "support",
+      "name": "Escalation task es 125511"
+    },
+    {
+      "id": 4008,
+      "project": "support",
+      "name": "Add new SIM cards for Alpha One contract"
+    },
+    {
+      "id": 4002,
+      "project": "support",
+      "name": "Create Thumper iO trial contract"
+    },
+    {
+      "id": 4000,
+      "project": "support",
+      "name": "Activation of Viking Busses SIM cards"
+    },
+    {
+      "id": 3989,
+      "project": "support",
+      "name": "Process VF 27022020 report"
+    },
+    {
+      "id": 3986,
+      "project": "support",
+      "name": "Project Star - Plexus Ctrl. monitoring tools"
+    },
+    {
+      "id": 3977,
+      "project": "support",
+      "name": "Change Finesse base resource"
+    },
+    {
+      "id": 3976,
+      "project": "support",
+      "name": "Reactivate MY Romea iO contract"
+    },
+    {
+      "id": 3967,
+      "project": "support",
+      "name": "Process VF 26022020 report"
+    },
+    {
+      "id": 3966,
+      "project": "support",
+      "name": "Project Mariposa - Plexus Ctrl. monitoring tools"
+    },
+    {
+      "id": 3956,
+      "project": "support",
+      "name": "Process 25022020 VF report"
+    },
+    {
+      "id": 3928,
+      "project": "support",
+      "name": "Project MAB - Plexus Ctrl. monitoring tools"
+    },
+    {
+      "id": 3924,
+      "project": "support",
+      "name": "Process VF daily report 21/02/2020"
+    },
+    {
+      "id": 3923,
+      "project": "support",
+      "name": "Create iO contract for M/Y Te Manu"
+    },
+    {
+      "id": 3922,
+      "project": "support",
+      "name": "Check Excellence Caribbean contract"
+    },
+    {
+      "id": 3917,
+      "project": "support",
+      "name": "Issue with Plexus CTRL in Viking Vidar (0050) & Viking Gefjon (0053)"
+    },
+    {
+      "id": 3915,
+      "project": "support",
+      "name": "ODIN mast Pepwave in firmware 7.1.0"
+    },
+    {
+      "id": 3912,
+      "project": "support",
+      "name": "Parse and upload VF reports 20/02"
+    },
+    {
+      "id": 3903,
+      "project": "support",
+      "name": "Get and process the iO reports for 19/02/2020"
+    },
+    {
+      "id": 3896,
+      "project": "support",
+      "name": "WI for Project Moralis and CO"
+    },
+    {
+      "id": 3880,
+      "project": "support",
+      "name": "Assist Infra on ALANIS01 update"
+    },
+    {
+      "id": 3879,
+      "project": "support",
+      "name": "Assist Infra on ALANIS02 update"
+    },
+    {
+      "id": 3873,
+      "project": "support",
+      "name": "Detected SIM cards with consumption and without contract"
+    },
+    {
+      "id": 3872,
+      "project": "support",
+      "name": "Contract and activation of the SIM cards for Alucia II jobs"
+    },
+    {
+      "id": 3858,
+      "project": "support",
+      "name": "Prepare the configuration steps to let SD configure the PLX Controllers as Moralis"
+    },
+    {
+      "id": 3856,
+      "project": "support",
+      "name": "Parse and upload VF reports 18/02"
+    },
+    {
+      "id": 3838,
+      "project": "support",
+      "name": "Viking Ocean - Pepwave reboot from Plexus"
+    },
+    {
+      "id": 3961,
+      "project": "frontend",
+      "name": "Strange peaks on OAHeroChart components on vsat modem view"
+    },
+    {
+      "id": 3960,
+      "project": "frontend",
+      "name": "Modem action buttons not appearing  on side panel"
+    },
+    {
+      "id": 3959,
+      "project": "frontend",
+      "name": "Charts not rendering after section change"
+    },
+    {
+      "id": 3826,
+      "project": "frontend",
+      "name": "200 Revamp: VSAT modem button actions"
+    },
+    {
+      "id": 3818,
+      "project": "frontend",
+      "name": "200 Revamp: Log & Events"
+    },
+    {
+      "id": 3799,
+      "project": "frontend",
+      "name": "200 Revamp: VSAT Modem view redesign"
+    },
+    {
+      "id": 3770,
+      "project": "frontend",
+      "name": "Revamp project from scratch"
+    },
+    {
+      "id": 4041,
+      "project": "plexus_ansible",
+      "name": "[CSM notification] Escalation Task : New - Service Request - 200946 - RC Viking Ingvi"
+    },
+    {
+      "id": 4027,
+      "project": "plexus_ansible",
+      "name": "Error on viking_activate_rsyslog"
+    },
+    {
+      "id": 4003,
+      "project": "plexus_ansible",
+      "name": "[CSM notification] Escalation Task : New - Service Request - 200752 - RC Viking Lif"
+    },
+    {
+      "id": 3974,
+      "project": "plexustv-ios-app",
+      "name": "Explore the possibility that the app transcodes and serves the HLS stream to Chromecast/Apple TV"
+    },
+    {
+      "id": 3853,
+      "project": "plexustv-ios-app",
+      "name": "Channel switching while casting not working"
+    },
+    {
+      "id": 3968,
+      "project": "core",
+      "name": "mesh subscribe is not parsing msgtype based subscription properly"
+    },
+    {
+      "id": 3902,
+      "project": "core",
+      "name": "Emit events on each network connection change"
+    },
+    {
+      "id": 3889,
+      "project": "csp",
+      "name": "Set up CSP pre environment"
+    },
+    {
+      "id": 3885,
+      "project": "csp",
+      "name": "Custom endpoint to get single status"
+    },
+    {
+      "id": 2064,
+      "project": "csp",
+      "name": "Add support for Newtec remotes"
+    },
+    {
+      "id": 4013,
+      "project": "plexustv-stb",
+      "name": "Upgrade STBs Amiri (50 and 67)"
+    },
+    {
+      "id": 3908,
+      "project": "plexustv-stb",
+      "name": "Downgrade MY ICE stb's"
+    }
+  ]
+}
